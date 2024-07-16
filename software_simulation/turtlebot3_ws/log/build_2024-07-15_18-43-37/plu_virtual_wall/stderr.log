@@ -1,0 +1,26 @@
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In constructor ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer::VirtualWallLayer()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:14:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer[m[K’ does not have any field named ‘[01m[Ktf_buffer_[m[K’
+   14 |     : [01;31m[Ktf_buffer_[m[K(rclcpp::Clock::make_shared()),
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:15:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer[m[K’ does not have any field named ‘[01m[Ktf_listener_[m[K’
+   15 |       [01;31m[Ktf_listener_[m[K(tf_buffer_),
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   15 |       tf_listener_([01;31m[Ktf_buffer_[m[K),
+      |                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall_ros2::VirtualWallLayer::updateBounds(double, double, double, double*, double*, double*, double*)[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:163:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  163 | ualWallLayer::updateBounds([01;35m[Kdouble robot_x[m[K, double robot_y, double robot_yaw, double *min_x, double *min_y, double *max_x, double *max_y)
+      |                            [01;35m[K~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:163:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  163 | dateBounds(double robot_x, [01;35m[Kdouble robot_y[m[K, double robot_yaw, double *min_x, double *min_y, double *max_x, double *max_y)
+      |                            [01;35m[K~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:163:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_yaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  163 | e robot_x, double robot_y, [01;35m[Kdouble robot_yaw[m[K, double *min_x, double *min_y, double *max_x, double *max_y)
+      |                            [01;35m[K~~~~~~~^~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

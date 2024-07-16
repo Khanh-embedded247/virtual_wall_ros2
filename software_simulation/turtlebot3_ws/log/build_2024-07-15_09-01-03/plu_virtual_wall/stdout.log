@@ -1,0 +1,5 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libplu_virtual_wall.so[0m
+[ 50%] Built target plu_virtual_wall
+[ 75%] [32m[1mLinking CXX executable virtual_wall_node[0m
+[100%] Built target virtual_wall_node

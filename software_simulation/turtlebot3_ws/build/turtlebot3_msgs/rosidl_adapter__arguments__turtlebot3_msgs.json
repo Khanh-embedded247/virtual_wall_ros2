@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/khanh247/software_simulation/turtlebot3_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/khanh247/software_simulation/turtlebot3_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/khanh247/software_simulation/turtlebot3_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/khanh247/software_simulation/turtlebot3_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/khanh247/software_simulation/turtlebot3_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/khanh247/software_simulation/turtlebot3_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

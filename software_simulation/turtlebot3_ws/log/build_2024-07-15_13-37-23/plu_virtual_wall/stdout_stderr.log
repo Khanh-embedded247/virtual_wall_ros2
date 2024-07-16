@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target plu_virtual_wall[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libplu_virtual_wall.so[0m
+[ 50%] Built target plu_virtual_wall
+[ 75%] [32mBuilding CXX object CMakeFiles/virtual_wall_node.dir/src/virtual_wall_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable virtual_wall_node[0m
+[100%] Built target virtual_wall_node
+-- Install configuration: ""
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/virtual_wall_ros2_plugin.xml
+-- Installing: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/lib/plu_virtual_wall/virtual_wall_node
+-- Set runtime path of "/home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/lib/plu_virtual_wall/virtual_wall_node" to ""
+-- Installing: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/lib/libplu_virtual_wall.so
+-- Set runtime path of "/home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/lib/libplu_virtual_wall.so" to ""
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/include
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/include/plu_virtual_wall
+-- Installing: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp
+-- Installing: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer.hpp
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall//params
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall//params/test_params.yaml
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall//launch
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall//launch/test1.launch.py
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall//launch/test.launch.py
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/ament_index/resource_index/package_run_dependencies/plu_virtual_wall
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/ament_index/resource_index/parent_prefix_path/plu_virtual_wall
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/environment/ament_prefix_path.sh
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/environment/path.sh
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/environment/path.dsv
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/local_setup.bash
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/local_setup.sh
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/local_setup.zsh
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/local_setup.dsv
+-- Installing: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/package.dsv
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/ament_index/resource_index/packages/plu_virtual_wall
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/plu_virtual_wall
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/cmake/plu_virtual_wallConfig.cmake
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/cmake/plu_virtual_wallConfig-version.cmake
+-- Up-to-date: /home/khanh247/software_simulation/turtlebot3_ws/install/plu_virtual_wall/share/plu_virtual_wall/package.xml

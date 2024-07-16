@@ -1,0 +1,24 @@
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall_ros2::VirtualWallLayer::updateCosts(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:100:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer::markPolygonCells(nav2_costmap_2d::Costmap2D&, int&, int&, int&, int&)[m[K’
+  100 |     [01;31m[KmarkPolygonCells(master_grid, min_i, min_j, max_i, max_j)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer.hpp:29:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::markPolygonCells(nav2_costmap_2d::Costmap2D&)[m[K’
+   29 |   void [01;36m[KmarkPolygonCells[m[K(nav2_costmap_2d::Costmap2D& master_grid);
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer.hpp:29:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K At global scope:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:103:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::markPolygonCells(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’
+  103 | void [01;31m[KVirtualWallLayer[m[K::markPolygonCells(nav2_costmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer.hpp:29:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::markPolygonCells(nav2_costmap_2d::Costmap2D&)[m[K’
+   29 |   void [01;36m[KmarkPolygonCells[m[K(nav2_costmap_2d::Costmap2D& master_grid);
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer.hpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass virtual_wall_ros2::VirtualWallLayer[m[K’ defined here
+   15 | class [01;36m[KVirtualWallLayer[m[K : public nav2_costmap_2d::Layer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

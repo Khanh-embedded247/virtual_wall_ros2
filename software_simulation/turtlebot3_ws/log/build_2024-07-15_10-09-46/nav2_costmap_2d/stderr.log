@@ -1,0 +1,53 @@
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_costmap_2d::StaticLayer::onInitialize()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:73:26:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   73 | StaticLayer::onInitialize[01;31m[K([m[K)
+      |                          [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:111:22:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  111 | StaticLayer::activate[01;31m[K([m[K)
+      |                      [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:116:24:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  116 | StaticLayer::deactivate[01;31m[K([m[K)
+      |                        [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:122:19:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  122 | StaticLayer::reset[01;31m[K([m[K)
+      |                   [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:129:27:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  129 | StaticLayer::getParameters[01;31m[K([m[K)
+      |                           [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:182:24:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  182 | StaticLayer::processMap[01;31m[K([m[Kconst nav_msgs::msg::OccupancyGrid & new_map)
+      |                        [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:253:23:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  253 | StaticLayer::matchSize[01;31m[K([m[K)
+      |                       [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:266:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  266 | StaticLayer::interpretValue[01;31m[K([m[Kunsigned char value)
+      |                            [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:284:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  284 | StaticLayer::incomingMap[01;31m[K([m[Kconst nav_msgs::msg::OccupancyGrid::SharedPtr new_map)
+      |                         [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:300:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  300 | StaticLayer::incomingUpdate[01;31m[K([m[Kmap_msgs::msg::OccupancyGridUpdate::ConstSharedPtr update)
+      |                            [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:340:26:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  340 | StaticLayer::updateBounds[01;31m[K([m[K
+      |                          [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:384:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  384 | StaticLayer::updateFootprint[01;31m[K([m[K
+      |                             [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:400:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  400 | StaticLayer::updateCosts[01;31m[K([m[K
+      |                         [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:473:39:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  473 | StaticLayer::dynamicParametersCallback[01;31m[K([m[K
+      |                                       [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:[m[K At global scope:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:514:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  514 | }[01;31m[K [m[K // namespace nav2_costmap_2d
+      |  [01;31m[K^[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:58:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   58 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/layers.dir/build.make:90: CMakeFiles/layers.dir/plugins/static_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:295: CMakeFiles/layers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

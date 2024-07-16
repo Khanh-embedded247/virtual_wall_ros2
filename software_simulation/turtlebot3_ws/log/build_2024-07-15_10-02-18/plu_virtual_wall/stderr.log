@@ -1,0 +1,6 @@
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:160:84:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion at end of input
+  160 | PLUGINLIB_EXPORT_CLASS(virtual_wall_ros2::VirtualWallLayer, nav2_costmap_2d::Layer)
+      |                                                                                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

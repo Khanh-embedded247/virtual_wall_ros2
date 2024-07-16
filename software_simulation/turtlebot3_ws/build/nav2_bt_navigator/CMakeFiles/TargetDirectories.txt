@@ -1,0 +1,11 @@
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/uninstall.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/nav2_bt_navigator_uninstall.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/bt_navigator.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/bt_navigator_core.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/test.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/edit_cache.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/rebuild_cache.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/list_install_components.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/install.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/install/local.dir
+/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/install/strip.dir

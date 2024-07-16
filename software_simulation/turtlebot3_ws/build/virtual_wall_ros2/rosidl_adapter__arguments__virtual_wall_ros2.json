@@ -1,0 +1,8 @@
+{
+  "package_name": "virtual_wall_ros2",
+  "non_idl_tuples": [
+    "/home/khanh247/software_simulation/turtlebot3_ws/src/virtual_wall_ros2:srv/CreateWall.srv",
+    "/home/khanh247/software_simulation/turtlebot3_ws/src/virtual_wall_ros2:srv/DeleteWall.srv",
+    "/home/khanh247/software_simulation/turtlebot3_ws/src/virtual_wall_ros2:srv/DeleteAll.srv"
+  ]
+}

@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target plu_virtual_wall[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o[0m
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In constructor ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer::VirtualWallLayer()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:19:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer[m[K’ does not have any field named ‘[01m[Kmap_received_[m[K’
+   19 |           [01;31m[Kmap_received_[m[K(false)
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall_ros2::VirtualWallLayer::updateBounds(double, double, double, double*, double*, double*, double*)[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:162:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_received_[m[K’ was not declared in this scope
+  162 |         if (![01;31m[Kmap_received_[m[K)
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:160:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Korigin_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  160 | ualWallLayer::updateBounds([01;35m[Kdouble origin_x[m[K, double origin_y, double origin_yaw, double *min_x, double *min_y, double *max_x, double *max_y)
+      |                            [01;35m[K~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:160:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Korigin_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  160 | ateBounds(double origin_x, [01;35m[Kdouble origin_y[m[K, double origin_yaw, double *min_x, double *min_y, double *max_x, double *max_y)
+      |                            [01;35m[K~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:160:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Korigin_yaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  160 | origin_x, double origin_y, [01;35m[Kdouble origin_yaw[m[K, double *min_x, double *min_y, double *max_x, double *max_y)
+      |                            [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::incomingMap(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:237:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_received_[m[K’ was not declared in this scope
+  237 |         [01;31m[Kmap_received_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

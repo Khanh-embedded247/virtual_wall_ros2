@@ -1,0 +1,23 @@
+[  2%] Built target gtest
+[  4%] Built target gtest_main
+[ 21%] Built target nav2_costmap_2d_core
+[35m[1mConsolidate compiler generated dependencies of target layers[0m
+[ 26%] Built target filters
+[ 31%] Built target nav2_costmap_2d_client
+[ 34%] Built target nav2_costmap_2d_markers
+[ 36%] Built target nav2_costmap_2d_cloud
+[ 39%] Built target array_parser_test
+[ 42%] Built target costmap_convesion_test
+[ 43%] Built target collision_footprint_test
+[ 45%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[ 47%] Built target declare_parameter_test
+[ 53%] Built target keepout_filter_test
+[ 53%] Built target binary_filter_test
+[ 54%] Built target costmap_filter_test
+[ 57%] Built target copy_window_test
+[ 59%] Built target costmap_filter_service_test
+[ 62%] Built target dyn_params_tests
+[ 64%] Built target speed_filter_test
+[ 67%] Built target costmap_bresenham_2d
+[ 69%] Built target order_layer
+[ 71%] Built target plugin_api_order

@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target plu_virtual_wall[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o[0m
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::markPolygonCells(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:112:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  112 |     for (unsigned int mx = min_i; [01;35m[Kmx < max_i[m[K; mx++)
+      |                                   [01;35m[K~~~^~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:114:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  114 |         for (unsigned int my = min_j; [01;35m[Kmy < max_j[m[K; my++)
+      |                                       [01;35m[K~~~^~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K At global scope:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:155:84:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion at end of input
+  155 | PLUGINLIB_EXPORT_CLASS(virtual_wall_ros2::VirtualWallLayer, nav2_costmap_2d::Layer)
+      |                                                                                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

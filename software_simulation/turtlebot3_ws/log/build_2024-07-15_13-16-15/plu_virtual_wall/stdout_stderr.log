@@ -1,0 +1,92 @@
+[35m[1mConsolidate compiler generated dependencies of target plu_virtual_wall[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o[0m
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall_ros2::VirtualWallLayer::onInitialize()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:26:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Node>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Node>[m[K’} has no member named ‘[01m[Klock[m[K’
+   26 |         auto node = node_.[01;31m[Klock[m[K();
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:44:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   44 |       map_sub_ = node->create_subscription<nav_msgs::msg::OccupancyGrid[01;31m[K>[m[K(
+      |                                                                        [01;31m[K^[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:45:13:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   45 |             [01;35m[K"map"[m[K, map_qos,
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:46:82:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   46 |  std::bind(&VirtualWallLayer::incomingMap, this, std::placeholders::_1[01;35m[K)[m[K);
+      |                                                                       [01;35m[K^[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::getParameters()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:51:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Node>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Node>[m[K’} has no member named ‘[01m[Klock[m[K’
+   51 |         auto node = node_.[01;31m[Klock[m[K();
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::processMap(const OccupancyGrid&)[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:111:9:[m[K [01;31m[Kerror: [m[K‘[01m[KCostmap2D[m[K’ was not declared in this scope; did you mean ‘[01m[Knav2_costmap_2d::Costmap2D[m[K’?
+  111 |         [01;31m[KCostmap2D[m[K *master = layered_costmap_->getCostmap();
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Knav2_costmap_2d::Costmap2D[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:46[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:4[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp:67:7:[m[K [01;36m[Knote: [m[K‘[01m[Knav2_costmap_2d::Costmap2D[m[K’ declared here
+   67 | class [01;36m[KCostmap2D[m[K
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:111:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmaster[m[K’ was not declared in this scope
+  111 |         Costmap2D *[01;31m[Kmaster[m[K = layered_costmap_->getCostmap();
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:130:52:[m[K [01;31m[Kerror: [m[K‘[01m[KgetMutex[m[K’ was not declared in this scope
+  130 |         std::lock_guard<Costmap2D::mutex_t> guard(*[01;31m[KgetMutex[m[K());
+      |                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:136:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+  136 |                 [01;31m[Kcostmap_[m[K[i * size_x + j] = nav2_costmap_2d::FREE_SPACE;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:141:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_updated_data_[m[K’ was not declared in this scope
+  141 |         [01;31m[Khas_updated_data_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:130:45:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kguard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  130 |         std::lock_guard<Costmap2D::mutex_t> [01;35m[Kguard[m[K(*getMutex());
+      |                                             [01;35m[K^~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K At global scope:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:207:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::reset()[m[K’
+  207 |     void [01;31m[KVirtualWallLayer[m[K::reset()
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:207:10:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::reset()[m[K’
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:17:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass virtual_wall_ros2::VirtualWallLayer[m[K’ defined here
+   17 |     class [01;36m[KVirtualWallLayer[m[K : public nav2_costmap_2d::Layer
+      |           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:212:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool virtual_wall_ros2::VirtualWallLayer::isClearable()[m[K’
+  212 |     bool [01;31m[KVirtualWallLayer[m[K::isClearable()
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:25:22:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual bool virtual_wall_ros2::VirtualWallLayer::isClearable() const[m[K’
+   25 |         virtual bool [01;36m[KisClearable[m[K() const { return false; }
+      |                      [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:17:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass virtual_wall_ros2::VirtualWallLayer[m[K’ defined here
+   17 |     class [01;36m[KVirtualWallLayer[m[K : public nav2_costmap_2d::Layer
+      |           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:6[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = virtual_wall_ros2::VirtualWallLayer; B = nav2_costmap_2d::Layer][m[K’:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:17:11:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer[m[K’:
+   17 |     class [01;36m[KVirtualWallLayer[m[K : public nav2_costmap_2d::Layer
+      |           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:4[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:86:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_costmap_2d::Layer::reset()[m[K’
+   86 |   virtual void [01;36m[Kreset[m[K() = 0;
+      |                [01;36m[K^~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:90:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual bool nav2_costmap_2d::Layer::isClearable()[m[K’
+   90 |   virtual bool [01;36m[KisClearable[m[K() = 0;
+      |                [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

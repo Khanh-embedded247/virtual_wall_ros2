@@ -1,0 +1,9 @@
+<library path="libplu_virtual_wall">
+  <class name="virtual_wall_ros2::VirtualWallLayer"
+         type="virtual_wall_ros2::VirtualWallLayer"
+         base_class_type="nav2_costmap_2d::Layer">
+    <description>
+      A plugin that adds virtual walls to the costmap.
+    </description>
+  </class>
+</library>

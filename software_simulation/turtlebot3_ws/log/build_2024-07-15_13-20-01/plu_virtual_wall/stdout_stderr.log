@@ -1,0 +1,113 @@
+[35m[1mConsolidate compiler generated dependencies of target plu_virtual_wall[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o[0m
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:25:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual bool virtual_wall_ros2::VirtualWallLayer::isClearable() const[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   25 |     virtual bool [01;31m[KisClearable[m[K() const override { return false; }
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall_ros2::VirtualWallLayer::onInitialize()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:26:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdynamic_pointer_cast<rclcpp::Node>(rclcpp_lifecycle::LifecycleNode::WeakPtr&)[m[K’
+   26 |         auto node = [01;31m[Kstd::dynamic_pointer_cast<rclcpp::Node>(node_)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/condition_variable:43[m[K,
+                 from [01m[K/usr/include/c++/11/future:39[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:44[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:4[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1572:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Tp1, __gnu_cxx::_Lock_policy _Lp> std::__shared_ptr<_Tp1, _Lp> std::dynamic_pointer_cast(const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+ 1572 |     [01;36m[Kdynamic_pointer_cast[m[K(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1572:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:26:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_lifecycle::LifecycleNode::WeakPtr[m[K’ {aka ‘[01m[Kstd::weak_ptr<rclcpp_lifecycle::LifecycleNode>[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp2, _Lp>[m[K’
+   26 |         auto node = [01;36m[Kstd::dynamic_pointer_cast<rclcpp::Node>(node_)[m[K;
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/condition_variable:43[m[K,
+                 from [01m[K/usr/include/c++/11/future:39[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:44[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:4[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:600:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::shared_ptr<_Tp> std::dynamic_pointer_cast(const std::shared_ptr<_Tp>&)[m[K’
+  600 |     [01;36m[Kdynamic_pointer_cast[m[K(const shared_ptr<_Up>& __r) noexcept
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:600:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:26:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_lifecycle::LifecycleNode::WeakPtr[m[K’ {aka ‘[01m[Kstd::weak_ptr<rclcpp_lifecycle::LifecycleNode>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+   26 |         auto node = [01;36m[Kstd::dynamic_pointer_cast<rclcpp::Node>(node_)[m[K;
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:44:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   44 |       map_sub_ = node->create_subscription<nav_msgs::msg::OccupancyGrid[01;31m[K>[m[K(
+      |                                                                        [01;31m[K^[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:45:13:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   45 |             [01;35m[K"map"[m[K, map_qos,
+      |             [01;35m[K^~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:46:82:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   46 |  std::bind(&VirtualWallLayer::incomingMap, this, std::placeholders::_1[01;35m[K)[m[K);
+      |                                                                       [01;35m[K^[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::getParameters()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:51:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdynamic_pointer_cast<rclcpp::Node>(rclcpp_lifecycle::LifecycleNode::WeakPtr&)[m[K’
+   51 |         auto node = [01;31m[Kstd::dynamic_pointer_cast<rclcpp::Node>(node_)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/condition_variable:43[m[K,
+                 from [01m[K/usr/include/c++/11/future:39[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:44[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:4[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1572:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Tp1, __gnu_cxx::_Lock_policy _Lp> std::__shared_ptr<_Tp1, _Lp> std::dynamic_pointer_cast(const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+ 1572 |     [01;36m[Kdynamic_pointer_cast[m[K(const __shared_ptr<_Tp1, _Lp>& __r) noexcept
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1572:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:51:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_lifecycle::LifecycleNode::WeakPtr[m[K’ {aka ‘[01m[Kstd::weak_ptr<rclcpp_lifecycle::LifecycleNode>[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp2, _Lp>[m[K’
+   51 |         auto node = [01;36m[Kstd::dynamic_pointer_cast<rclcpp::Node>(node_)[m[K;
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/condition_variable:43[m[K,
+                 from [01m[K/usr/include/c++/11/future:39[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:44[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:4[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:600:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> std::shared_ptr<_Tp> std::dynamic_pointer_cast(const std::shared_ptr<_Tp>&)[m[K’
+  600 |     [01;36m[Kdynamic_pointer_cast[m[K(const shared_ptr<_Up>& __r) noexcept
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:600:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:51:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp_lifecycle::LifecycleNode::WeakPtr[m[K’ {aka ‘[01m[Kstd::weak_ptr<rclcpp_lifecycle::LifecycleNode>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+   51 |         auto node = [01;36m[Kstd::dynamic_pointer_cast<rclcpp::Node>(node_)[m[K;
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::processMap(const OccupancyGrid&)[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:141:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_updated_data_[m[K’ was not declared in this scope
+  141 |         [01;31m[Khas_updated_data_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall_ros2::VirtualWallLayer::reset()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:209:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khas_updated_data_[m[K’ was not declared in this scope
+  209 |         [01;31m[Khas_updated_data_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall_ros2::VirtualWallLayer::matchSize()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:216:9:[m[K [01;31m[Kerror: [m[K‘[01m[KresizeMap[m[K’ was not declared in this scope
+  216 |         [01;31m[KresizeMap[m[K(
+      |         [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:6[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = virtual_wall_ros2::VirtualWallLayer; B = nav2_costmap_2d::Layer][m[K’:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:17:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer[m[K’:
+   17 | class [01;36m[KVirtualWallLayer[m[K : public nav2_costmap_2d::Layer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:4[m[K,
+                 from [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:1[m[K:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:90:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual bool nav2_costmap_2d::Layer::isClearable()[m[K’
+   90 |   virtual bool [01;36m[KisClearable[m[K() = 0;
+      |                [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

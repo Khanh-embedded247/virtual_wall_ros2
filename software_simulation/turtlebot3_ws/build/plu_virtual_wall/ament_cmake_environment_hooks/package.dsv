@@ -1,0 +1,4 @@
+source;share/plu_virtual_wall/local_setup.bash
+source;share/plu_virtual_wall/local_setup.dsv
+source;share/plu_virtual_wall/local_setup.sh
+source;share/plu_virtual_wall/local_setup.zsh

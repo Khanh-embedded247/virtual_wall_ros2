@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target plu_virtual_wall[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o[0m
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In constructor ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer::VirtualWallLayer()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:12:93:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kvirtual_wall_ros2::VirtualWallLayer[m[K’ does not have any field named ‘[01m[Ktransform_tolerance_[m[K’
+   12 | f_buffer_), global_frame_("map"), [01;31m[Ktransform_tolerance_[m[K(0.1)
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall_ros2::VirtualWallLayer::onInitialize()[m[K’:
+[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_tolerance_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktransform_tolerance[m[K’?
+   57 |         [01;31m[Ktransform_tolerance_[m[K = tf2::durationFromSec(transform_tolerance);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Ktransform_tolerance[m[K
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

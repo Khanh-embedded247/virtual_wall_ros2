@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target plu_virtual_wall[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libplu_virtual_wall.so[0m
+[ 50%] Built target plu_virtual_wall
+[35m[1mConsolidate compiler generated dependencies of target virtual_wall_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/virtual_wall_node.dir/src/virtual_wall_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable virtual_wall_node[0m
+/usr/bin/ld: libplu_virtual_wall.so: undefined reference to `virtual_wall_ros2::VirtualWallLayer::isClearable()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/virtual_wall_node.dir/build.make:378: virtual_wall_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/virtual_wall_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

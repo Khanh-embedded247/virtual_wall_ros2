@@ -1,0 +1,12 @@
+srv/CreateWall.idl
+srv/CreateWall.srv
+srv/CreateWall_Request.msg
+srv/CreateWall_Response.msg
+srv/DeleteAll.idl
+srv/DeleteAll.srv
+srv/DeleteAll_Request.msg
+srv/DeleteAll_Response.msg
+srv/DeleteWall.idl
+srv/DeleteWall.srv
+srv/DeleteWall_Request.msg
+srv/DeleteWall_Response.msg

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>plu_virtual_wall</name>
+  <version>0.0.1</version>
+  <description>Plugin for creating virtual walls in ROS2 costmap</description>
+  <maintainer email="khanhdd@phenikaa-x.com">khanh247</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+<build_depend>launch</build_depend>
+<exec_depend>launch</exec_depend>
+<exec_depend>launch_ros</exec_depend>
+
+  <depend>rclcpp</depend>
+  <depend>nav2_costmap_2d</depend>
+  <depend>pluginlib</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
+  <depend>yaml-cpp</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

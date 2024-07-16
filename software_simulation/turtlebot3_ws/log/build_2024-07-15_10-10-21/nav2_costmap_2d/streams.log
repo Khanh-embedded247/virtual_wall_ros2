@@ -1,0 +1,71 @@
+[0.023s] Invoking command in '/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_map_server/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_costmap_2d -- -j16 -l16
+[0.094s] [  2%] Built target gtest
+[0.095s] [  4%] Built target gtest_main
+[0.136s] [ 21%] Built target nav2_costmap_2d_core
+[0.167s] [35m[1mConsolidate compiler generated dependencies of target layers[0m
+[0.196s] [ 26%] Built target filters
+[0.200s] [ 31%] Built target nav2_costmap_2d_client
+[0.202s] [ 34%] Built target nav2_costmap_2d_markers
+[0.203s] [ 36%] Built target nav2_costmap_2d_cloud
+[0.211s] [ 39%] Built target array_parser_test
+[0.212s] [ 42%] Built target costmap_convesion_test
+[0.212s] [ 43%] Built target collision_footprint_test
+[0.212s] [ 45%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[0.246s] [ 47%] Built target declare_parameter_test
+[0.250s] [ 53%] Built target keepout_filter_test
+[0.250s] [ 53%] Built target binary_filter_test
+[0.251s] [ 54%] Built target costmap_filter_test
+[0.253s] [ 57%] Built target copy_window_test
+[0.253s] [ 59%] Built target costmap_filter_service_test
+[0.261s] [ 62%] Built target dyn_params_tests
+[0.262s] [ 64%] Built target speed_filter_test
+[0.262s] [ 67%] Built target costmap_bresenham_2d
+[0.269s] [ 69%] Built target order_layer
+[0.280s] [ 71%] Built target plugin_api_order
+[2.490s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_costmap_2d::StaticLayer::onInitialize()[m[K’:
+[2.490s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:73:26:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.491s]    73 | StaticLayer::onInitialize[01;31m[K([m[K)
+[2.491s]       |                          [01;31m[K^[m[K
+[2.491s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:111:22:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.491s]   111 | StaticLayer::activate[01;31m[K([m[K)
+[2.491s]       |                      [01;31m[K^[m[K
+[2.491s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:116:24:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.491s]   116 | StaticLayer::deactivate[01;31m[K([m[K)
+[2.491s]       |                        [01;31m[K^[m[K
+[2.491s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:122:19:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.491s]   122 | StaticLayer::reset[01;31m[K([m[K)
+[2.491s]       |                   [01;31m[K^[m[K
+[2.491s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:129:27:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.491s]   129 | StaticLayer::getParameters[01;31m[K([m[K)
+[2.491s]       |                           [01;31m[K^[m[K
+[2.492s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:182:24:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.492s]   182 | StaticLayer::processMap[01;31m[K([m[Kconst nav_msgs::msg::OccupancyGrid & new_map)
+[2.492s]       |                        [01;31m[K^[m[K
+[2.492s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:253:23:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.492s]   253 | StaticLayer::matchSize[01;31m[K([m[K)
+[2.492s]       |                       [01;31m[K^[m[K
+[2.492s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:266:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.492s]   266 | StaticLayer::interpretValue[01;31m[K([m[Kunsigned char value)
+[2.492s]       |                            [01;31m[K^[m[K
+[2.492s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:284:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.492s]   284 | StaticLayer::incomingMap[01;31m[K([m[Kconst nav_msgs::msg::OccupancyGrid::SharedPtr new_map)
+[2.492s]       |                         [01;31m[K^[m[K
+[2.492s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:300:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.492s]   300 | StaticLayer::incomingUpdate[01;31m[K([m[Kmap_msgs::msg::OccupancyGridUpdate::ConstSharedPtr update)
+[2.493s]       |                            [01;31m[K^[m[K
+[2.493s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:340:26:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.493s]   340 | StaticLayer::updateBounds[01;31m[K([m[K
+[2.493s]       |                          [01;31m[K^[m[K
+[2.493s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:384:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.493s]   384 | StaticLayer::updateFootprint[01;31m[K([m[K
+[2.493s]       |                             [01;31m[K^[m[K
+[2.493s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:400:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.493s]   400 | StaticLayer::updateCosts[01;31m[K([m[K
+[2.493s]       |                         [01;31m[K^[m[K
+[2.493s] [01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/plugins/static_layer.cpp:473:39:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[2.493s]   473 | StaticLayer::dynamicParametersCallback[01;31m[K([m[K
+[2.493s]       |                                       [01;31m[K^[m[K
+[2.905s] gmake[2]: *** [CMakeFiles/layers.dir/build.make:90: CMakeFiles/layers.dir/plugins/static_layer.cpp.o] Error 1
+[2.905s] gmake[1]: *** [CMakeFiles/Makefile2:295: CMakeFiles/layers.dir/all] Error 2
+[2.906s] gmake: *** [Makefile:146: all] Error 2
+[2.908s] Invoked command in '/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_costmap_2d' returned '2': AMENT_PREFIX_PATH=/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_map_server/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_costmap_2d -- -j16 -l16
