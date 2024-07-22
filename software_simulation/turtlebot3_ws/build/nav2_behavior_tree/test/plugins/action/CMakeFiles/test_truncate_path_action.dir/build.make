@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree
 
 # Include any dependencies generated for this target.
 include test/plugins/action/CMakeFiles/test_truncate_path_action.dir/depend.make
@@ -70,18 +70,18 @@ include test/plugins/action/CMakeFiles/test_truncate_path_action.dir/progress.ma
 include test/plugins/action/CMakeFiles/test_truncate_path_action.dir/flags.make
 
 test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o: test/plugins/action/CMakeFiles/test_truncate_path_action.dir/flags.make
-test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action/test_truncate_path_action.cpp
+test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action/test_truncate_path_action.cpp
 test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o: test/plugins/action/CMakeFiles/test_truncate_path_action.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o -MF CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o.d -o CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action/test_truncate_path_action.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o"
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o -MF CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o.d -o CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action/test_truncate_path_action.cpp
 
 test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.i"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action/test_truncate_path_action.cpp > CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.i
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action/test_truncate_path_action.cpp > CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.i
 
 test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.s"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action/test_truncate_path_action.cpp -o CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.s
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action/test_truncate_path_action.cpp -o CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.s
 
 # Object files for target test_truncate_path_action
 test_truncate_path_action_OBJECTS = \
@@ -101,12 +101,12 @@ test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libsensor_msg
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
@@ -115,21 +115,21 @@ test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libstd_srvs__
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_cpp.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libtf2_ros.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
@@ -227,7 +227,7 @@ test/plugins/action/test_truncate_path_action: /usr/lib/x86_64-linux-gnu/libpyth
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-test/plugins/action/test_truncate_path_action: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+test/plugins/action/test_truncate_path_action: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/librclcpp_action.so
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/libtf2.so
@@ -333,18 +333,18 @@ test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/librosidl_run
 test/plugins/action/test_truncate_path_action: /opt/ros/humble/lib/librcutils.so
 test/plugins/action/test_truncate_path_action: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 test/plugins/action/test_truncate_path_action: test/plugins/action/CMakeFiles/test_truncate_path_action.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_truncate_path_action"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_truncate_path_action.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_truncate_path_action"
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_truncate_path_action.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/plugins/action/CMakeFiles/test_truncate_path_action.dir/build: test/plugins/action/test_truncate_path_action
 .PHONY : test/plugins/action/CMakeFiles/test_truncate_path_action.dir/build
 
 test/plugins/action/CMakeFiles/test_truncate_path_action.dir/clean:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && $(CMAKE_COMMAND) -P CMakeFiles/test_truncate_path_action.dir/cmake_clean.cmake
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action && $(CMAKE_COMMAND) -P CMakeFiles/test_truncate_path_action.dir/cmake_clean.cmake
 .PHONY : test/plugins/action/CMakeFiles/test_truncate_path_action.dir/clean
 
 test/plugins/action/CMakeFiles/test_truncate_path_action.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action/CMakeFiles/test_truncate_path_action.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test/plugins/action /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action/CMakeFiles/test_truncate_path_action.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/plugins/action/CMakeFiles/test_truncate_path_action.dir/depend
 

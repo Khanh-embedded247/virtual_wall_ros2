@@ -1,0 +1,634 @@
+[0.000000] (-) TimerEvent: {}
+[0.000489] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000536] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000576] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000612] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000647] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000731] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000747] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000773] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000846] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000861] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000876] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000894] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000960] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000975] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000997] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001056] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.001072] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001086] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001100] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001114] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.001128] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001142] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001155] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001209] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001225] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001245] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001362] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001376] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001493] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001508] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001525] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001543] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001585] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001618] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001632] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001647] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001666] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001728] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001742] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001763] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001819] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001834] (-) JobUnselected: {'identifier': 'plu_virtual_wall'}
+[0.001849] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001864] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001879] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001892] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001945] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001959] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001980] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002108] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.002165] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002180] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002201] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.002304] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.002359] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002376] (nav2_costmap_2d) JobQueued: {'identifier': 'nav2_costmap_2d', 'dependencies': OrderedDict([('nav2_common', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common'), ('nav2_msgs', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util'), ('nav2_lifecycle_manager', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server')])}
+[0.002409] (nav2_costmap_2d) JobStarted: {'identifier': 'nav2_costmap_2d'}
+[0.013891] (nav2_costmap_2d) JobProgress: {'identifier': 'nav2_costmap_2d', 'progress': 'cmake'}
+[0.014038] (nav2_costmap_2d) Command: {'cmd': ['/usr/bin/cmake', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d', '-DCMAKE_INSTALL_PREFIX=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d'], 'cwd': '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_costmap_2d', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khanh247'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/khanh247'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/khanh247'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2898'), ('SYSTEMD_EXEC_PID', '3130'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5161'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'khanh247'), ('JOURNAL_STREAM', '8:46196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'khanh247'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/khanh247/.local/bin:/opt/ros/humble/bin:/home/khanh247/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khanh247-tdn:@/tmp/.ICE-unix/3108,unix/khanh247-tdn:/tmp/.ICE-unix/3108'), ('INVOCATION_ID', '2147b1a9bbf243e4a6f94adf0bac9714'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fcdcd425dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_costmap_2d'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble')]), 'shell': False}
+[0.065269] (nav2_costmap_2d) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099813] (-) TimerEvent: {}
+[0.185619] (nav2_costmap_2d) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.192567] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199926] (-) TimerEvent: {}
+[0.247365] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.252791] (nav2_costmap_2d) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.253218] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.253863] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.256351] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300013] (-) TimerEvent: {}
+[0.319860] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.325607] (nav2_costmap_2d) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.325775] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.326079] (nav2_costmap_2d) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.328208] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400125] (-) TimerEvent: {}
+[0.500366] (-) TimerEvent: {}
+[0.600625] (-) TimerEvent: {}
+[0.609452] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.678736] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.700739] (-) TimerEvent: {}
+[0.709830] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.714447] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.721112] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.732545] (nav2_costmap_2d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.748320] (nav2_costmap_2d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800866] (-) TimerEvent: {}
+[0.845623] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[0.900965] (-) TimerEvent: {}
+[0.903460] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.905665] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.979493] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.999137] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.001024] (-) TimerEvent: {}
+[1.033920] (nav2_costmap_2d) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.041831] (nav2_costmap_2d) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101117] (-) TimerEvent: {}
+[1.101789] (nav2_costmap_2d) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.101914] (nav2_costmap_2d) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.153064] (nav2_costmap_2d) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.153801] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201217] (-) TimerEvent: {}
+[1.301495] (-) TimerEvent: {}
+[1.358773] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[1.401571] (-) TimerEvent: {}
+[1.501812] (-) TimerEvent: {}
+[1.552604] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[1.556899] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_common: 1.1.15 (/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common/share/nav2_common/cmake)\n'}
+[1.557505] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.15 (/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/share/nav2_msgs/cmake)\n'}
+[1.601904] (-) TimerEvent: {}
+[1.702175] (-) TimerEvent: {}
+[1.723921] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_util: 1.1.15 (/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/share/nav2_util/cmake)\n'}
+[1.802270] (-) TimerEvent: {}
+[1.902538] (-) TimerEvent: {}
+[1.971499] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.971678] (nav2_costmap_2d) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.002627] (-) TimerEvent: {}
+[2.102902] (-) TimerEvent: {}
+[2.141441] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_voxel_grid: 1.1.15 (/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)\n'}
+[2.145134] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[2.158786] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.172915] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.7 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[2.189595] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.202996] (-) TimerEvent: {}
+[2.283353] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[2.285052] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found suitable version "3.4.0", minimum required is "3.3") \n'}
+[2.285220] (nav2_costmap_2d) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[2.303097] (-) TimerEvent: {}
+[2.403298] (-) TimerEvent: {}
+[2.503540] (-) TimerEvent: {}
+[2.603780] (-) TimerEvent: {}
+[2.704030] (-) TimerEvent: {}
+[2.804282] (-) TimerEvent: {}
+[2.904500] (-) TimerEvent: {}
+[3.004746] (-) TimerEvent: {}
+[3.104986] (-) TimerEvent: {}
+[3.205224] (-) TimerEvent: {}
+[3.305470] (-) TimerEvent: {}
+[3.405715] (-) TimerEvent: {}
+[3.505953] (-) TimerEvent: {}
+[3.606149] (-) TimerEvent: {}
+[3.706363] (-) TimerEvent: {}
+[3.806569] (-) TimerEvent: {}
+[3.906776] (-) TimerEvent: {}
+[4.007015] (-) TimerEvent: {}
+[4.107256] (-) TimerEvent: {}
+[4.207495] (-) TimerEvent: {}
+[4.307715] (-) TimerEvent: {}
+[4.407946] (-) TimerEvent: {}
+[4.508234] (-) TimerEvent: {}
+[4.608473] (-) TimerEvent: {}
+[4.708686] (-) TimerEvent: {}
+[4.808894] (-) TimerEvent: {}
+[4.883905] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.909004] (-) TimerEvent: {}
+[5.009235] (-) TimerEvent: {}
+[5.109482] (-) TimerEvent: {}
+[5.209722] (-) TimerEvent: {}
+[5.309934] (-) TimerEvent: {}
+[5.410156] (-) TimerEvent: {}
+[5.510367] (-) TimerEvent: {}
+[5.610578] (-) TimerEvent: {}
+[5.710791] (-) TimerEvent: {}
+[5.811005] (-) TimerEvent: {}
+[5.911217] (-) TimerEvent: {}
+[6.011460] (-) TimerEvent: {}
+[6.111701] (-) TimerEvent: {}
+[6.211943] (-) TimerEvent: {}
+[6.312293] (-) TimerEvent: {}
+[6.412868] (-) TimerEvent: {}
+[6.414505] (nav2_costmap_2d) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[6.430909] (nav2_costmap_2d) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[6.439493] (nav2_costmap_2d) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[6.512989] (-) TimerEvent: {}
+[6.613208] (-) TimerEvent: {}
+[6.713459] (-) TimerEvent: {}
+[6.813741] (-) TimerEvent: {}
+[6.878323] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.879714] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/include>\n'}
+[6.879831] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.880522] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.881803] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.882596] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.885548] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.885667] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.886375] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.889116] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.913814] (-) TimerEvent: {}
+[7.014094] (-) TimerEvent: {}
+[7.114346] (-) TimerEvent: {}
+[7.214591] (-) TimerEvent: {}
+[7.315323] (-) TimerEvent: {}
+[7.415650] (-) TimerEvent: {}
+[7.425685] (nav2_costmap_2d) StdoutLine: {'line': b'-- Generating done\n'}
+[7.429417] (nav2_costmap_2d) StdoutLine: {'line': b'-- Build files have been written to: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_costmap_2d\n'}
+[7.443502] (nav2_costmap_2d) CommandEnded: {'returncode': 0}
+[7.444338] (nav2_costmap_2d) JobProgress: {'identifier': 'nav2_costmap_2d', 'progress': 'build'}
+[7.444990] (nav2_costmap_2d) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_costmap_2d', '--', '-j16', '-l16'], 'cwd': '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_costmap_2d', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khanh247'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/khanh247'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/khanh247'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2898'), ('SYSTEMD_EXEC_PID', '3130'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5161'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'khanh247'), ('JOURNAL_STREAM', '8:46196'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'khanh247'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/khanh247/.local/bin:/opt/ros/humble/bin:/home/khanh247/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khanh247-tdn:@/tmp/.ICE-unix/3108,unix/khanh247-tdn:/tmp/.ICE-unix/3108'), ('INVOCATION_ID', '2147b1a9bbf243e4a6f94adf0bac9714'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fcdcd425dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_costmap_2d'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble')]), 'shell': False}
+[7.485007] (nav2_costmap_2d) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o\x1b[0m\n'}
+[7.485273] (nav2_costmap_2d) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[7.485381] (nav2_costmap_2d) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[7.485505] (nav2_costmap_2d) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o\x1b[0m\n'}
+[7.485912] (nav2_costmap_2d) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/array_parser.cpp.o\x1b[0m\n'}
+[7.486043] (nav2_costmap_2d) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o\x1b[0m\n'}
+[7.486999] (nav2_costmap_2d) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o\x1b[0m\n'}
+[7.487125] (nav2_costmap_2d) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o\x1b[0m\n'}
+[7.487255] (nav2_costmap_2d) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o\x1b[0m\n'}
+[7.487353] (nav2_costmap_2d) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o\x1b[0m\n'}
+[7.487474] (nav2_costmap_2d) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o\x1b[0m\n'}
+[7.487639] (nav2_costmap_2d) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o\x1b[0m\n'}
+[7.487735] (nav2_costmap_2d) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o\x1b[0m\n'}
+[7.487959] (nav2_costmap_2d) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/plugins/costmap_filters/costmap_filter.cpp.o\x1b[0m\n'}
+[7.488221] (nav2_costmap_2d) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o\x1b[0m\n'}
+[7.515748] (-) TimerEvent: {}
+[7.616022] (-) TimerEvent: {}
+[7.716288] (-) TimerEvent: {}
+[7.816587] (-) TimerEvent: {}
+[7.916974] (-) TimerEvent: {}
+[8.017268] (-) TimerEvent: {}
+[8.117577] (-) TimerEvent: {}
+[8.217930] (-) TimerEvent: {}
+[8.318298] (-) TimerEvent: {}
+[8.418933] (-) TimerEvent: {}
+[8.519160] (-) TimerEvent: {}
+[8.619472] (-) TimerEvent: {}
+[8.719873] (-) TimerEvent: {}
+[8.820450] (-) TimerEvent: {}
+[8.921251] (-) TimerEvent: {}
+[9.023025] (-) TimerEvent: {}
+[9.094243] (nav2_costmap_2d) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[9.123130] (-) TimerEvent: {}
+[9.223438] (-) TimerEvent: {}
+[9.323761] (-) TimerEvent: {}
+[9.424078] (-) TimerEvent: {}
+[9.524382] (-) TimerEvent: {}
+[9.624699] (-) TimerEvent: {}
+[9.725127] (-) TimerEvent: {}
+[9.786895] (nav2_costmap_2d) StdoutLine: {'line': b'[ 19%] Built target gtest_main\n'}
+[9.826127] (-) TimerEvent: {}
+[9.926567] (-) TimerEvent: {}
+[10.031673] (-) TimerEvent: {}
+[10.132261] (-) TimerEvent: {}
+[10.232900] (-) TimerEvent: {}
+[10.334101] (-) TimerEvent: {}
+[10.435163] (-) TimerEvent: {}
+[10.535555] (-) TimerEvent: {}
+[10.635947] (-) TimerEvent: {}
+[10.736263] (-) TimerEvent: {}
+[10.836582] (-) TimerEvent: {}
+[10.936912] (-) TimerEvent: {}
+[11.037420] (-) TimerEvent: {}
+[11.137756] (-) TimerEvent: {}
+[11.238434] (-) TimerEvent: {}
+[11.338734] (-) TimerEvent: {}
+[11.440573] (-) TimerEvent: {}
+[11.540916] (-) TimerEvent: {}
+[11.641246] (-) TimerEvent: {}
+[11.741606] (-) TimerEvent: {}
+[11.841924] (-) TimerEvent: {}
+[11.942236] (-) TimerEvent: {}
+[12.042562] (-) TimerEvent: {}
+[12.142871] (-) TimerEvent: {}
+[12.243194] (-) TimerEvent: {}
+[12.343500] (-) TimerEvent: {}
+[12.443806] (-) TimerEvent: {}
+[12.544106] (-) TimerEvent: {}
+[12.644411] (-) TimerEvent: {}
+[12.744713] (-) TimerEvent: {}
+[12.845009] (-) TimerEvent: {}
+[12.945297] (-) TimerEvent: {}
+[13.045645] (-) TimerEvent: {}
+[13.145977] (-) TimerEvent: {}
+[13.246324] (-) TimerEvent: {}
+[13.346684] (-) TimerEvent: {}
+[13.446940] (-) TimerEvent: {}
+[13.547167] (-) TimerEvent: {}
+[13.647435] (-) TimerEvent: {}
+[13.747733] (-) TimerEvent: {}
+[13.847990] (-) TimerEvent: {}
+[13.948257] (-) TimerEvent: {}
+[14.048564] (-) TimerEvent: {}
+[14.148832] (-) TimerEvent: {}
+[14.249092] (-) TimerEvent: {}
+[14.349347] (-) TimerEvent: {}
+[14.449622] (-) TimerEvent: {}
+[14.549900] (-) TimerEvent: {}
+[14.650154] (-) TimerEvent: {}
+[14.750382] (-) TimerEvent: {}
+[14.850598] (-) TimerEvent: {}
+[14.950859] (-) TimerEvent: {}
+[15.051082] (-) TimerEvent: {}
+[15.151328] (-) TimerEvent: {}
+[15.251546] (-) TimerEvent: {}
+[15.351808] (-) TimerEvent: {}
+[15.452050] (-) TimerEvent: {}
+[15.552303] (-) TimerEvent: {}
+[15.612036] (nav2_costmap_2d) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[15.652404] (-) TimerEvent: {}
+[15.664273] (nav2_costmap_2d) StdoutLine: {'line': b'[ 20%] Built target gtest\n'}
+[15.752491] (-) TimerEvent: {}
+[15.852741] (-) TimerEvent: {}
+[15.952991] (-) TimerEvent: {}
+[16.053233] (-) TimerEvent: {}
+[16.153479] (-) TimerEvent: {}
+[16.253728] (-) TimerEvent: {}
+[16.353973] (-) TimerEvent: {}
+[16.454233] (-) TimerEvent: {}
+[16.554469] (-) TimerEvent: {}
+[16.654711] (-) TimerEvent: {}
+[16.754962] (-) TimerEvent: {}
+[16.855230] (-) TimerEvent: {}
+[16.955504] (-) TimerEvent: {}
+[17.055745] (-) TimerEvent: {}
+[17.156011] (-) TimerEvent: {}
+[17.256283] (-) TimerEvent: {}
+[17.356526] (-) TimerEvent: {}
+[17.456772] (-) TimerEvent: {}
+[17.557076] (-) TimerEvent: {}
+[17.657359] (-) TimerEvent: {}
+[17.757599] (-) TimerEvent: {}
+[17.857871] (-) TimerEvent: {}
+[17.958150] (-) TimerEvent: {}
+[18.058396] (-) TimerEvent: {}
+[18.158642] (-) TimerEvent: {}
+[18.258921] (-) TimerEvent: {}
+[18.359196] (-) TimerEvent: {}
+[18.459466] (-) TimerEvent: {}
+[18.559735] (-) TimerEvent: {}
+[18.659998] (-) TimerEvent: {}
+[18.760253] (-) TimerEvent: {}
+[18.860498] (-) TimerEvent: {}
+[18.960751] (-) TimerEvent: {}
+[19.060988] (-) TimerEvent: {}
+[19.161226] (-) TimerEvent: {}
+[19.261461] (-) TimerEvent: {}
+[19.361670] (-) TimerEvent: {}
+[19.461881] (-) TimerEvent: {}
+[19.562129] (-) TimerEvent: {}
+[19.662338] (-) TimerEvent: {}
+[19.762583] (-) TimerEvent: {}
+[19.862820] (-) TimerEvent: {}
+[19.963033] (-) TimerEvent: {}
+[20.063274] (-) TimerEvent: {}
+[20.163516] (-) TimerEvent: {}
+[20.263726] (-) TimerEvent: {}
+[20.363975] (-) TimerEvent: {}
+[20.464181] (-) TimerEvent: {}
+[20.564419] (-) TimerEvent: {}
+[20.664660] (-) TimerEvent: {}
+[20.764897] (-) TimerEvent: {}
+[20.865141] (-) TimerEvent: {}
+[20.965350] (-) TimerEvent: {}
+[21.065556] (-) TimerEvent: {}
+[21.165801] (-) TimerEvent: {}
+[21.266046] (-) TimerEvent: {}
+[21.366259] (-) TimerEvent: {}
+[21.466466] (-) TimerEvent: {}
+[21.566702] (-) TimerEvent: {}
+[21.666940] (-) TimerEvent: {}
+[21.767176] (-) TimerEvent: {}
+[21.867412] (-) TimerEvent: {}
+[21.967652] (-) TimerEvent: {}
+[22.067890] (-) TimerEvent: {}
+[22.168130] (-) TimerEvent: {}
+[22.268342] (-) TimerEvent: {}
+[22.368588] (-) TimerEvent: {}
+[22.468823] (-) TimerEvent: {}
+[22.569058] (-) TimerEvent: {}
+[22.669300] (-) TimerEvent: {}
+[22.769534] (-) TimerEvent: {}
+[22.869771] (-) TimerEvent: {}
+[22.970010] (-) TimerEvent: {}
+[23.070221] (-) TimerEvent: {}
+[23.170431] (-) TimerEvent: {}
+[23.270638] (-) TimerEvent: {}
+[23.370842] (-) TimerEvent: {}
+[23.471107] (-) TimerEvent: {}
+[23.571465] (-) TimerEvent: {}
+[23.672046] (-) TimerEvent: {}
+[23.772287] (-) TimerEvent: {}
+[23.872524] (-) TimerEvent: {}
+[23.972761] (-) TimerEvent: {}
+[24.073174] (-) TimerEvent: {}
+[24.173779] (-) TimerEvent: {}
+[24.274016] (-) TimerEvent: {}
+[24.374229] (-) TimerEvent: {}
+[24.474433] (-) TimerEvent: {}
+[24.574711] (-) TimerEvent: {}
+[24.675187] (-) TimerEvent: {}
+[24.775503] (-) TimerEvent: {}
+[24.875708] (-) TimerEvent: {}
+[24.955282] (nav2_costmap_2d) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_costmap_2d_core.so\x1b[0m\n'}
+[24.975813] (-) TimerEvent: {}
+[25.076095] (-) TimerEvent: {}
+[25.176522] (-) TimerEvent: {}
+[25.276758] (-) TimerEvent: {}
+[25.377051] (-) TimerEvent: {}
+[25.477335] (-) TimerEvent: {}
+[25.508121] (nav2_costmap_2d) StdoutLine: {'line': b'[ 21%] Built target nav2_costmap_2d_core\n'}
+[25.530407] (nav2_costmap_2d) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/keepout_filter.cpp.o\x1b[0m\n'}
+[25.530974] (nav2_costmap_2d) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_test.dir/costmap_filter_test.cpp.o\x1b[0m\n'}
+[25.531142] (nav2_costmap_2d) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o\x1b[0m\n'}
+[25.531233] (nav2_costmap_2d) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/declare_parameter_test.dir/declare_parameter_test.cpp.o\x1b[0m\n'}
+[25.531309] (nav2_costmap_2d) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o\x1b[0m\n'}
+[25.531427] (nav2_costmap_2d) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o\x1b[0m\n'}
+[25.531510] (nav2_costmap_2d) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o\x1b[0m\n'}
+[25.531585] (nav2_costmap_2d) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/array_parser_test.dir/array_parser_test.cpp.o\x1b[0m\n'}
+[25.531656] (nav2_costmap_2d) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/costmap_convesion_test.dir/costmap_conversion_test.cpp.o\x1b[0m\n'}
+[25.531754] (nav2_costmap_2d) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o\x1b[0m\n'}
+[25.532760] (nav2_costmap_2d) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/copy_window_test.dir/copy_window_test.cpp.o\x1b[0m\n'}
+[25.533786] (nav2_costmap_2d) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_service_test.dir/costmap_filter_service_test.cpp.o\x1b[0m\n'}
+[25.534312] (nav2_costmap_2d) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object test/integration/CMakeFiles/dyn_params_tests.dir/dyn_params_tests.cpp.o\x1b[0m\n'}
+[25.537997] (nav2_costmap_2d) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object test/regression/CMakeFiles/costmap_bresenham_2d.dir/costmap_bresenham_2d.cpp.o\x1b[0m\n'}
+[25.539440] (nav2_costmap_2d) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object test/regression/CMakeFiles/plugin_api_order.dir/plugin_api_order.cpp.o\x1b[0m\n'}
+[25.542368] (nav2_costmap_2d) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object test/regression/CMakeFiles/order_layer.dir/order_layer.cpp.o\x1b[0m\n'}
+[25.577483] (-) TimerEvent: {}
+[25.677921] (-) TimerEvent: {}
+[25.779476] (-) TimerEvent: {}
+[25.879761] (-) TimerEvent: {}
+[25.980061] (-) TimerEvent: {}
+[26.080379] (-) TimerEvent: {}
+[26.180739] (-) TimerEvent: {}
+[26.281074] (-) TimerEvent: {}
+[26.381403] (-) TimerEvent: {}
+[26.481741] (-) TimerEvent: {}
+[26.583251] (-) TimerEvent: {}
+[26.683581] (-) TimerEvent: {}
+[26.783935] (-) TimerEvent: {}
+[26.884296] (-) TimerEvent: {}
+[26.984623] (-) TimerEvent: {}
+[27.086798] (-) TimerEvent: {}
+[27.187259] (-) TimerEvent: {}
+[27.288162] (-) TimerEvent: {}
+[27.388493] (-) TimerEvent: {}
+[27.488854] (-) TimerEvent: {}
+[27.589216] (-) TimerEvent: {}
+[27.598291] (nav2_costmap_2d) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable array_parser_test\x1b[0m\n'}
+[27.689320] (-) TimerEvent: {}
+[27.789838] (-) TimerEvent: {}
+[27.890431] (-) TimerEvent: {}
+[27.990958] (-) TimerEvent: {}
+[28.026135] (nav2_costmap_2d) StdoutLine: {'line': b'[ 42%] Built target array_parser_test\n'}
+[28.059150] (nav2_costmap_2d) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o\x1b[0m\n'}
+[28.091061] (-) TimerEvent: {}
+[28.100288] (nav2_costmap_2d) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable costmap_bresenham_2d\x1b[0m\n'}
+[28.191164] (-) TimerEvent: {}
+[28.291721] (-) TimerEvent: {}
+[28.392081] (-) TimerEvent: {}
+[28.492419] (-) TimerEvent: {}
+[28.569307] (nav2_costmap_2d) StdoutLine: {'line': b'[ 45%] Built target costmap_bresenham_2d\n'}
+[28.581387] (nav2_costmap_2d) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/speed_filter.cpp.o\x1b[0m\n'}
+[28.592526] (-) TimerEvent: {}
+[28.692788] (-) TimerEvent: {}
+[28.793016] (-) TimerEvent: {}
+[28.893250] (-) TimerEvent: {}
+[28.993545] (-) TimerEvent: {}
+[29.093883] (-) TimerEvent: {}
+[29.194185] (-) TimerEvent: {}
+[29.294421] (-) TimerEvent: {}
+[29.394662] (-) TimerEvent: {}
+[29.494966] (-) TimerEvent: {}
+[29.595249] (-) TimerEvent: {}
+[29.695529] (-) TimerEvent: {}
+[29.795750] (-) TimerEvent: {}
+[29.895973] (-) TimerEvent: {}
+[29.996195] (-) TimerEvent: {}
+[30.255362] (-) TimerEvent: {}
+[30.355837] (-) TimerEvent: {}
+[30.456062] (-) TimerEvent: {}
+[30.556290] (-) TimerEvent: {}
+[30.656539] (-) TimerEvent: {}
+[30.756788] (-) TimerEvent: {}
+[30.857064] (-) TimerEvent: {}
+[30.957321] (-) TimerEvent: {}
+[31.057554] (-) TimerEvent: {}
+[31.157794] (-) TimerEvent: {}
+[31.258046] (-) TimerEvent: {}
+[31.358350] (-) TimerEvent: {}
+[31.458655] (-) TimerEvent: {}
+[31.558888] (-) TimerEvent: {}
+[31.659195] (-) TimerEvent: {}
+[31.759496] (-) TimerEvent: {}
+[31.859746] (-) TimerEvent: {}
+[31.960016] (-) TimerEvent: {}
+[32.060320] (-) TimerEvent: {}
+[32.160584] (-) TimerEvent: {}
+[32.260912] (-) TimerEvent: {}
+[32.361227] (-) TimerEvent: {}
+[32.461571] (-) TimerEvent: {}
+[32.562261] (-) TimerEvent: {}
+[32.662510] (-) TimerEvent: {}
+[32.762797] (-) TimerEvent: {}
+[32.863130] (-) TimerEvent: {}
+[32.915736] (nav2_costmap_2d) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library liborder_layer.so\x1b[0m\n'}
+[32.963244] (-) TimerEvent: {}
+[33.063758] (-) TimerEvent: {}
+[33.164278] (-) TimerEvent: {}
+[33.264602] (-) TimerEvent: {}
+[33.364906] (-) TimerEvent: {}
+[33.399201] (nav2_costmap_2d) StdoutLine: {'line': b'[ 47%] Built target order_layer\n'}
+[33.443113] (nav2_costmap_2d) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/binary_filter.cpp.o\x1b[0m\n'}
+[33.465015] (-) TimerEvent: {}
+[33.492052] (nav2_costmap_2d) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable copy_window_test\x1b[0m\n'}
+[33.565142] (-) TimerEvent: {}
+[33.665497] (-) TimerEvent: {}
+[33.759844] (nav2_costmap_2d) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX executable costmap_convesion_test\x1b[0m\n'}
+[33.765622] (-) TimerEvent: {}
+[33.865981] (-) TimerEvent: {}
+[33.966723] (-) TimerEvent: {}
+[34.041610] (nav2_costmap_2d) StdoutLine: {'line': b'[ 51%] Built target copy_window_test\n'}
+[34.052581] (nav2_costmap_2d) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o\x1b[0m\n'}
+[34.066851] (-) TimerEvent: {}
+[34.167496] (-) TimerEvent: {}
+[34.224642] (nav2_costmap_2d) StdoutLine: {'line': b'[ 52%] Built target costmap_convesion_test\n'}
+[34.244116] (nav2_costmap_2d) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o\x1b[0m\n'}
+[34.267604] (-) TimerEvent: {}
+[34.367954] (-) TimerEvent: {}
+[34.412549] (nav2_costmap_2d) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX executable costmap_filter_test\x1b[0m\n'}
+[34.468086] (-) TimerEvent: {}
+[34.568802] (-) TimerEvent: {}
+[34.669381] (-) TimerEvent: {}
+[34.734802] (nav2_costmap_2d) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o\x1b[0m\n'}
+[34.769494] (-) TimerEvent: {}
+[34.845086] (nav2_costmap_2d) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable collision_footprint_test\x1b[0m\n'}
+[34.869613] (-) TimerEvent: {}
+[34.881948] (nav2_costmap_2d) StdoutLine: {'line': b'[ 57%] Built target costmap_filter_test\n'}
+[34.898989] (nav2_costmap_2d) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o\x1b[0m\n'}
+[34.969725] (-) TimerEvent: {}
+[35.070069] (-) TimerEvent: {}
+[35.156651] (nav2_costmap_2d) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable declare_parameter_test\x1b[0m\n'}
+[35.170162] (-) TimerEvent: {}
+[35.270799] (-) TimerEvent: {}
+[35.361334] (nav2_costmap_2d) StdoutLine: {'line': b'[ 59%] Built target collision_footprint_test\n'}
+[35.370924] (-) TimerEvent: {}
+[35.373289] (nav2_costmap_2d) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o\x1b[0m\n'}
+[35.471051] (-) TimerEvent: {}
+[35.571423] (-) TimerEvent: {}
+[35.671814] (-) TimerEvent: {}
+[35.772190] (-) TimerEvent: {}
+[35.847701] (nav2_costmap_2d) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable costmap_filter_service_test\x1b[0m\n'}
+[35.872298] (-) TimerEvent: {}
+[35.972700] (-) TimerEvent: {}
+[36.021713] (nav2_costmap_2d) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable plugin_api_order\x1b[0m\n'}
+[36.072810] (-) TimerEvent: {}
+[36.173325] (-) TimerEvent: {}
+[36.273842] (-) TimerEvent: {}
+[36.374148] (-) TimerEvent: {}
+[36.376923] (nav2_costmap_2d) StdoutLine: {'line': b'[ 63%] Built target declare_parameter_test\n'}
+[36.394711] (nav2_costmap_2d) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/denoise_layer.cpp.o\x1b[0m\n'}
+[36.474275] (-) TimerEvent: {}
+[36.574644] (-) TimerEvent: {}
+[36.639981] (nav2_costmap_2d) StdoutLine: {'line': b'[ 64%] Built target plugin_api_order\n'}
+[36.652783] (nav2_costmap_2d) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o\x1b[0m\n'}
+[36.674751] (-) TimerEvent: {}
+[36.775107] (-) TimerEvent: {}
+[36.875417] (-) TimerEvent: {}
+[36.975723] (-) TimerEvent: {}
+[37.006984] (nav2_costmap_2d) StdoutLine: {'line': b'[ 65%] Built target costmap_filter_service_test\n'}
+[37.075835] (-) TimerEvent: {}
+[37.176159] (-) TimerEvent: {}
+[37.276500] (-) TimerEvent: {}
+[37.376831] (-) TimerEvent: {}
+[37.477172] (-) TimerEvent: {}
+[37.577502] (-) TimerEvent: {}
+[37.677821] (-) TimerEvent: {}
+[37.778134] (-) TimerEvent: {}
+[37.878466] (-) TimerEvent: {}
+[37.978827] (-) TimerEvent: {}
+[38.079350] (-) TimerEvent: {}
+[38.179864] (-) TimerEvent: {}
+[38.280353] (-) TimerEvent: {}
+[38.380877] (-) TimerEvent: {}
+[38.481216] (-) TimerEvent: {}
+[38.581945] (-) TimerEvent: {}
+[38.682298] (-) TimerEvent: {}
+[38.782618] (-) TimerEvent: {}
+[38.882934] (-) TimerEvent: {}
+[38.983260] (-) TimerEvent: {}
+[39.083598] (-) TimerEvent: {}
+[39.183953] (-) TimerEvent: {}
+[39.284262] (-) TimerEvent: {}
+[39.384802] (-) TimerEvent: {}
+[39.485185] (-) TimerEvent: {}
+[39.585548] (-) TimerEvent: {}
+[39.685931] (-) TimerEvent: {}
+[39.786246] (-) TimerEvent: {}
+[39.886557] (-) TimerEvent: {}
+[39.938358] (nav2_costmap_2d) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX executable dyn_params_tests\x1b[0m\n'}
+[39.986665] (-) TimerEvent: {}
+[40.086973] (-) TimerEvent: {}
+[40.187863] (-) TimerEvent: {}
+[40.288578] (-) TimerEvent: {}
+[40.389358] (-) TimerEvent: {}
+[40.489704] (-) TimerEvent: {}
+[40.590125] (-) TimerEvent: {}
+[40.690958] (-) TimerEvent: {}
+[40.791729] (-) TimerEvent: {}
+[40.891992] (-) TimerEvent: {}
+[40.992672] (-) TimerEvent: {}
+[41.093771] (-) TimerEvent: {}
+[41.194404] (-) TimerEvent: {}
+[41.294895] (-) TimerEvent: {}
+[41.335885] (nav2_costmap_2d) StdoutLine: {'line': b'[ 67%] Built target dyn_params_tests\n'}
+[41.395010] (-) TimerEvent: {}
+[41.498415] (-) TimerEvent: {}
+[41.601350] (-) TimerEvent: {}
+[41.710774] (-) TimerEvent: {}
+[61.703984] (-) TimerEvent: {}
+[61.893132] (-) TimerEvent: {}
+[62.013731] (-) TimerEvent: {}
+[62.126673] (-) TimerEvent: {}
+[62.226921] (-) TimerEvent: {}
+[62.327175] (-) TimerEvent: {}
+[62.430357] (-) TimerEvent: {}
+[62.530567] (-) TimerEvent: {}
+[62.630789] (-) TimerEvent: {}
+[62.731034] (-) TimerEvent: {}
+[62.831290] (-) TimerEvent: {}
+[62.934946] (-) TimerEvent: {}
+[63.035190] (-) TimerEvent: {}
+[63.135416] (-) TimerEvent: {}
+[63.235620] (-) TimerEvent: {}
+[63.373224] (-) TimerEvent: {}
+[63.473451] (-) TimerEvent: {}
+[63.573678] (-) TimerEvent: {}
+[63.673912] (-) TimerEvent: {}
+[63.774107] (-) TimerEvent: {}
+[63.874326] (-) TimerEvent: {}
+[63.974588] (-) TimerEvent: {}
+[64.074828] (-) TimerEvent: {}
+[64.175060] (-) TimerEvent: {}
+[64.275307] (-) TimerEvent: {}
+[64.446366] (-) TimerEvent: {}

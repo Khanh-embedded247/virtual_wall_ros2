@@ -1,17 +1,16 @@
-#include "/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp"
-#include "nav2_costmap_2d/costmap_2d.hpp"
-#include "tf2/convert.h"
-#include "tf2_ros/transform_listener.h"
-#include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
-#include <yaml-cpp/yaml.h>
+#include </home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp>
 
-namespace virtual_wall_ros2
-{
+PLUGINLIB_EXPORT_CLASS(virtual_wall::VirtualWallLayer, costmap_2d::Layer)
+
+namespace virtual_wall {
 
 VirtualWallLayer::VirtualWallLayer()
-: tf_buffer_(rclcpp::Clock::make_shared()), tf_listener_(tf_buffer_), global_frame_("map")
+: tf_listener_(tf_buffer_)
 {
-    RCLCPP_INFO(rclcpp::get_logger("virtual_wall_layer"), "VirtualWallLayer constructor called");
+  wallmax_x = 0.0;
+  wallmax_y = 0.0;
+  wallmin_x = 0.0;
+  wallmin_y = 0.0;
 }
 
 VirtualWallLayer::~VirtualWallLayer()
@@ -20,174 +19,200 @@ VirtualWallLayer::~VirtualWallLayer()
 
 void VirtualWallLayer::onInitialize()
 {
-    RCLCPP_INFO(logger_, "Khởi tạo VirtualWallLayer...");
+  auto node = node_.lock();
+  if (!node) {
+    RCLCPP_ERROR(rclcpp::get_logger("virtual_wall_layer"), "Unable to lock node in onInitialize");
+    return;
+  }
+  matchSize();
+  current_ = true;
+  enabled_ = true;
 
-    auto node = node_.lock();
-    if (!node)
-    {
-        RCLCPP_ERROR(logger_, "Failed to lock node");
-        return;
-    }
-
-    // Khai báo các tham số
-    node->declare_parameter("virtual_wall_points", rclcpp::ParameterValue(std::string("/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/positions.yaml")));
-    node->declare_parameter("global_frame", rclcpp::ParameterValue(std::string("map")));
-
-    std::string points_yaml;
-    std::string global_frame;
-
-    if (!node->get_parameter("virtual_wall_points", points_yaml)) {
-        RCLCPP_ERROR(logger_, "Failed to get parameter 'virtual_wall_points'");
-    } else {
-        RCLCPP_INFO(logger_, "Giá trị tham số 'virtual_wall_points': %s", points_yaml.c_str());
-    }
-
-    if (!node->get_parameter("global_frame", global_frame)) {
-        RCLCPP_ERROR(logger_, "Failed to get parameter 'global_frame'");
-    } else {
-        global_frame_ = global_frame;
-        RCLCPP_INFO(logger_, "Giá trị tham số 'global_frame': %s", global_frame_.c_str());
-    }
-
-    if (!points_yaml.empty())
-    {
-        loadVirtualWallPoints(points_yaml);
-    }
-    else
-    {
-        RCLCPP_ERROR(logger_, "Parameter 'virtual_wall_points' is empty");
-    }
+  add_wall_sub_ = node->create_subscription<geometry_msgs::msg::PointStamped>(
+    "/clicked_point", 1, std::bind(&VirtualWallLayer::AddWallCallback, this, std::placeholders::_1));
+  wall_list_pub_ = node->create_publisher<std_msgs::msg::Int32>("/virtual_wall_list", 1);
+  delete_wall_sub_ = node->create_subscription<std_msgs::msg::Int32>(
+    "/delete_wall", 1, std::bind(&VirtualWallLayer::DeleteWallCallback, this, std::placeholders::_1));
+  wall_maker_pub_ = node->create_publisher<visualization_msgs::msg::Marker>("virtual_wall_vis", 1);
 }
 
-void VirtualWallLayer::loadVirtualWallPoints(const std::string &filename)
+void VirtualWallLayer::matchSize()
 {
-    RCLCPP_INFO(logger_, "Tải các điểm tường ảo từ tệp: %s", filename.c_str());
-    try
-    {
-        YAML::Node yaml = YAML::LoadFile(filename);
-        for (const auto &point : yaml["points"])
-        {
-            geometry_msgs::msg::Point p;
-            p.x = point["x"].as<double>();
-            p.y = point["y"].as<double>();
-            p.z = point["z"].as<double>();
-            virtual_wall_points_.push_back(p);
-            RCLCPP_INFO(logger_, "Đã tải điểm: (%f, %f, %f)", p.x, p.y, p.z);
+  boost::unique_lock<boost::recursive_mutex> lock(data_access_);
+  auto master = layered_costmap_->getCostmap();
+  resolution = master->getResolution();
+
+  global_frame_ = layered_costmap_->getGlobalFrameID();
+  map_frame_ = "map";
+}
+
+void VirtualWallLayer::updateBounds(double robot_x, double robot_y, double robot_yaw, double* min_x, double* min_y, double* max_x, double* max_y)
+{
+  *min_x = std::min(wallmin_x, *min_x);
+  *min_y = std::min(wallmin_y, *min_y);
+  *max_x = std::max(wallmax_x, *max_x);
+  *max_y = std::max(wallmax_y, *max_y);
+}
+
+void VirtualWallLayer::updateCosts(costmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)
+{
+  boost::unique_lock<boost::recursive_mutex> lock(data_access_);
+  auto node = node_.lock();
+  if (!node) {
+    RCLCPP_ERROR(rclcpp::get_logger("virtual_wall_layer"), "Unable to lock node in updateCosts");
+    return;
+  }
+
+  if (global_frame_ == map_frame_) {
+    visualization_msgs::msg::Marker node_vis;
+    node_vis.header.frame_id = map_frame_;
+    node_vis.header.stamp = node->now();
+    node_vis.type = visualization_msgs::msg::Marker::CUBE_LIST;
+    node_vis.action = visualization_msgs::msg::Marker::ADD;
+    node_vis.id = 0;
+    node_vis.pose.orientation.x = 0.0;
+    node_vis.pose.orientation.y = 0.0;
+    node_vis.pose.orientation.z = 0.0;
+    node_vis.pose.orientation.w = 1.0;
+    node_vis.color.a = 1.0;
+    node_vis.color.r = 1.0;
+    node_vis.color.g = 0.0;
+    node_vis.color.b = 0.0;
+
+    node_vis.scale.x = resolution;
+    node_vis.scale.y = resolution;
+    node_vis.scale.z = 0.3;
+
+    geometry_msgs::msg::Point pt;
+    pt.z = 0.15;
+    for (size_t i = 0; i < wallPoint.size(); i++) {
+      std_msgs::msg::Int32 msg;
+      msg.data = wallPoint[i].id;
+      wall_list_pub_->publish(msg);
+      for (size_t j = 0; j < wallPoint[i].polygon.points.size(); j++) {
+        unsigned int pixle_x;
+        unsigned int pixle_y;
+        bool ret = master_grid.worldToMap(wallPoint[i].polygon.points[j].x, wallPoint[i].polygon.points[j].y, pixle_x, pixle_y);
+        if (ret) {
+          master_grid.setCost(pixle_x, pixle_y, costmap_2d::LETHAL_OBSTACLE);
+          pt.x = wallPoint[i].polygon.points[j].x;
+          pt.y = wallPoint[i].polygon.points[j].y;
+          node_vis.points.push_back(pt);
         }
+      }
     }
-    catch (const std::exception &e)
-    {
-        RCLCPP_ERROR(logger_, "Failed to load virtual wall points: %s", e.what());
-    }
-}
-
-void VirtualWallLayer::updateBounds(double /*origin_x*/, double /*origin_y*/, double /*origin_yaw*/, double* min_x, double* min_y, double* max_x, double* max_y)
-{
-    RCLCPP_INFO(logger_, "Cập nhật biên...");
-    for (const auto& point : virtual_wall_points_)
-    {
-        *min_x = std::min(*min_x, point.x);
-        *min_y = std::min(*min_y, point.y);
-        *max_x = std::max(*max_x, point.x);
-        *max_y = std::max(*max_y, point.y);
-    }
-    RCLCPP_INFO(logger_, "Biên cập nhật: min_x = %f, min_y = %f, max_x = %f, max_y = %f", *min_x, *min_y, *max_x, *max_y);
-}
-
-void VirtualWallLayer::updateCosts(nav2_costmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)
-{
-    RCLCPP_INFO(logger_, "Cập nhật chi phí...");
-    markPolygonCells(master_grid, min_i, min_j, max_i, max_j);
-}
-
-void VirtualWallLayer::markPolygonCells(nav2_costmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)
-{
-    RCLCPP_INFO(logger_, "Đánh dấu các ô trong vùng tường ảo...");
-    if (virtual_wall_points_.size() < 3)
-    {
-        RCLCPP_WARN(logger_, "Không đủ điểm để tạo thành một đa giác");
-        return;
-    }
-
+    wall_maker_pub_->publish(node_vis);
+  } else {
     geometry_msgs::msg::TransformStamped transform;
-    try
-    {
-        transform = tf_buffer_.lookupTransform(global_frame_, "base_link", tf2::TimePointZero);
-    }
-    catch (tf2::TransformException &ex)
-    {
-        RCLCPP_WARN(logger_, "Không thể biến đổi: %s", ex.what());
-        return;
+    try {
+      transform = tf_buffer_.lookupTransform(global_frame_, map_frame_, tf2::TimePointZero);
+    } catch (tf2::TransformException &ex) {
+      RCLCPP_ERROR(rclcpp::get_logger("virtual_wall_layer"), "%s", ex.what());
+      return;
     }
 
-    RCLCPP_INFO(logger_, "Đã nhận được biến đổi");
+    tf2::Transform tf2_transform;
+    tf2::convert(transform.transform, tf2_transform);
 
-    for (unsigned int mx = min_i; mx < max_i; mx++)
-    {
-        for (unsigned int my = min_j; my < max_j; my++)
-        {
-            double wx, wy;
-            master_grid.mapToWorld(mx, my, wx, wy);
-
-            geometry_msgs::msg::PointStamped point_in, point_out;
-            point_in.point.x = wx;
-            point_in.point.y = wy;
-            point_in.point.z = 0;
-            point_in.header.frame_id = global_frame_;
-
-            tf2::doTransform(point_in, point_out, transform);
-
-            if (isPointInPolygon(point_out.point.x, point_out.point.y, virtual_wall_points_))
-            {
-                RCLCPP_INFO(logger_, "Đặt chi phí tại (%f, %f)", point_out.point.x, point_out.point.y);
-                master_grid.setCost(mx, my, nav2_costmap_2d::LETHAL_OBSTACLE);
-            }
+    for (size_t i = 0; i < wallPoint.size(); i++) {
+      std_msgs::msg::Int32 msg;
+      msg.data = wallPoint[i].id;
+      wall_list_pub_->publish(msg);
+      double wx, wy;
+      for (size_t j = 0; j < wallPoint[i].polygon.points.size(); j++) {
+        unsigned int pixle_x;
+        unsigned int pixle_y;
+        wx = wallPoint[i].polygon.points[j].x;
+        wy = wallPoint[i].polygon.points[j].y;
+        tf2::Vector3 p(wx, wy, 0);
+        p = tf2_transform * p;
+        bool ret = master_grid.worldToMap(p.x(), p.y(), pixle_x, pixle_y);
+        if (ret) {
+          master_grid.setCost(pixle_x, pixle_y, costmap_2d::LETHAL_OBSTACLE);
         }
+      }
     }
+  }
 }
 
-bool VirtualWallLayer::isPointInPolygon(double x, double y, const std::vector<geometry_msgs::msg::Point>& polygon)
+bool VirtualWallLayer::WallInterpolation()
 {
-    int i, j, nvert = polygon.size();
-    bool c = false;
-    for (i = 0, j = nvert - 1; i < nvert; j = i++)
-    {
-        if (((polygon[i].y >= y) != (polygon[j].y >= y)) &&
-            (x <= (polygon[j].x - polygon[i].x) * (y - polygon[i].y) / (polygon[j].y - polygon[i].y) + polygon[i].x))
-        {
-            c = !c;
-        }
+  double pixle_x[2];
+  double pixle_y[2];
+  double k, b;
+  for (size_t i = 0; i < 2; i++) {
+    if (fabs(wallPoint.back().polygon.points[0].x - wallPoint.back().polygon.points[1].x) > 
+        fabs(wallPoint.back().polygon.points[0].y - wallPoint.back().polygon.points[1].y)) {
+      pixle_x[i] = wallPoint.back().polygon.points[i].x;
+      pixle_y[i] = wallPoint.back().polygon.points[i].y;
+    } else {
+      pixle_x[i] = wallPoint.back().polygon.points[i].y;
+      pixle_y[i] = wallPoint.back().polygon.points[i].x;
     }
-    return c;
-}
+  }
 
-void VirtualWallLayer::reset()
-{
-    // Logic to reset the layer if needed
-}
+  k = (pixle_y[0] - pixle_y[1]) / (pixle_x[0] - pixle_x[1]);
+  b = pixle_y[0] - k * pixle_x[0];
 
-bool VirtualWallLayer::isClearable()
-{
-    return true; // or false depending on whether you want the layer to be clearable
-}
-
-rcl_interfaces::msg::SetParametersResult VirtualWallLayer::dynamicParametersCallback(std::vector<rclcpp::Parameter> parameters)
-{
-    std::lock_guard<std::mutex> guard(layer_mutex_);
-    rcl_interfaces::msg::SetParametersResult result;
-
-    for (auto parameter : parameters) {
-        const auto & param_type = parameter.get_type();
-        const auto & param_name = parameter.get_name();
-
-        if (param_name == name_ + "." + "enabled" && param_type == rclcpp::ParameterType::PARAMETER_BOOL) {
-            enabled_ = parameter.as_bool();
-        }
+  wallPoint.back().polygon.points.clear();
+  for (double i = std::min(pixle_x[0], pixle_x[1]); i < std::max(pixle_x[0], pixle_x[1]); i += resolution) {
+    geometry_msgs::msg::Point32 point;
+    if (fabs(v_wall.back().polygon.points[0].x - v_wall.back().polygon.points[1].x) > 
+        fabs(v_wall.back().polygon.points[0].y - v_wall.back().polygon.points[1].y)) {
+      point.x = i;
+      point.y = k * i + b;
+    } else {
+      point.x = k * i + b;
+      point.y = i;
     }
-    result.successful = true;
-    return result;
+    wallPoint.back().polygon.points.push_back(point);
+  }
+  return true;
 }
 
-}  // namespace virtual_wall_ros2
+void VirtualWallLayer::AddWallCallback(const geometry_msgs::msg::PointStamped::SharedPtr msg)
+{
+  geometry_msgs::msg::Point32 point;
+  point.x = msg->point.x;
+  point.y = msg->point.y;
+  point.z = msg->point.z;
+  wallmax_x = std::max(wallmax_x, msg->point.x);
+  wallmax_y = std::max(wallmax_y, msg->point.y);
+  wallmin_x = std::min(wallmin_x, msg->point.x);
+  wallmin_y = std::min(wallmin_y, msg->point.y);
 
-PLUGINLIB_EXPORT_CLASS(virtual_wall_ros2::VirtualWallLayer, nav2_costmap_2d::Layer)
+  if (v_wall.size() == 0) {
+    virtual_wall::Wall wall;
+    wall.id = 0;
+    wall.polygon.points.push_back(point);
+    v_wall.push_back(wall);
+  } else {
+    if (v_wall.back().polygon.points.size() == 1) {
+      if (v_wall.size() == 1) {
+        v_wall.back().id = 0;
+      } else {
+        v_wall.back().id = v_wall[v_wall.size() - 2].id + 1;
+      }
+      v_wall.back().polygon.points.push_back(point);
+      wallPoint.push_back(v_wall.back());
+      WallInterpolation();
+    } else if (v_wall.back().polygon.points.size() == 2) {
+      virtual_wall::Wall wall;
+      wall.id = v_wall.size();
+      wall.polygon.points.push_back(point);
+      v_wall.push_back(wall);
+    }
+  }
+}
+
+void VirtualWallLayer::DeleteWallCallback(const std_msgs::msg::Int32::SharedPtr msg)
+{
+  for (size_t i = 0; i < v_wall.size(); i++) {
+    if (v_wall[i].id == msg->data) {
+      v_wall.erase(v_wall.begin() + i);
+      wallPoint.erase(wallPoint.begin() + i);
+    }
+  }
+}
+
+}  // namespace virtual_wall

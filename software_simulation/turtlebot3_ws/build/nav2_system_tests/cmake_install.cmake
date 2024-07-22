@@ -1,8 +1,8 @@
-# Install script for directory: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests
+# Install script for directory: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_system_tests")
+  set(CMAKE_INSTALL_PREFIX "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_system_tests")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -43,15 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE DIRECTORY FILES "/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests/maps")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE DIRECTORY FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests/maps")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nav2_system_tests")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nav2_system_tests")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/nav2_system_tests")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/nav2_system_tests")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests/environment" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests/environment" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -67,59 +67,59 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests/environment" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests/environment" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_index/share/ament_index/resource_index/packages/nav2_system_tests")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_index/share/ament_index/resource_index/packages/nav2_system_tests")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests/cmake" TYPE FILE FILES
-    "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_core/nav2_system_testsConfig.cmake"
-    "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_core/nav2_system_testsConfig-version.cmake"
+    "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_core/nav2_system_testsConfig.cmake"
+    "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/ament_cmake_core/nav2_system_testsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behavior_tree/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/planning/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/localization/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/system/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/system_failure/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/updown/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/waypoint_follower/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/spin/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/wait/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/backup/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/drive_on_heading/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/assisted_teleop/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/costmap_filters/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behavior_tree/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/planning/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/localization/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/system/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/system_failure/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/updown/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/waypoint_follower/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/spin/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/wait/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/backup/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/drive_on_heading/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/behaviors/assisted_teleop/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/costmap_filters/cmake_install.cmake")
 
 endif()
 
@@ -131,5 +131,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,11 +8,12 @@ def generate_launch_description():
             executable='virtual_wall_node',
             name='virtual_wall_node',
             output='screen',
-            parameters=[
-                {'virtual_wall_points': '/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/positions.yaml'},
-                {'global_frame': 'map'},
-                {'transform_tolerance': 0.1}
-            ],
-            
-        )
+            parameters=["/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/config/virtual_wall_params.yaml"]
+        ),
+        # Node(
+        #     package='tf2_ros',
+        #     executable='static_transform_publisher',
+        #     #name='static_transform_publisher',
+        #     arguments=['0', '0', '0', '0', '0', '0', 'map', 'base_link']
+        # )
     ])

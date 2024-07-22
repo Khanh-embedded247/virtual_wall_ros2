@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/navigation2
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/navigation2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/navigation2
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/navigation2
 
 # Utility rule file for navigation2_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/navigation2_uninstall.dir/compiler_depend.make
 include CMakeFiles/navigation2_uninstall.dir/progress.make
 
 CMakeFiles/navigation2_uninstall:
-	/usr/bin/cmake -P /home/khanh247/software_simulation/turtlebot3_ws/build/navigation2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/navigation2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 navigation2_uninstall: CMakeFiles/navigation2_uninstall
 navigation2_uninstall: CMakeFiles/navigation2_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/navigation2_uninstall.dir/clean:
 .PHONY : CMakeFiles/navigation2_uninstall.dir/clean
 
 CMakeFiles/navigation2_uninstall.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/navigation2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/navigation2 /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/navigation2 /home/khanh247/software_simulation/turtlebot3_ws/build/navigation2 /home/khanh247/software_simulation/turtlebot3_ws/build/navigation2 /home/khanh247/software_simulation/turtlebot3_ws/build/navigation2/CMakeFiles/navigation2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/navigation2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/navigation2 /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/navigation2 /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/navigation2 /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/navigation2 /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/navigation2/CMakeFiles/navigation2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/navigation2_uninstall.dir/depend
 

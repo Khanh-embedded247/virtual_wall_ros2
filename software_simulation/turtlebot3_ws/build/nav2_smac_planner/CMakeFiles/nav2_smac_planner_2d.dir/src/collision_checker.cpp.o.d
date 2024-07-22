@@ -1,7 +1,7 @@
 CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o: \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp \
  /usr/include/stdc-predef.h \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -44,7 +44,7 @@ CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
@@ -625,7 +625,7 @@ CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -644,7 +644,7 @@ CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o: \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/robot_utils.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/robot_utils.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
@@ -735,7 +735,7 @@ CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o: \
  /usr/include/kdl/utilities/utility.h \
  /usr/include/kdl/utilities/kdl-config.h /usr/include/kdl/frames.inl \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/constants.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/constants.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \

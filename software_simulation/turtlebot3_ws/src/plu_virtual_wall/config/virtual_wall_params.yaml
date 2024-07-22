@@ -1,0 +1,5 @@
+virtual_wall_node:
+  ros__parameters:
+    virtual_wall_points_file: "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/positions.yaml"
+    global_frame: "map"
+    transform_tolerance: 0.1

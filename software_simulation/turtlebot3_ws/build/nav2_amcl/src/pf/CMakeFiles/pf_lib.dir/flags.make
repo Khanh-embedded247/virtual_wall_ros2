@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAVE_DRAND48 -Dpf_lib_EXPORTS
 
-C_INCLUDES = -I/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_amcl/include -I/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_amcl/src/pf/../include
+C_INCLUDES = -I/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_amcl/include -I/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_amcl/src/pf/../include
 
-C_FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Werror -Wdeprecated -fPIC
+C_FLAGS = -g -fPIC -Wall -Wextra -Wpedantic -Werror -Wdeprecated -fPIC
 

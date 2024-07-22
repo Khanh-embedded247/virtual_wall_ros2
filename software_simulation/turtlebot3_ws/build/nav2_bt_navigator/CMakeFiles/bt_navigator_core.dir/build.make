@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_bt_navigator
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bt_navigator_core.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/bt_navigator_core.dir/progress.make
 include CMakeFiles/bt_navigator_core.dir/flags.make
 
 CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o: CMakeFiles/bt_navigator_core.dir/flags.make
-CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/bt_navigator.cpp
+CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/bt_navigator.cpp
 CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o: CMakeFiles/bt_navigator_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o -MF CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o.d -o CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/bt_navigator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o -MF CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o.d -o CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/bt_navigator.cpp
 
 CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/bt_navigator.cpp > CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/bt_navigator.cpp > CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.i
 
 CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/bt_navigator.cpp -o CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/bt_navigator.cpp -o CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.s
 
 CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o: CMakeFiles/bt_navigator_core.dir/flags.make
-CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_to_pose.cpp
+CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_to_pose.cpp
 CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o: CMakeFiles/bt_navigator_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o -MF CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o.d -o CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_to_pose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o -MF CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o.d -o CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_to_pose.cpp
 
 CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_to_pose.cpp > CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_to_pose.cpp > CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.i
 
 CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_to_pose.cpp -o CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_to_pose.cpp -o CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.s
 
 CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o: CMakeFiles/bt_navigator_core.dir/flags.make
-CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp
+CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp
 CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o: CMakeFiles/bt_navigator_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o -MF CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o.d -o CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o -MF CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o.d -o CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp
 
 CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp > CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp > CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.i
 
 CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp -o CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator/src/navigators/navigate_through_poses.cpp -o CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.s
 
 # Object files for target bt_navigator_core
 bt_navigator_core_OBJECTS = \
@@ -126,57 +126,57 @@ libbt_navigator_core.so: CMakeFiles/bt_navigator_core.dir/src/navigators/navigat
 libbt_navigator_core.so: CMakeFiles/bt_navigator_core.dir/build.make
 libbt_navigator_core.so: /opt/ros/humble/lib/libcomponent_manager.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so
 libbt_navigator_core.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 libbt_navigator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
@@ -187,19 +187,19 @@ libbt_navigator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fas
 libbt_navigator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_cpp.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -281,7 +281,7 @@ libbt_navigator_core.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesuppo
 libbt_navigator_core.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 libbt_navigator_core.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 libbt_navigator_core.so: /opt/ros/humble/lib/librclcpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -291,7 +291,7 @@ libbt_navigator_core.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_
 libbt_navigator_core.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libtf2.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
 libbt_navigator_core.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
@@ -321,14 +321,14 @@ libbt_navigator_core.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_g
 libbt_navigator_core.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
@@ -365,15 +365,15 @@ libbt_navigator_core.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_types
 libbt_navigator_core.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -468,7 +468,7 @@ libbt_navigator_core.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesuppo
 libbt_navigator_core.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 libbt_navigator_core.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 libbt_navigator_core.so: /opt/ros/humble/lib/librclcpp.so
-libbt_navigator_core.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+libbt_navigator_core.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -596,7 +596,7 @@ libbt_navigator_core.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_gener
 libbt_navigator_core.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libbt_navigator_core.so: /opt/ros/humble/lib/librcutils.so
 libbt_navigator_core.so: CMakeFiles/bt_navigator_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libbt_navigator_core.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libbt_navigator_core.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bt_navigator_core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -608,6 +608,6 @@ CMakeFiles/bt_navigator_core.dir/clean:
 .PHONY : CMakeFiles/bt_navigator_core.dir/clean
 
 CMakeFiles/bt_navigator_core.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/bt_navigator_core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_bt_navigator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_bt_navigator /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_bt_navigator /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_bt_navigator /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_bt_navigator/CMakeFiles/bt_navigator_core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bt_navigator_core.dir/depend
 

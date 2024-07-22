@@ -1,8 +1,8 @@
-# Install script for directory: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_util/src
+# Install script for directory: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_util/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util")
+  set(CMAKE_INSTALL_PREFIX "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnav2_util_core.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_util/src/libnav2_util_core.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_util/src/libnav2_util_core.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnav2_util_core.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnav2_util_core.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnav2_util_core.so"
-         OLD_RPATH "/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnav2_util_core.so")
@@ -72,12 +72,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_util/lifecycle_bringup"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nav2_util" TYPE EXECUTABLE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_util/src/lifecycle_bringup")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nav2_util" TYPE EXECUTABLE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_util/src/lifecycle_bringup")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_util/lifecycle_bringup" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_util/lifecycle_bringup")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_util/lifecycle_bringup"
-         OLD_RPATH "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_util/src:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_util/src:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_util/lifecycle_bringup")

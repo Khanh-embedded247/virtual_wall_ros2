@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

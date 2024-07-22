@@ -1,8 +1,8 @@
-# Install script for directory: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests/src/updown
+# Install script for directory: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests/src/updown
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_system_tests")
+  set(CMAKE_INSTALL_PREFIX "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_system_tests")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests" TYPE EXECUTABLE FILES "/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/updown/test_updown")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests" TYPE EXECUTABLE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_system_tests/src/updown/test_updown")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown"
-         OLD_RPATH "/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_map_server/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_amcl/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_planner/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_navfn_planner/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_amcl/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_planner/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_navfn_planner/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown")
@@ -63,6 +63,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests/src/updown/test_updown_launch.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_system_tests/src/updown/test_updown_launch.py")
 endif()
 

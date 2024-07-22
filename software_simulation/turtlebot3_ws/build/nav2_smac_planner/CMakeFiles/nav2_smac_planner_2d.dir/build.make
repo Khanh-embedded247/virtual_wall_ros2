@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nav2_smac_planner_2d.dir/depend.make
@@ -70,144 +70,144 @@ include CMakeFiles/nav2_smac_planner_2d.dir/progress.make
 include CMakeFiles/nav2_smac_planner_2d.dir/flags.make
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smac_planner_2d.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smac_planner_2d.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smac_planner_2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smac_planner_2d.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smac_planner_2d.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smac_planner_2d.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smac_planner_2d.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smac_planner_2d.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.s
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/a_star.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/a_star.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/a_star.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/a_star.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/a_star.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/a_star.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/a_star.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/a_star.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.s
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smoother.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smoother.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smoother.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smoother.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smoother.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smoother.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smoother.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/smoother.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.s
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/collision_checker.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.s
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/analytic_expansion.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/analytic_expansion.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/analytic_expansion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/analytic_expansion.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/analytic_expansion.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/analytic_expansion.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/analytic_expansion.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/analytic_expansion.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.s
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_hybrid.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_hybrid.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_hybrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_hybrid.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_hybrid.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_hybrid.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_hybrid.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_hybrid.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.s
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_lattice.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_lattice.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_lattice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_lattice.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_lattice.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_lattice.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_lattice.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_lattice.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.s
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/costmap_downsampler.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/costmap_downsampler.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/costmap_downsampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/costmap_downsampler.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/costmap_downsampler.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/costmap_downsampler.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/costmap_downsampler.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/costmap_downsampler.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.s
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_2d.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_2d.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_2d.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_2d.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_2d.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_2d.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_2d.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.s
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/flags.make
-CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_basic.cpp
+CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_basic.cpp
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o: CMakeFiles/nav2_smac_planner_2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_basic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o -MF CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o.d -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_basic.cpp
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_basic.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_basic.cpp > CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.i
 
 CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_basic.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner/src/node_basic.cpp -o CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.s
 
 # Object files for target nav2_smac_planner_2d
 nav2_smac_planner_2d_OBJECTS = \
@@ -240,22 +240,22 @@ libnav2_smac_planner_2d.so: /opt/ros/humble/lib/x86_64-linux-gnu/libompl.so
 libnav2_smac_planner_2d.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
 libnav2_smac_planner_2d.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libnav2_smac_planner_2d.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -337,7 +337,7 @@ libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesu
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librclcpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -347,7 +347,7 @@ libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesuppo
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libtf2.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
 libnav2_smac_planner_2d.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
@@ -377,14 +377,14 @@ libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_ty
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libclass_loader.so
 libnav2_smac_planner_2d.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
@@ -415,15 +415,15 @@ libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libtf2_ros.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librclcpp_action.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -518,7 +518,7 @@ libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesu
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librclcpp.so
-libnav2_smac_planner_2d.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+libnav2_smac_planner_2d.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -644,7 +644,7 @@ libnav2_smac_planner_2d.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosid
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libnav2_smac_planner_2d.so: /opt/ros/humble/lib/librcutils.so
 libnav2_smac_planner_2d.so: CMakeFiles/nav2_smac_planner_2d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library libnav2_smac_planner_2d.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library libnav2_smac_planner_2d.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nav2_smac_planner_2d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -656,6 +656,6 @@ CMakeFiles/nav2_smac_planner_2d.dir/clean:
 .PHONY : CMakeFiles/nav2_smac_planner_2d.dir/clean
 
 CMakeFiles/nav2_smac_planner_2d.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles/nav2_smac_planner_2d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_smac_planner /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_smac_planner/CMakeFiles/nav2_smac_planner_2d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nav2_smac_planner_2d.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/src/trajectory_visualizer.cpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/src/trajectory_visualizer.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -117,7 +117,7 @@ CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/trajectory_visualizer.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/trajectory_visualizer.hpp \
  /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
@@ -925,9 +925,9 @@ CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.h \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/parameters_handler.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/node_utils.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/utils.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/parameters_handler.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/node_utils.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/utils.hpp \
  /usr/include/xtensor/xarray.hpp /usr/include/xtensor/xnorm.hpp \
  /usr/include/xtensor/xmath.hpp /usr/include/xtensor/xview.hpp \
  /usr/include/xtensor/xarray.hpp /usr/include/xtensor/xtensor.hpp \
@@ -957,10 +957,10 @@ CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_core/include/nav2_core/goal_checker.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_core/include/nav2_core/goal_checker.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h \
@@ -973,8 +973,8 @@ CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.h \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/bits/stl_queue.h \
@@ -988,18 +988,18 @@ CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: \
  /opt/ros/humble/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__struct.hpp \
  /opt/ros/humble/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__builder.hpp \
  /opt/ros/humble/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/lifecycle_node.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/node_thread.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__traits.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__traits.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/lifecycle_node.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/node_thread.hpp \
  /opt/ros/humble/include/bondcpp/bond.hpp \
  /opt/ros/humble/include/bond/bond/msg/constants.hpp \
  /opt/ros/humble/include/bond/bond/msg/detail/constants__struct.hpp \
@@ -1011,26 +1011,26 @@ CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: \
  /opt/ros/humble/include/bond/bond/msg/detail/status__traits.hpp \
  /opt/ros/humble/include/bondcpp/BondSM_sm.hpp \
  /opt/ros/humble/include/smclib/statemap.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__builder.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__traits.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__builder.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__builder.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__builder.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__builder.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__traits.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__builder.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__traits.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.h \
  /opt/ros/humble/include/tf2/tf2/buffer_core.h \
@@ -1042,8 +1042,8 @@ CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp \
  /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
  /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp \
  /usr/include/console_bridge/console.h \
@@ -1085,13 +1085,13 @@ CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o: \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/optimizer_settings.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/constraints.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/control_sequence.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/path.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/state.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/trajectories.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/motion_models.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/optimizer_settings.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/constraints.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/control_sequence.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/path.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/critic_data.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/state.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/models/trajectories.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/motion_models.hpp \
  /usr/include/xtensor/xmasked_view.hpp /usr/include/xtl/xmasked_value.hpp \
  /usr/include/xtensor/xnoalias.hpp

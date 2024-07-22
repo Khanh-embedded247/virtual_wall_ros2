@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/tutorial_interfaces
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/tutorial_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/tutorial_interfaces
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/tutorial_interfaces
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/tutorial_interfaces /home/khanh247/software_simulation/turtlebot3_ws/src/tutorial_interfaces /home/khanh247/software_simulation/turtlebot3_ws/build/tutorial_interfaces /home/khanh247/software_simulation/turtlebot3_ws/build/tutorial_interfaces /home/khanh247/software_simulation/turtlebot3_ws/build/tutorial_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/tutorial_interfaces /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/tutorial_interfaces /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/tutorial_interfaces /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/tutorial_interfaces /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/tutorial_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

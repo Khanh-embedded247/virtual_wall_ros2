@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_controller
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_controller
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_controller
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_controller /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_controller /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_controller /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_controller /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_controller /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_controller /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_controller /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_controller /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

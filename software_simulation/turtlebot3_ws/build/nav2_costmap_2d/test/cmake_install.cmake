@@ -1,8 +1,8 @@
-# Install script for directory: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/test
+# Install script for directory: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_costmap_2d/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d")
+  set(CMAKE_INSTALL_PREFIX "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_costmap_2d/test/unit/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_costmap_2d/test/integration/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_costmap_2d/test/regression/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_costmap_2d/test/unit/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_costmap_2d/test/integration/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_costmap_2d/test/regression/cmake_install.cmake")
 
 endif()
 

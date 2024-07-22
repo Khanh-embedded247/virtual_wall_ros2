@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall
 
 # Include any dependencies generated for this target.
 include CMakeFiles/plu_virtual_wall.dir/depend.make
@@ -69,36 +69,75 @@ include CMakeFiles/plu_virtual_wall.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/plu_virtual_wall.dir/flags.make
 
-CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o: CMakeFiles/plu_virtual_wall.dir/flags.make
-CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp
-CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o: CMakeFiles/plu_virtual_wall.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o -MF CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o.d -o CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp
+CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o: CMakeFiles/plu_virtual_wall.dir/flags.make
+CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp
+CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o: CMakeFiles/plu_virtual_wall.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o -MF CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o.d -o CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp
 
-CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp > CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.i
+CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp > CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.i
 
-CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp -o CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.s
+CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp -o CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.s
 
 # Object files for target plu_virtual_wall
 plu_virtual_wall_OBJECTS = \
-"CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o"
+"CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o"
 
 # External object files for target plu_virtual_wall
 plu_virtual_wall_EXTERNAL_OBJECTS =
 
-libplu_virtual_wall.so: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o
+libplu_virtual_wall.so: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o
 libplu_virtual_wall.so: CMakeFiles/plu_virtual_wall.dir/build.make
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/liblayers.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libfilters.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_costmap_2d_client.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_ros_tf.a
+libplu_virtual_wall.so: /opt/ros/humble/lib/libmessage_filters.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librmw.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librcutils.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librcpputils.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_runtime_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librclcpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_costmap_2d_core.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libclass_loader.so
 libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/liblaser_geometry.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libmap_msgs__rosidl_typesupport_fastrtps_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libmap_msgs__rosidl_typesupport_introspection_c.so
@@ -108,14 +147,14 @@ libplu_virtual_wall.so: /opt/ros/humble/lib/libmap_msgs__rosidl_typesupport_cpp.
 libplu_virtual_wall.so: /opt/ros/humble/lib/libmap_msgs__rosidl_generator_py.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libmap_msgs__rosidl_typesupport_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libmap_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
@@ -133,35 +172,23 @@ libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_cpp.
 libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_ros.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libmessage_filters.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2.so
-libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 libplu_virtual_wall.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_util_core.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_py.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -170,15 +197,6 @@ libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fast
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so
-libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -189,7 +207,6 @@ libplu_virtual_wall.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.
 libplu_virtual_wall.so: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librclcpp_action.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libtracetools.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_lifecycle.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
@@ -199,32 +216,6 @@ libplu_virtual_wall.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesuppor
 libplu_virtual_wall.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librmw.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librcutils.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librcpputils.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_runtime_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_lifecycle.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
@@ -262,18 +253,22 @@ libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesuppor
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librclcpp.so
-libplu_virtual_wall.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libvoxel_grid.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_ros.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_ros.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libmessage_filters.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librclcpp_action.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librclcpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/liblibstatistics_collector.so
@@ -304,75 +299,218 @@ libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_yaml_param_parser.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libyaml.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtracetools.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librmw_implementation.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libament_index_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_logging_spdlog.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_logging_interface.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 libplu_virtual_wall.so: /opt/ros/humble/lib/librmw.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
-libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcpputils.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-libplu_virtual_wall.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libplu_virtual_wall.so: /opt/ros/humble/lib/librcutils.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librcl_yaml_param_parser.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libyaml.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libmessage_filters.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libtracetools.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librmw.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librcutils.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librcpputils.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_runtime_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/librclcpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+libplu_virtual_wall.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+libplu_virtual_wall.so: /usr/lib/libOpenNI.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libOpenNI2.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpng.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libz.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.74.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionImage-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libjsoncpp.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkGUISupportQt-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkIOCore-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkIOImage-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingUI-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkCommonColor-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkkissfft-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libGLEW.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libX11.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.15.3
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libtbb.so.12.5
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libvtksys-9.1.so.9.1.0
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0.2
+libplu_virtual_wall.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
 libplu_virtual_wall.so: CMakeFiles/plu_virtual_wall.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libplu_virtual_wall.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libplu_virtual_wall.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plu_virtual_wall.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -384,6 +522,6 @@ CMakeFiles/plu_virtual_wall.dir/clean:
 .PHONY : CMakeFiles/plu_virtual_wall.dir/clean
 
 CMakeFiles/plu_virtual_wall.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall /home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall /home/khanh247/software_simulation/turtlebot3_ws/build/plu_virtual_wall/CMakeFiles/plu_virtual_wall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall/CMakeFiles/plu_virtual_wall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/plu_virtual_wall.dir/depend
 

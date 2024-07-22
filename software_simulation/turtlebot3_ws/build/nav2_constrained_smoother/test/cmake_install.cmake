@@ -1,8 +1,8 @@
-# Install script for directory: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_constrained_smoother/test
+# Install script for directory: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_constrained_smoother/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_constrained_smoother")
+  set(CMAKE_INSTALL_PREFIX "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_constrained_smoother")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_constrained_smoother/gtest/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_constrained_smoother/gtest/cmake_install.cmake")
 
 endif()
 

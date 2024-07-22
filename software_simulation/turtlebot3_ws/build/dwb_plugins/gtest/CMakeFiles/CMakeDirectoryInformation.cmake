@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/ros/humble/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/khanh247/software_simulation/turtlebot3_ws/build/dwb_plugins")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/dwb_plugins")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

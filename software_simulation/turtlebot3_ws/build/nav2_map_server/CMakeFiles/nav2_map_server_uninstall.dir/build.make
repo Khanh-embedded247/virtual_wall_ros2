@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server
 
 # Utility rule file for nav2_map_server_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/nav2_map_server_uninstall.dir/compiler_depend.make
 include CMakeFiles/nav2_map_server_uninstall.dir/progress.make
 
 CMakeFiles/nav2_map_server_uninstall:
-	/usr/bin/cmake -P /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 nav2_map_server_uninstall: CMakeFiles/nav2_map_server_uninstall
 nav2_map_server_uninstall: CMakeFiles/nav2_map_server_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/nav2_map_server_uninstall.dir/clean:
 .PHONY : CMakeFiles/nav2_map_server_uninstall.dir/clean
 
 CMakeFiles/nav2_map_server_uninstall.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/CMakeFiles/nav2_map_server_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/CMakeFiles/nav2_map_server_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nav2_map_server_uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_msgs
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_msgs
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_msgs
 
 # Utility rule file for ament_cmake_python_copy_nav2_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_nav2_msgs:
-	/usr/bin/cmake -E copy_directory /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_msgs/rosidl_generator_py/nav2_msgs /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_msgs/ament_cmake_python/nav2_msgs/nav2_msgs
+	/usr/bin/cmake -E copy_directory /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_msgs/rosidl_generator_py/nav2_msgs /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_msgs/ament_cmake_python/nav2_msgs/nav2_msgs
 
 ament_cmake_python_copy_nav2_msgs: CMakeFiles/ament_cmake_python_copy_nav2_msgs
 ament_cmake_python_copy_nav2_msgs: CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_msgs /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_msgs /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_msgs /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_msgs /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_msgs/CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_msgs /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_msgs /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_msgs /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_msgs /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_msgs/CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_nav2_msgs.dir/depend
 

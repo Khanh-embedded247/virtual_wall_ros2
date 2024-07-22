@@ -1,4 +1,4 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/khanh247/software_simulation/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh"
-. "/home/khanh247/software_simulation/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.sh"
-. "/home/khanh247/software_simulation/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh"
+. "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh"
+. "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.sh"
+. "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh"

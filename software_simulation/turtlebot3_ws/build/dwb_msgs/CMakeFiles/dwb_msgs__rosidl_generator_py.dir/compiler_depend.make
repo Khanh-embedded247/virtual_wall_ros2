@@ -509,7 +509,7 @@ CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_l
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/critic_score__struct.h \
@@ -766,7 +766,7 @@ CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_t
   /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.h \
@@ -1027,7 +1027,7 @@ CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_t
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/critic_score__struct.h \
@@ -1286,14 +1286,14 @@ CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_d
   /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__struct.h \
@@ -1551,7 +1551,7 @@ CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_g
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h \
   rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.h \
@@ -1805,13 +1805,13 @@ CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_g
   /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
   rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.h \
   rosidl_generator_c/dwb_msgs/msg/rosidl_generator_c__visibility_control.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
 
 CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o: rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c \
   /usr/include/stdc-predef.h \
@@ -2061,14 +2061,14 @@ CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_g
   /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/critic_score__struct.h \
@@ -2324,14 +2324,14 @@ CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_s
   /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h \
   rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__struct.h \
@@ -2350,7 +2350,7 @@ rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__struct.h:
 
 rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.h:
 
@@ -2358,7 +2358,9 @@ rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.h:
 
 rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.h:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h:
 
 rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__struct.h:
 
@@ -2381,8 +2383,6 @@ rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.h:
 rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -2446,6 +2446,8 @@ rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h:
+
 /usr/include/linux/limits.h:
 
 /usr/include/python3.10/ceval.h:
@@ -2485,8 +2487,6 @@ rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.h:
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
@@ -2591,6 +2591,8 @@ rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -2879,8 +2881,6 @@ rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__struct.h:
 /usr/include/python3.10/bytearrayobject.h:
 
 /usr/include/python3.10/eval.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 

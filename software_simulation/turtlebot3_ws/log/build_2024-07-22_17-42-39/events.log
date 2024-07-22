@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000214] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000262] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000334] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000349] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000372] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000460] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000490] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000509] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000573] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000587] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000608] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000664] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000679] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000692] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000706] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.000720] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000734] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000786] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.000800] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000821] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000927] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000941] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001052] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001066] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001083] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001142] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001157] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001171] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001184] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001197] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001257] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001272] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001293] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001347] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001361] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001375] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001390] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001403] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001455] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001470] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001490] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001573] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001587] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001639] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001653] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001674] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001769] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001822] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001837] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001856] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001932] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001946] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001996] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.002010] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002031] (plu_virtual_wall) JobQueued: {'identifier': 'plu_virtual_wall', 'dependencies': OrderedDict([('nav2_common', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common'), ('nav2_msgs', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util'), ('nav2_lifecycle_manager', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server'), ('nav2_costmap_2d', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d')])}
+[0.002235] (plu_virtual_wall) JobStarted: {'identifier': 'plu_virtual_wall'}
+[0.015427] (plu_virtual_wall) JobProgress: {'identifier': 'plu_virtual_wall', 'progress': 'cmake'}
+[0.016583] (plu_virtual_wall) JobProgress: {'identifier': 'plu_virtual_wall', 'progress': 'build'}
+[0.017157] (plu_virtual_wall) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall', '--', '-j16', '-l16'], 'cwd': '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khanh247'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/khanh247'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/khanh247/virtual_wall_ros2'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2562'), ('SYSTEMD_EXEC_PID', '2818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3862'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'khanh247'), ('JOURNAL_STREAM', '8:36739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'khanh247'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/khanh247/.local/bin:/opt/ros/humble/bin:/home/khanh247/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khanh247-tdn:@/tmp/.ICE-unix/2793,unix/khanh247-tdn:/tmp/.ICE-unix/2793'), ('INVOCATION_ID', 'bbe9852a9f8f41d5bd749d4fd6a72b4b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fcdcd425dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble')]), 'shell': False}
+[0.043683] (plu_virtual_wall) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099503] (-) TimerEvent: {}
+[0.156177] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.192478] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.195641] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199591] (-) TimerEvent: {}
+[0.204036] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.217173] (plu_virtual_wall) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.233982] (plu_virtual_wall) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.292918] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.295500] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299685] (-) TimerEvent: {}
+[0.395455] (plu_virtual_wall) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399806] (-) TimerEvent: {}
+[0.500047] (-) TimerEvent: {}
+[0.534880] (plu_virtual_wall) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.15 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[0.600178] (-) TimerEvent: {}
+[0.700516] (-) TimerEvent: {}
+[0.800757] (-) TimerEvent: {}
+[0.900967] (-) TimerEvent: {}
+[1.001179] (-) TimerEvent: {}
+[1.101417] (-) TimerEvent: {}
+[1.201654] (-) TimerEvent: {}
+[1.301889] (-) TimerEvent: {}
+[1.349502] (plu_virtual_wall) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.401983] (-) TimerEvent: {}
+[1.502192] (-) TimerEvent: {}
+[1.602424] (-) TimerEvent: {}
+[1.702657] (-) TimerEvent: {}
+[1.802891] (-) TimerEvent: {}
+[1.903122] (-) TimerEvent: {}
+[2.003355] (-) TimerEvent: {}
+[2.062591] (plu_virtual_wall) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[2.103425] (-) TimerEvent: {}
+[2.203692] (-) TimerEvent: {}
+[2.288362] (plu_virtual_wall) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.303793] (-) TimerEvent: {}
+[2.315885] (plu_virtual_wall) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.403908] (-) TimerEvent: {}
+[2.504143] (-) TimerEvent: {}
+[2.604346] (-) TimerEvent: {}
+[2.606772] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.611502] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.704466] (-) TimerEvent: {}
+[2.719927] (plu_virtual_wall) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.725127] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.731497] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.804551] (-) TimerEvent: {}
+[2.850886] (plu_virtual_wall) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.904636] (-) TimerEvent: {}
+[2.956792] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.004725] (-) TimerEvent: {}
+[3.092041] (plu_virtual_wall) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[3.092217] (plu_virtual_wall) StderrLine: {'line': b'  By not providing "Findcostmap_2d.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.092275] (plu_virtual_wall) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.092322] (plu_virtual_wall) StderrLine: {'line': b'  "costmap_2d", but CMake did not find one.\n'}
+[3.092368] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[3.092421] (plu_virtual_wall) StderrLine: {'line': b'  Could not find a package configuration file provided by "costmap_2d" with\n'}
+[3.092468] (plu_virtual_wall) StderrLine: {'line': b'  any of the following names:\n'}
+[3.092513] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[3.092557] (plu_virtual_wall) StderrLine: {'line': b'    costmap_2dConfig.cmake\n'}
+[3.092600] (plu_virtual_wall) StderrLine: {'line': b'    costmap_2d-config.cmake\n'}
+[3.092644] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[3.092687] (plu_virtual_wall) StderrLine: {'line': b'  Add the installation prefix of "costmap_2d" to CMAKE_PREFIX_PATH or set\n'}
+[3.092731] (plu_virtual_wall) StderrLine: {'line': b'  "costmap_2d_DIR" to a directory containing one of the above files.  If\n'}
+[3.092774] (plu_virtual_wall) StderrLine: {'line': b'  "costmap_2d" provides a separate development package or SDK, be sure it has\n'}
+[3.092817] (plu_virtual_wall) StderrLine: {'line': b'  been installed.\n'}
+[3.092861] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[3.092903] (plu_virtual_wall) StderrLine: {'line': b'\x1b[0m\n'}
+[3.092946] (plu_virtual_wall) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.092995] (plu_virtual_wall) StdoutLine: {'line': b'See also "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall/CMakeFiles/CMakeOutput.log".\n'}
+[3.104840] (-) TimerEvent: {}
+[3.106093] (plu_virtual_wall) StderrLine: {'line': b'gmake: *** [Makefile:308: cmake_check_build_system] Error 1\n'}
+[3.107614] (plu_virtual_wall) CommandEnded: {'returncode': 2}
+[3.133281] (plu_virtual_wall) JobEnded: {'identifier': 'plu_virtual_wall', 'rc': 2}
+[3.143736] (-) EventReactorShutdown: {}

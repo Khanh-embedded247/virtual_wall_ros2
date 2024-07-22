@@ -1,7 +1,7 @@
 CMakeFiles/nav2_is_path_valid_condition_bt_node.dir/plugins/condition/is_path_valid_condition.cpp.o: \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/plugins/condition/is_path_valid_condition.cpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/plugins/condition/is_path_valid_condition.cpp \
  /usr/include/stdc-predef.h \
- /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -643,11 +643,11 @@ CMakeFiles/nav2_is_path_valid_condition_bt_node.dir/plugins/condition/is_path_va
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/is_path_valid.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__struct.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/is_path_valid.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__struct.hpp \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__builder.hpp \
- /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__traits.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__builder.hpp \
+ /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__traits.hpp \
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
  /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h \
  /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h \

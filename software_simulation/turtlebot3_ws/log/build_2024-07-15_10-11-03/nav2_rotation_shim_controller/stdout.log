@@ -1,6 +1,0 @@
-[ 37%] [32m[1mLinking CXX shared library libnav2_rotation_shim_controller.so[0m
-[ 37%] Built target gtest
-[ 62%] Built target gtest_main
-[ 75%] Built target nav2_rotation_shim_controller
-[ 87%] [32m[1mLinking CXX executable test_shim_controller[0m
-[100%] Built target test_shim_controller

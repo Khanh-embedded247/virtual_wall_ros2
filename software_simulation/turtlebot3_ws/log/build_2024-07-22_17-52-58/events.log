@@ -1,0 +1,530 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000194] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000221] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000299] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000351] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000381] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000396] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000413] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000478] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000492] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000505] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000526] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000568] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000599] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000614] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000632] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.000685] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000699] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000712] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.000731] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000835] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000849] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000904] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000978] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.000991] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001005] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001025] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001039] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001078] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001110] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001124] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001137] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001151] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001166] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001178] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001190] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001250] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001263] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001276] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001296] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001310] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001349] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001362] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001391] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001409] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001423] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001437] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001450] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001464] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001476] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001488] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001540] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001554] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001574] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001587] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001670] (plu_virtual_wall) JobQueued: {'identifier': 'plu_virtual_wall', 'dependencies': OrderedDict([('nav2_common', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common'), ('nav2_msgs', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util'), ('nav2_lifecycle_manager', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server'), ('nav2_costmap_2d', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d')])}
+[0.001737] (plu_virtual_wall) JobStarted: {'identifier': 'plu_virtual_wall'}
+[0.015254] (plu_virtual_wall) JobProgress: {'identifier': 'plu_virtual_wall', 'progress': 'cmake'}
+[0.015946] (plu_virtual_wall) JobProgress: {'identifier': 'plu_virtual_wall', 'progress': 'build'}
+[0.016494] (plu_virtual_wall) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall', '--', '-j16', '-l16'], 'cwd': '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khanh247'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/khanh247'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/khanh247/virtual_wall_ros2'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2562'), ('SYSTEMD_EXEC_PID', '2818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3862'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'khanh247'), ('JOURNAL_STREAM', '8:36739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'khanh247'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/khanh247/.local/bin:/opt/ros/humble/bin:/home/khanh247/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khanh247-tdn:@/tmp/.ICE-unix/2793,unix/khanh247-tdn:/tmp/.ICE-unix/2793'), ('INVOCATION_ID', 'bbe9852a9f8f41d5bd749d4fd6a72b4b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fcdcd425dd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_map_server:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_common:/opt/ros/humble')]), 'shell': False}
+[0.037805] (plu_virtual_wall) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099459] (-) TimerEvent: {}
+[0.126871] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.148484] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.150217] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.154519] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.162777] (plu_virtual_wall) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.174335] (plu_virtual_wall) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199551] (-) TimerEvent: {}
+[0.217563] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.218648] (plu_virtual_wall) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299672] (-) TimerEvent: {}
+[0.305609] (plu_virtual_wall) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399785] (-) TimerEvent: {}
+[0.426456] (plu_virtual_wall) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.15 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[0.499903] (-) TimerEvent: {}
+[0.600133] (-) TimerEvent: {}
+[0.700365] (-) TimerEvent: {}
+[0.800600] (-) TimerEvent: {}
+[0.900837] (-) TimerEvent: {}
+[1.001076] (-) TimerEvent: {}
+[1.101339] (-) TimerEvent: {}
+[1.173539] (plu_virtual_wall) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.201455] (-) TimerEvent: {}
+[1.301693] (-) TimerEvent: {}
+[1.401922] (-) TimerEvent: {}
+[1.502158] (-) TimerEvent: {}
+[1.602399] (-) TimerEvent: {}
+[1.702634] (-) TimerEvent: {}
+[1.802947] (-) TimerEvent: {}
+[1.867023] (plu_virtual_wall) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.903046] (-) TimerEvent: {}
+[2.003258] (-) TimerEvent: {}
+[2.083874] (plu_virtual_wall) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.103360] (-) TimerEvent: {}
+[2.105414] (plu_virtual_wall) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.203483] (-) TimerEvent: {}
+[2.303717] (-) TimerEvent: {}
+[2.317582] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.321534] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.403832] (-) TimerEvent: {}
+[2.431799] (plu_virtual_wall) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.435782] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.439787] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.503942] (-) TimerEvent: {}
+[2.546093] (plu_virtual_wall) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.604067] (-) TimerEvent: {}
+[2.652238] (plu_virtual_wall) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.704181] (-) TimerEvent: {}
+[2.804412] (-) TimerEvent: {}
+[2.904639] (-) TimerEvent: {}
+[2.916229] (plu_virtual_wall) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.953201] (plu_virtual_wall) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:21 (add_library):\n'}
+[2.953339] (plu_virtual_wall) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target plu_virtual_wall\n'}
+[2.953394] (plu_virtual_wall) StderrLine: {'line': b'  because there is a cycle in the constraint graph:\n'}
+[2.953442] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[2.953489] (plu_virtual_wall) StderrLine: {'line': b'    dir 0 is [/opt/ros/humble/lib]\n'}
+[2.953536] (plu_virtual_wall) StderrLine: {'line': b'      dir 1 must precede it due to runtime library [libnav2_msgs__rosidl_typesupport_fastrtps_c.so]\n'}
+[2.953583] (plu_virtual_wall) StderrLine: {'line': b'    dir 1 is [/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib]\n'}
+[2.953629] (plu_virtual_wall) StderrLine: {'line': b'      dir 0 must precede it due to runtime library [libnav2_msgs__rosidl_generator_c.so]\n'}
+[2.953675] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[2.953721] (plu_virtual_wall) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[2.953766] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[2.953811] (plu_virtual_wall) StderrLine: {'line': b'\x1b[0m\n'}
+[2.977871] (plu_virtual_wall) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:23 (add_executable):\n'}
+[2.977981] (plu_virtual_wall) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target virtual_wall_node\n'}
+[2.978034] (plu_virtual_wall) StderrLine: {'line': b'  because there is a cycle in the constraint graph:\n'}
+[2.978082] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[2.978130] (plu_virtual_wall) StderrLine: {'line': b'    dir 0 is [/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall]\n'}
+[2.978188] (plu_virtual_wall) StderrLine: {'line': b'    dir 1 is [/opt/ros/humble/lib]\n'}
+[2.978235] (plu_virtual_wall) StderrLine: {'line': b'      dir 2 must precede it due to runtime library [libnav2_msgs__rosidl_typesupport_fastrtps_c.so]\n'}
+[2.978281] (plu_virtual_wall) StderrLine: {'line': b'    dir 2 is [/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib]\n'}
+[2.978325] (plu_virtual_wall) StderrLine: {'line': b'      dir 1 must precede it due to runtime library [libnav2_msgs__rosidl_generator_c.so]\n'}
+[2.978370] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[2.978414] (plu_virtual_wall) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[2.978458] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[2.978502] (plu_virtual_wall) StderrLine: {'line': b'\x1b[0m\n'}
+[2.979420] (plu_virtual_wall) StdoutLine: {'line': b'-- Generating done\n'}
+[2.981501] (plu_virtual_wall) StdoutLine: {'line': b'-- Build files have been written to: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/plu_virtual_wall\n'}
+[3.004754] (-) TimerEvent: {}
+[3.007950] (plu_virtual_wall) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plu_virtual_wall\x1b[0m\n'}
+[3.029097] (plu_virtual_wall) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o\x1b[0m\n'}
+[3.104868] (-) TimerEvent: {}
+[3.205103] (-) TimerEvent: {}
+[3.289248] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:12\x1b[m\x1b[K,\n'}
+[3.289750] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[3.289812] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.289878] (plu_virtual_wall) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[3.289927] (plu_virtual_wall) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.305274] (-) TimerEvent: {}
+[3.314172] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/thread/win32/thread_primitives.hpp:18\x1b[m\x1b[K,\n'}
+[3.314288] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[3.314342] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/win32/recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[3.314392] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:14\x1b[m\x1b[K,\n'}
+[3.314442] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[3.314489] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/detail/interlocked.hpp:269:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error "Interlocked intrinsics not available"\n'}
+[3.314536] (plu_virtual_wall) StderrLine: {'line': b'  269 | # \x1b[01;31m\x1b[Kerror\x1b[m\x1b[K "Interlocked intrinsics not available"\n'}
+[3.314582] (plu_virtual_wall) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.314939] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/thread/win32/thread_primitives.hpp:21\x1b[m\x1b[K,\n'}
+[3.315018] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[3.315072] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/win32/recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[3.315121] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:14\x1b[m\x1b[K,\n'}
+[3.315170] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[3.315217] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/winapi/basic_types.hpp:38:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error "Win32 functions not available"\n'}
+[3.315265] (plu_virtual_wall) StderrLine: {'line': b'   38 | # \x1b[01;31m\x1b[Kerror\x1b[m\x1b[K "Win32 functions not available"\n'}
+[3.315311] (plu_virtual_wall) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.405349] (-) TimerEvent: {}
+[3.505590] (-) TimerEvent: {}
+[3.605830] (-) TimerEvent: {}
+[3.706067] (-) TimerEvent: {}
+[3.806289] (-) TimerEvent: {}
+[3.906528] (-) TimerEvent: {}
+[4.006738] (-) TimerEvent: {}
+[4.106974] (-) TimerEvent: {}
+[4.207212] (-) TimerEvent: {}
+[4.307455] (-) TimerEvent: {}
+[4.407702] (-) TimerEvent: {}
+[4.507951] (-) TimerEvent: {}
+[4.608204] (-) TimerEvent: {}
+[4.708448] (-) TimerEvent: {}
+[4.808687] (-) TimerEvent: {}
+[4.908896] (-) TimerEvent: {}
+[5.009138] (-) TimerEvent: {}
+[5.109384] (-) TimerEvent: {}
+[5.209632] (-) TimerEvent: {}
+[5.309867] (-) TimerEvent: {}
+[5.410089] (-) TimerEvent: {}
+[5.510379] (-) TimerEvent: {}
+[5.610590] (-) TimerEvent: {}
+[5.710852] (-) TimerEvent: {}
+[5.714934] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[5.715043] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/win32/recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[5.715096] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:14\x1b[m\x1b[K,\n'}
+[5.715150] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.715198] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/thread_primitives.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool boost::detail::win32::interlocked_bit_test_and_set(long int*, long int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.715246] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/thread_primitives.hpp:392:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.715291] (plu_virtual_wall) StderrLine: {'line': b'  392 |                     long const current=\x1b[01;31m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE\x1b[m\x1b[K(x,old|value,old);\n'}
+[5.715336] (plu_virtual_wall) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.731139] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/thread_primitives.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool boost::detail::win32::interlocked_bit_test_and_reset(long int*, long int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.731254] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/thread_primitives.hpp:409:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.731309] (plu_virtual_wall) StderrLine: {'line': b'  409 |                     long const current=\x1b[01;31m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE\x1b[m\x1b[K(x,old&~value,old);\n'}
+[5.731358] (plu_virtual_wall) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.810966] (-) TimerEvent: {}
+[5.814902] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:14\x1b[m\x1b[K,\n'}
+[5.815010] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/win32/recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[5.815063] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:14\x1b[m\x1b[K,\n'}
+[5.815113] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.815160] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid boost::detail::basic_timed_mutex::destroy()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.815215] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:54:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE_POINTER\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.815261] (plu_virtual_wall) StderrLine: {'line': b'   54 |                 void* const old_event=\x1b[01;31m\x1b[KBOOST_INTERLOCKED_EXCHANGE_POINTER\x1b[m\x1b[K(&event,0);\n'}
+[5.815311] (plu_virtual_wall) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.836142] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid boost::detail::basic_timed_mutex::mark_waiting_and_try_lock(long int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.836273] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:102:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.836335] (plu_virtual_wall) StderrLine: {'line': b'  102 |                     long const current=\x1b[01;31m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE\x1b[m\x1b[K(&active_count,new_count,old_count);\n'}
+[5.836384] (plu_virtual_wall) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.857209] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:14\x1b[m\x1b[K,\n'}
+[5.857337] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/win32/recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[5.857392] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:14\x1b[m\x1b[K,\n'}
+[5.857443] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.857579] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid boost::detail::basic_timed_mutex::clear_waiting_and_try_lock(long int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.857634] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:127:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.857684] (plu_virtual_wall) StderrLine: {'line': b'  127 |                     long const current=\x1b[01;31m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE\x1b[m\x1b[K(&active_count,new_count,old_count);\n'}
+[5.857732] (plu_virtual_wall) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.857786] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool boost::detail::basic_timed_mutex::do_lock_until(const Timepoint&, const Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.857831] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:178:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_DECREMENT\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_DECREMENT\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.857880] (plu_virtual_wall) StderrLine: {'line': b'  178 |                             \x1b[01;31m\x1b[KBOOST_INTERLOCKED_DECREMENT\x1b[m\x1b[K(&active_count);\n'}
+[5.857925] (plu_virtual_wall) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.857970] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:178:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K(if you use \xe2\x80\x98\x1b[01m\x1b[K-fpermissive\x1b[m\x1b[K\xe2\x80\x99, G++ will accept your code, but allowing the use of an undeclared name is deprecated)\n'}
+[5.876436] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid boost::detail::basic_timed_mutex::unlock()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.876561] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:244:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE_ADD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_LONG32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.876618] (plu_virtual_wall) StderrLine: {'line': b'  244 |                 long const old_count=\x1b[01;31m\x1b[KBOOST_INTERLOCKED_EXCHANGE_ADD\x1b[m\x1b[K(&active_count,lock_flag_value);\n'}
+[5.876666] (plu_virtual_wall) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.876713] (plu_virtual_wall) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KBOOST_INTERLOCKED_LONG32\x1b[m\x1b[K\n'}
+[5.900331] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid* boost::detail::basic_timed_mutex::get_event()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.900466] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:271:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE_POINTER\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.900520] (plu_virtual_wall) StderrLine: {'line': b'  271 |                     void* const old_event=\x1b[01;31m\x1b[KBOOST_INTERLOCKED_COMPARE_EXCHANGE_POINTER\x1b[m\x1b[K(&event,new_event,0);\n'}
+[5.900568] (plu_virtual_wall) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.900688] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/thread/win32/recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[5.900765] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:14\x1b[m\x1b[K,\n'}
+[5.900819] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.900875] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid boost::detail::basic_recursive_mutex_impl<underlying_mutex_type>::lock()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.900929] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:57:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.901195] (plu_virtual_wall) StderrLine: {'line': b'   57 |                     \x1b[01;31m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K(&locking_thread_id,current_thread_id);\n'}
+[5.901254] (plu_virtual_wall) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.901303] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid boost::detail::basic_recursive_mutex_impl<underlying_mutex_type>::unlock()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.901349] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:93:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.901401] (plu_virtual_wall) StderrLine: {'line': b'   93 |                     \x1b[01;31m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K(&locking_thread_id,0);\n'}
+[5.901446] (plu_virtual_wall) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.901490] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool boost::detail::basic_recursive_mutex_impl<underlying_mutex_type>::try_basic_lock(long int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.901534] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:113:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.901580] (plu_virtual_wall) StderrLine: {'line': b'  113 |                     \x1b[01;31m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K(&locking_thread_id,current_thread_id);\n'}
+[5.901624] (plu_virtual_wall) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.901667] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool boost::detail::basic_recursive_mutex_impl<underlying_mutex_type>::try_timed_lock(long int, const system_time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.901711] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:125:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.901758] (plu_virtual_wall) StderrLine: {'line': b'  125 |                     \x1b[01;31m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K(&locking_thread_id,current_thread_id);\n'}
+[5.901803] (plu_virtual_wall) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.901849] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool boost::detail::basic_recursive_mutex_impl<underlying_mutex_type>::try_timed_lock(long int, const Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.901893] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:136:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.902041] (plu_virtual_wall) StderrLine: {'line': b'  136 |                     \x1b[01;31m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K(&locking_thread_id,current_thread_id);\n'}
+[5.902086] (plu_virtual_wall) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.902129] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool boost::detail::basic_recursive_mutex_impl<underlying_mutex_type>::try_timed_lock_until(long int, const TP&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.902186] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:148:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.902233] (plu_virtual_wall) StderrLine: {'line': b'  148 |                     \x1b[01;31m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K(&locking_thread_id,current_thread_id);\n'}
+[5.902278] (plu_virtual_wall) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.902323] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool boost::detail::basic_recursive_mutex_impl<underlying_mutex_type>::try_timed_lock_for(long int, const D&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.902369] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:159:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.902430] (plu_virtual_wall) StderrLine: {'line': b'  159 |                     \x1b[01;31m\x1b[KBOOST_INTERLOCKED_EXCHANGE\x1b[m\x1b[K(&locking_thread_id,current_thread_id);\n'}
+[5.902489] (plu_virtual_wall) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.908405] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.908496] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:\x1b[m\x1b[K At global scope:\n'}
+[5.908548] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcostmap_2d\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.908604] (plu_virtual_wall) StderrLine: {'line': b'   18 | class VirtualWallLayer : public \x1b[01;31m\x1b[Kcostmap_2d\x1b[m\x1b[K::CostmapLayer\n'}
+[5.908652] (plu_virtual_wall) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.908698] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KCostmapLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.908747] (plu_virtual_wall) StderrLine: {'line': b'   18 | class VirtualWallLayer : public costmap_2d::\x1b[01;31m\x1b[KCostmapLayer\x1b[m\x1b[K\n'}
+[5.908792] (plu_virtual_wall) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.908837] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:20:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.908883] (plu_virtual_wall) StderrLine: {'line': b'   20 | \x1b[01;31m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[5.908928] (plu_virtual_wall) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.908972] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:20:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.909021] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:19:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.909069] (plu_virtual_wall) StderrLine: {'line': b'   19 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[5.909114] (plu_virtual_wall) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.909157] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:22:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[K~ virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99 as non-member\n'}
+[5.909204] (plu_virtual_wall) StderrLine: {'line': b'   22 |   virtual \x1b[01;31m\x1b[K~VirtualWallLayer\x1b[m\x1b[K();\n'}
+[5.909248] (plu_virtual_wall) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.909293] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:24:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual\x1b[m\x1b[K\xe2\x80\x99 outside class declaration\n'}
+[5.909338] (plu_virtual_wall) StderrLine: {'line': b'   24 |   \x1b[01;31m\x1b[Kvirtual\x1b[m\x1b[K void onInitialize() override;\n'}
+[5.909384] (plu_virtual_wall) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.909428] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:24:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvirt-specifiers in \xe2\x80\x98\x1b[01m\x1b[KonInitialize\x1b[m\x1b[K\xe2\x80\x99 not allowed outside a class definition\n'}
+[5.909570] (plu_virtual_wall) StderrLine: {'line': b'   24 |   virtual void onInitialize() \x1b[01;31m\x1b[Koverride\x1b[m\x1b[K;\n'}
+[5.909623] (plu_virtual_wall) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.909670] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:25:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual\x1b[m\x1b[K\xe2\x80\x99 outside class declaration\n'}
+[5.909718] (plu_virtual_wall) StderrLine: {'line': b'   25 |   \x1b[01;31m\x1b[Kvirtual\x1b[m\x1b[K void updateBounds(double, double, double, double*, double*, double*, double*) override;\n'}
+[5.909792] (plu_virtual_wall) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.909840] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:25:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvirt-specifiers in \xe2\x80\x98\x1b[01m\x1b[KupdateBounds\x1b[m\x1b[K\xe2\x80\x99 not allowed outside a class definition\n'}
+[5.909888] (plu_virtual_wall) StderrLine: {'line': b'   25 | teBounds(double, double, double, double*, double*, double*, double*) \x1b[01;31m\x1b[Koverride\x1b[m\x1b[K;\n'}
+[5.909939] (plu_virtual_wall) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.909984] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[5.910029] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual\x1b[m\x1b[K\xe2\x80\x99 outside class declaration\n'}
+[5.910074] (plu_virtual_wall) StderrLine: {'line': b'   26 |   \x1b[01;31m\x1b[Kvirtual\x1b[m\x1b[K void updateCosts(costmap_2d::Costmap2D&, int, int, int, int) override;\n'}
+[5.910119] (plu_virtual_wall) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.910173] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[KupdateCosts\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[5.910221] (plu_virtual_wall) StderrLine: {'line': b'   26 |   virtual void \x1b[01;31m\x1b[KupdateCosts\x1b[m\x1b[K(costmap_2d::Costmap2D&, int, int, int, int) override;\n'}
+[5.910266] (plu_virtual_wall) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.910310] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcostmap_2d\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.910356] (plu_virtual_wall) StderrLine: {'line': b'   26 |   virtual void updateCosts(\x1b[01;31m\x1b[Kcostmap_2d\x1b[m\x1b[K::Costmap2D&, int, int, int, int) override;\n'}
+[5.910401] (plu_virtual_wall) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.910464] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.910512] (plu_virtual_wall) StderrLine: {'line': b'   26 |   virtual void updateCosts(costmap_2d::Costmap2D&\x1b[01;31m\x1b[K,\x1b[m\x1b[K int, int, int, int) override;\n'}
+[5.910561] (plu_virtual_wall) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.910606] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.910657] (plu_virtual_wall) StderrLine: {'line': b'   26 |   virtual void updateCosts(costmap_2d::Costmap2D&, \x1b[01;31m\x1b[Kint\x1b[m\x1b[K, int, int, int) override;\n'}
+[5.910702] (plu_virtual_wall) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.910747] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.910793] (plu_virtual_wall) StderrLine: {'line': b'   26 |   virtual void updateCosts(costmap_2d::Costmap2D&, int, \x1b[01;31m\x1b[Kint\x1b[m\x1b[K, int, int) override;\n'}
+[5.910838] (plu_virtual_wall) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.910883] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.910929] (plu_virtual_wall) StderrLine: {'line': b'   26 |   virtual void updateCosts(costmap_2d::Costmap2D&, int, int, \x1b[01;31m\x1b[Kint\x1b[m\x1b[K, int) override;\n'}
+[5.910971] (-) TimerEvent: {}
+[5.911039] (plu_virtual_wall) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.911091] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.911139] (plu_virtual_wall) StderrLine: {'line': b'   26 |   virtual void updateCosts(costmap_2d::Costmap2D&, int, int, int, \x1b[01;31m\x1b[Kint\x1b[m\x1b[K) override;\n'}
+[5.911185] (plu_virtual_wall) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.911230] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:28:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.911277] (plu_virtual_wall) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[5.911321] (plu_virtual_wall) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.911364] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:36:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWall\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvirtual_wall\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.911415] (plu_virtual_wall) StderrLine: {'line': b'   36 |   std::vector<virtual_wall::\x1b[01;31m\x1b[KWall\x1b[m\x1b[K> wallPoint;\n'}
+[5.911463] (plu_virtual_wall) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.911508] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:36:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.911554] (plu_virtual_wall) StderrLine: {'line': b'   36 |   std::vector<virtual_wall::Wall\x1b[01;31m\x1b[K>\x1b[m\x1b[K wallPoint;\n'}
+[5.911598] (plu_virtual_wall) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.911642] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:36:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[5.911687] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:37:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWall\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvirtual_wall\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.911733] (plu_virtual_wall) StderrLine: {'line': b'   37 |   std::vector<virtual_wall::\x1b[01;31m\x1b[KWall\x1b[m\x1b[K> v_wall;\n'}
+[5.911777] (plu_virtual_wall) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.911821] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:37:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.911865] (plu_virtual_wall) StderrLine: {'line': b'   37 |   std::vector<virtual_wall::Wall\x1b[01;31m\x1b[K>\x1b[m\x1b[K v_wall;\n'}
+[5.911908] (plu_virtual_wall) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.911952] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:37:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[5.980142] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:46:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.980295] (plu_virtual_wall) StderrLine: {'line': b'   46 |   tf2_ros::Buffer \x1b[01;31m\x1b[Ktf_buffer_\x1b[m\x1b[K;\n'}
+[5.980484] (plu_virtual_wall) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.980537] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:44\x1b[m\x1b[K,\n'}
+[5.980587] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp:42\x1b[m\x1b[K,\n'}
+[5.980633] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:5\x1b[m\x1b[K,\n'}
+[5.980682] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.980728] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.980780] (plu_virtual_wall) StderrLine: {'line': b'   73 |   TF2_ROS_PUBLIC \x1b[01;36m\x1b[KBuffer\x1b[m\x1b[K(\n'}
+[5.980825] (plu_virtual_wall) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.980869] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[5.980913] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.980958] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:47:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformListener::TransformListener()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.981004] (plu_virtual_wall) StderrLine: {'line': b'   47 |   tf2_ros::TransformListener \x1b[01;31m\x1b[Ktf_listener_\x1b[m\x1b[K;\n'}
+[5.981048] (plu_virtual_wall) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.981092] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:58\x1b[m\x1b[K,\n'}
+[5.981135] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7\x1b[m\x1b[K,\n'}
+[5.981179] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.981223] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, NodeT&&, bool, const rclcpp::QoS&, const rclcpp::QoS&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.981274] (plu_virtual_wall) StderrLine: {'line': b'   90 |   \x1b[01;36m\x1b[KTransformListener\x1b[m\x1b[K(\n'}
+[5.981318] (plu_virtual_wall) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.981362] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.981406] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.981450] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:47:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 0 provided\n'}
+[5.981495] (plu_virtual_wall) StderrLine: {'line': b'   47 |   tf2_ros::TransformListener \x1b[01;36m\x1b[Ktf_listener_\x1b[m\x1b[K;\n'}
+[5.981538] (plu_virtual_wall) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.981582] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:58\x1b[m\x1b[K,\n'}
+[5.981629] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7\x1b[m\x1b[K,\n'}
+[5.981676] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.981720] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.981766] (plu_virtual_wall) StderrLine: {'line': b'   87 |   explicit \x1b[01;36m\x1b[KTransformListener\x1b[m\x1b[K(tf2::BufferCore & buffer, bool spin_thread = true);\n'}
+[5.981814] (plu_virtual_wall) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.981858] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[5.981904] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.981951] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:50:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.981996] (plu_virtual_wall) StderrLine: {'line': b'   50 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K  // namespace virtual_wall\n'}
+[5.982040] (plu_virtual_wall) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.983563] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[5.983646] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52\x1b[m\x1b[K,\n'}
+[5.983700] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[5.983749] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54\x1b[m\x1b[K,\n'}
+[5.983796] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7\x1b[m\x1b[K,\n'}
+[5.983843] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.983889] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:3:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcostmap_2d\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.983935] (plu_virtual_wall) StderrLine: {'line': b'    3 | PLUGINLIB_EXPORT_CLASS(virtual_wall::VirtualWallLayer, \x1b[01;31m\x1b[Kcostmap_2d\x1b[m\x1b[K::Layer)\n'}
+[5.983980] (plu_virtual_wall) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.988793] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[K{anonymous}::ProxyExec0::ProxyExec0()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.989161] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:3:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_base\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.989230] (plu_virtual_wall) StderrLine: {'line': b'    3 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(virtual_wall::VirtualWallLayer, costmap_2d::Layer)\n'}
+[5.989280] (plu_virtual_wall) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.989328] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:3:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KregisterPlugin<{anonymous}::ProxyExec0::_derived, <expression error> >(const char [31], const char [18])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.989377] (plu_virtual_wall) StderrLine: {'line': b'    3 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(virtual_wall::VirtualWallLayer, costmap_2d::Layer)\n'}
+[5.989423] (plu_virtual_wall) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.989468] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[5.989512] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52\x1b[m\x1b[K,\n'}
+[5.989558] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[5.989602] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54\x1b[m\x1b[K,\n'}
+[5.989650] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7\x1b[m\x1b[K,\n'}
+[5.989695] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.989741] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.989788] (plu_virtual_wall) StderrLine: {'line': b'  210 | void \x1b[01;36m\x1b[KregisterPlugin\x1b[m\x1b[K(const std::string & class_name, const std::string & base_class_name)\n'}
+[5.989832] (plu_virtual_wall) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.989878] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.989927] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[5.989972] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52\x1b[m\x1b[K,\n'}
+[5.990016] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[5.990063] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54\x1b[m\x1b[K,\n'}
+[5.990108] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7\x1b[m\x1b[K,\n'}
+[5.990159] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.990207] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:3:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[5.990251] (plu_virtual_wall) StderrLine: {'line': b'    3 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(virtual_wall::VirtualWallLayer, costmap_2d::Layer)\n'}
+[5.990295] (plu_virtual_wall) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.990339] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.990384] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:7:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.990438] (plu_virtual_wall) StderrLine: {'line': b'    7 | VirtualWallLayer::VirtualWallLayer(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.990492] (plu_virtual_wall) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.990536] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.990580] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.990631] (plu_virtual_wall) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KVirtualWallLayer\x1b[m\x1b[K : public costmap_2d::CostmapLayer\n'}
+[5.990676] (plu_virtual_wall) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.990720] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:16:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.990766] (plu_virtual_wall) StderrLine: {'line': b'   16 | VirtualWallLayer::~VirtualWallLayer(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.990809] (plu_virtual_wall) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.990852] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.990896] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.990948] (plu_virtual_wall) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KVirtualWallLayer\x1b[m\x1b[K : public costmap_2d::CostmapLayer\n'}
+[5.990992] (plu_virtual_wall) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.991036] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:20:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.991081] (plu_virtual_wall) StderrLine: {'line': b'   20 | void VirtualWallLayer::onInitialize(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.991124] (plu_virtual_wall) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.991168] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.991212] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.991258] (plu_virtual_wall) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KVirtualWallLayer\x1b[m\x1b[K : public costmap_2d::CostmapLayer\n'}
+[5.991305] (plu_virtual_wall) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.991350] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:39:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.991396] (plu_virtual_wall) StderrLine: {'line': b'   39 | void VirtualWallLayer::matchSize(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.991441] (plu_virtual_wall) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.991485] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.991529] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.991574] (plu_virtual_wall) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KVirtualWallLayer\x1b[m\x1b[K : public costmap_2d::CostmapLayer\n'}
+[5.991618] (plu_virtual_wall) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.991663] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:49:145:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.991708] (plu_virtual_wall) StderrLine: {'line': b'   49 |  double robot_yaw, double* min_x, double* min_y, double* max_x, double* max_y\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.991753] (plu_virtual_wall) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.991800] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[5.991843] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.991886] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.991931] (plu_virtual_wall) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KVirtualWallLayer\x1b[m\x1b[K : public costmap_2d::CostmapLayer\n'}
+[5.991974] (plu_virtual_wall) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.992017] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.992066] (plu_virtual_wall) StderrLine: {'line': b'   57 | void VirtualWallLayer::updateCosts(\x1b[01;31m\x1b[Kcostmap_2d\x1b[m\x1b[K::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)\n'}
+[5.992110] (plu_virtual_wall) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.992153] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.992197] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.992248] (plu_virtual_wall) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KVirtualWallLayer\x1b[m\x1b[K : public costmap_2d::CostmapLayer\n'}
+[5.992294] (plu_virtual_wall) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.992338] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcostmap_2d\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.992383] (plu_virtual_wall) StderrLine: {'line': b'   57 | void VirtualWallLayer::updateCosts(\x1b[01;31m\x1b[Kcostmap_2d\x1b[m\x1b[K::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)\n'}
+[5.992428] (plu_virtual_wall) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.993480] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmaster_grid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.993544] (plu_virtual_wall) StderrLine: {'line': b'   57 | void VirtualWallLayer::updateCosts(costmap_2d::Costmap2D& \x1b[01;31m\x1b[Kmaster_grid\x1b[m\x1b[K, int min_i, int min_j, int max_i, int max_j)\n'}
+[5.993659] (plu_virtual_wall) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.993716] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.993794] (plu_virtual_wall) StderrLine: {'line': b'   57 |  VirtualWallLayer::updateCosts(costmap_2d::Costmap2D& master_grid, \x1b[01;31m\x1b[Kint\x1b[m\x1b[K min_i, int min_j, int max_i, int max_j)\n'}
+[5.993842] (plu_virtual_wall) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.993887] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[5.993932] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.993977] (plu_virtual_wall) StderrLine: {'line': b'   57 | lLayer::updateCosts(costmap_2d::Costmap2D& master_grid, int min_i, \x1b[01;31m\x1b[Kint\x1b[m\x1b[K min_j, int max_i, int max_j)\n'}
+[5.994021] (plu_virtual_wall) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.994065] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[5.994110] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.994164] (plu_virtual_wall) StderrLine: {'line': b'   57 | ateCosts(costmap_2d::Costmap2D& master_grid, int min_i, int min_j, \x1b[01;31m\x1b[Kint\x1b[m\x1b[K max_i, int max_j)\n'}
+[5.994211] (plu_virtual_wall) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.994254] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[5.994298] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:105:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.994342] (plu_virtual_wall) StderrLine: {'line': b'   57 | ostmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, \x1b[01;31m\x1b[Kint\x1b[m\x1b[K max_j)\n'}
+[5.994386] (plu_virtual_wall) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.994430] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[5.994474] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:138:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.994519] (plu_virtual_wall) StderrLine: {'line': b'  138 | bool VirtualWallLayer::WallInterpolation(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.994562] (plu_virtual_wall) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.994605] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.994649] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.994700] (plu_virtual_wall) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KVirtualWallLayer\x1b[m\x1b[K : public costmap_2d::CostmapLayer\n'}
+[5.994747] (plu_virtual_wall) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.994794] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:173:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.994838] (plu_virtual_wall) StderrLine: {'line': b'  173 | lLayer::AddWallCallback(const geometry_msgs::msg::PointStamped::SharedPtr msg\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.994881] (plu_virtual_wall) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.994924] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[5.994967] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.995010] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.995055] (plu_virtual_wall) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KVirtualWallLayer\x1b[m\x1b[K : public costmap_2d::CostmapLayer\n'}
+[5.995098] (plu_virtual_wall) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.995141] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:208:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.995185] (plu_virtual_wall) StderrLine: {'line': b'  208 | irtualWallLayer::DeleteWallCallback(const std_msgs::msg::Int32::SharedPtr msg\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.995229] (plu_virtual_wall) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.995272] (plu_virtual_wall) StderrLine: {'line': b'\n'}
+[5.995314] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[5.995358] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass virtual_wall::VirtualWallLayer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.995406] (plu_virtual_wall) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KVirtualWallLayer\x1b[m\x1b[K : public costmap_2d::CostmapLayer\n'}
+[5.995450] (plu_virtual_wall) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.011094] (-) TimerEvent: {}
+[6.111299] (-) TimerEvent: {}
+[6.144124] (plu_virtual_wall) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_recursive_mutex.hpp:14\x1b[m\x1b[K,\n'}
+[6.144256] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/thread/win32/recursive_mutex.hpp:13\x1b[m\x1b[K,\n'}
+[6.144310] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:14\x1b[m\x1b[K,\n'}
+[6.144360] (plu_virtual_wall) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1\x1b[m\x1b[K:\n'}
+[6.144415] (plu_virtual_wall) StderrLine: {'line': b'/usr/include/boost/thread/win32/basic_timed_mutex.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool boost::detail::basic_timed_mutex::do_lock_until(const Timepoint&, const Duration&) [with Clock = boost::detail::real_platform_clock; Timepoint = boost::detail::real_platform_timepoint; Duration = boost::detail::platform_duration]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.144465] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:200:66:\x1b[m\x1b[K   required from here\n'}
+[6.144511] (plu_virtual_wall) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/thread/win32/basic_timed_mutex.hpp:178:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_DECREMENT\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KBOOST_INTERLOCKED_LONG32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.144558] (plu_virtual_wall) StderrLine: {'line': b'  178 |                             \x1b[01;31m\x1b[KBOOST_INTERLOCKED_DECREMENT(&active_count)\x1b[m\x1b[K;\n'}
+[6.144622] (plu_virtual_wall) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.144691] (plu_virtual_wall) StderrLine: {'line': b'      |                             \x1b[32m\x1b[KBOOST_INTERLOCKED_LONG32\x1b[m\x1b[K\n'}
+[6.211406] (-) TimerEvent: {}
+[6.311645] (-) TimerEvent: {}
+[6.411887] (-) TimerEvent: {}
+[6.512096] (-) TimerEvent: {}
+[6.612338] (-) TimerEvent: {}
+[6.712581] (-) TimerEvent: {}
+[6.812820] (-) TimerEvent: {}
+[6.913060] (-) TimerEvent: {}
+[7.013298] (-) TimerEvent: {}
+[7.056431] (plu_virtual_wall) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o] Error 1\n'}
+[7.056635] (plu_virtual_wall) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2\n'}
+[7.056776] (plu_virtual_wall) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.058287] (plu_virtual_wall) CommandEnded: {'returncode': 2}
+[7.084064] (plu_virtual_wall) JobEnded: {'identifier': 'plu_virtual_wall', 'rc': 2}
+[7.094515] (-) EventReactorShutdown: {}

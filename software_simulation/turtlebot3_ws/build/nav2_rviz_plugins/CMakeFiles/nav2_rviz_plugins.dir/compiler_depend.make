@@ -136,7 +136,7 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_pose_updater.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_pose_updater.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -291,7 +291,7 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
   nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_tool.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_tool.hpp \
   /opt/ros/humble/include/rviz_default_plugins/rviz_default_plugins/tools/pose/pose_tool.hpp \
   /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h \
   /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h \
@@ -463,7 +463,7 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /opt/ros/humble/include/rviz_rendering/rviz_rendering/visibility_control.hpp \
   /opt/ros/humble/include/rviz_default_plugins/rviz_default_plugins/visibility_control.hpp \
   nav2_rviz_plugins_autogen/JQVGUX53DN/moc_nav2_panel.cpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/nav2_panel.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/nav2_panel.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgetsDepends \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \
@@ -1067,7 +1067,7 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsversion.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QBasicTimer \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager_client.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager_client.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -1080,8 +1080,8 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
@@ -1101,8 +1101,8 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -1502,24 +1502,24 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__traits.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/service_client.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/ros_action_qevent.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/service_client.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/ros_action_qevent.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTransition \
   /opt/ros/humble/include/rviz_common/rviz_common/panel.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
@@ -1611,7 +1611,7 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
   /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/geometry_utils.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/geometry_utils.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp \
@@ -1621,13 +1621,13 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
   nav2_rviz_plugins_autogen/CYZKBMLWOZ/moc_particle_cloud_display.cpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp \
   /opt/ros/humble/include/rviz_rendering/rviz_rendering/objects/shape.hpp \
   /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMaterial.h \
   /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreResource.h \
@@ -1742,9 +1742,9 @@ CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.
   /opt/ros/humble/include/rviz_common/rviz_common/properties/qos_profile_property.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/properties/int_property.hpp
 
-CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/goal_tool.cpp \
+CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/goal_tool.cpp \
   /usr/include/stdc-predef.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_tool.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_tool.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -2200,8 +2200,8 @@ CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o: /home/khanh247/software_si
   /opt/ros/humble/include/rviz_rendering/rviz_rendering/viewport_projection_finder.hpp \
   /opt/ros/humble/include/rviz_rendering/rviz_rendering/visibility_control.hpp \
   /opt/ros/humble/include/rviz_default_plugins/rviz_default_plugins/visibility_control.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_common.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_pose_updater.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_common.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_pose_updater.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/ros_integration/ros_node_abstraction_iface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
@@ -2622,9 +2622,9 @@ CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o: /home/khanh247/software_si
   /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
   /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp
 
-CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/nav2_panel.cpp \
+CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/nav2_panel.cpp \
   /usr/include/stdc-predef.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/nav2_panel.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/nav2_panel.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgetsDepends \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \
@@ -3569,7 +3569,7 @@ CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o: /home/khanh247/software_s
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsversion.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QBasicTimer \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager_client.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager_client.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
@@ -3619,8 +3619,8 @@ CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o: /home/khanh247/software_s
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
@@ -3640,8 +3640,8 @@ CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o: /home/khanh247/software_s
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -4056,24 +4056,24 @@ CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o: /home/khanh247/software_s
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__traits.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/service_client.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/ros_action_qevent.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/service_client.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/ros_action_qevent.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTransition \
   /opt/ros/humble/include/rviz_common/rviz_common/panel.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
@@ -4172,7 +4172,7 @@ CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o: /home/khanh247/software_s
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
   /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/geometry_utils.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/geometry_utils.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp \
@@ -4213,8 +4213,8 @@ CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o: /home/khanh247/software_s
   /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrentthreadengine.h \
   /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrentversion.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_common.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_pose_updater.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_common.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_pose_updater.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
   /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp \
   /opt/ros/humble/include/rviz_common/rviz_common/ros_integration/ros_node_abstraction_iface.hpp \
@@ -4286,9 +4286,9 @@ CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o: /home/khanh247/software_s
   /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
   /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp
 
-CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/particle_cloud_display/flat_weighted_arrows_array.cpp \
+CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/particle_cloud_display/flat_weighted_arrows_array.cpp \
   /usr/include/stdc-predef.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -4667,20 +4667,20 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows
   /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreNode.h \
   /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h \
   /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreQuaternion.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
   /usr/include/c++/11/codecvt \
   /usr/include/c++/11/iomanip \
@@ -4694,7 +4694,7 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows
   /usr/include/c++/11/bits/quoted_string.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
@@ -5275,9 +5275,9 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows
   /opt/ros/humble/include/rviz_rendering/rviz_rendering/material_manager.hpp \
   /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreColourValue.h
 
-CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/particle_cloud_display/particle_cloud_display.cpp \
+CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/particle_cloud_display/particle_cloud_display.cpp \
   /usr/include/stdc-predef.h \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -5414,8 +5414,8 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
@@ -5484,12 +5484,12 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/ios \
@@ -5529,7 +5529,7 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
   /usr/include/c++/11/bits/quoted_string.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
@@ -6296,7 +6296,7 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
   /opt/ros/humble/include/rviz_rendering/rviz_rendering/objects/object.hpp \
   /opt/ros/humble/include/rviz_rendering/rviz_rendering/objects/axes.hpp \
   /opt/ros/humble/include/rviz_rendering/rviz_rendering/objects/shape.hpp \
-  /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp \
+  /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp \
   /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
   /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
   /usr/include/console_bridge/console.h \
@@ -6316,13 +6316,15 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 
 /opt/ros/humble/include/rviz_common/rviz_common/validate_floats.hpp:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/particle_cloud_display/particle_cloud_display.cpp:
+
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreTechnique.h:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreScriptLoader.h:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMaterialManager.h:
 
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/particle_cloud_display/flat_weighted_arrows_array.cpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp:
 
 /opt/ros/humble/include/rviz_common/rviz_common/properties/enum_property.hpp:
 
@@ -6335,10 +6337,6 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrentrunbase.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrentmap.h:
-
-/opt/ros/humble/include/rviz_common/rviz_common/properties/float_property.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrentfunctionwrappers.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrentthreadengine.h:
 
@@ -6370,8 +6368,6 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 
 /opt/ros/humble/include/rviz_common/rviz_common/load_resource.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_common.hpp:
-
 /opt/ros/humble/include/rviz_common/rviz_common/properties/editable_enum_property.hpp:
 
 /opt/ros/humble/include/rviz_common/rviz_common/properties/ros_topic_property.hpp:
@@ -6387,8 +6383,6 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QSet:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreConfigOptionMap.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/particle_cloud_display/particle_cloud_display.cpp:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreRenderSystemCapabilities.h:
 
@@ -6432,10 +6426,6 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgrePlane.h:
 
-/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgrePass.h:
-
-/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSerializer.h:
-
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreGpuProgramParams.h:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreGpuProgram.h:
@@ -6447,8 +6437,6 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreNode.h:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSceneNode.h:
-
-/opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp:
 
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp:
 
@@ -6486,27 +6474,25 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreResource.h:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp:
 
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp:
 
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/geometry_utils.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/geometry_utils.hpp:
 
 /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp:
 
@@ -6568,6 +6554,8 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/goal_tool.cpp:
+
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreTexture.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp:
@@ -6626,9 +6614,31 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractTransition:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__traits.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/ros_action_qevent.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/service_client.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__traits.hpp:
+
+/opt/ros/humble/include/rviz_common/rviz_common/properties/float_property.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrentfunctionwrappers.h:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__builder.hpp:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.hpp:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.hpp:
+
+/opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__traits.hpp:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__builder.hpp:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.hpp:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.hpp:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/include/nav2_util/service_client.hpp:
 
 /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp:
 
@@ -6638,11 +6648,11 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 
 /opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__traits.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__traits.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.hpp:
 
 /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp:
 
@@ -6702,8 +6712,6 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp:
-
 /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h:
 
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp:
@@ -6717,6 +6725,8 @@ CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_displ
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/particle_cloud_display/flat_weighted_arrows_array.cpp:
 
 nav2_rviz_plugins_autogen/CYZKBMLWOZ/moc_particle_cloud_display.cpp:
 
@@ -6968,7 +6978,7 @@ nav2_rviz_plugins_autogen/CYZKBMLWOZ/moc_particle_cloud_display.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix4x4.h:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.hpp:
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
 
@@ -7084,6 +7094,8 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_nav2_panel.cpp:
 
 /usr/include/c++/11/unordered_set:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstackedwidget.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon:
@@ -7122,9 +7134,15 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_nav2_panel.cpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgetsDepends:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QMatrix4x4:
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
+
+nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_pose_updater.cpp:
 
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMath.h:
 
@@ -7296,12 +7314,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_nav2_panel.cpp:
 
 /opt/ros/humble/include/rviz_default_plugins/rviz_default_plugins/tools/pose/pose_tool.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QMatrix4x4:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgetsDepends:
-
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_tool.hpp:
-
 /opt/ros/humble/include/rviz_rendering/rviz_rendering/visibility_control.hpp:
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
@@ -7418,8 +7430,6 @@ nav2_rviz_plugins_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/bits/std_function.h:
 
-/opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
-
 /usr/include/c++/11/bits/stl_pair.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:
@@ -7445,8 +7455,6 @@ nav2_rviz_plugins_autogen/mocs_compilation.cpp:
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/goal_tool.cpp:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
 
@@ -7648,6 +7656,8 @@ nav2_rviz_plugins_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_common.hpp:
+
 /usr/include/c++/11/bits/shared_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
@@ -7667,6 +7677,10 @@ nav2_rviz_plugins_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qkeyeventtransition.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_pose_updater.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
@@ -7742,6 +7756,10 @@ nav2_rviz_plugins_autogen/mocs_compilation.cpp:
 
 /usr/include/limits.h:
 
+/usr/include/pthread.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrent_global.h:
 
 /usr/include/c++/11/bits/stl_relops.h:
@@ -7787,8 +7805,6 @@ nav2_rviz_plugins_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h:
 
 /usr/include/c++/11/initializer_list:
-
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/nav2_panel.hpp:
 
 /usr/include/c++/11/iosfwd:
 
@@ -8014,8 +8030,6 @@ nav2_rviz_plugins_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/vector:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__builder.hpp:
-
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h:
@@ -8044,13 +8058,9 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
 
-/usr/include/pthread.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_pose_updater.hpp:
-
-/usr/include/inttypes.h:
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
 
@@ -8071,8 +8081,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/ros_action_qevent.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
 
@@ -8204,8 +8212,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/c++/11/cstddef:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__traits.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
@@ -8266,6 +8272,8 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/string.h:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp:
+
 /usr/include/c++/11/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
@@ -8302,13 +8310,11 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscroller.h:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/goal_tool.hpp:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstylepainter.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
@@ -8396,8 +8402,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__builder.hpp:
-
 /usr/include/c++/11/bits/uses_allocator.h:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp:
@@ -8421,8 +8425,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qresource.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager_client.hpp:
 
 /usr/include/c++/11/ext/alloc_traits.h:
 
@@ -8485,8 +8487,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h:
 
 /usr/include/c++/11/future:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmdiarea.h:
 
@@ -8596,8 +8596,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qaccessible.h:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.hpp:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qaccessibleplugin.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
@@ -8640,6 +8638,8 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp:
+
 /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector4.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qgenericplugin.h:
@@ -8673,6 +8673,8 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglext.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpdfwriter.h:
+
+/usr/include/inttypes.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglcontext.h:
 
@@ -8714,13 +8716,7 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpagedpaintdevice.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpagelayout.h:
 
@@ -8770,6 +8766,8 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QList:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypetraits.h:
@@ -8787,8 +8785,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 /usr/include/asm-generic/errno.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QTransform:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
@@ -8856,6 +8852,8 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
 
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/nav2_panel.hpp:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h:
@@ -8869,6 +8867,8 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h:
 
 /opt/ros/humble/include/rcutils/rcutils/time.h:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcompleter.h:
 
@@ -8962,8 +8962,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollbar.h:
 
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/src/nav2_panel.cpp:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointF:
 
 /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrentrun.h:
@@ -9036,6 +9034,14 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QBasicTimer:
 
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgrePass.h:
+
+/opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSerializer.h:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager_client.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
@@ -9060,7 +9066,11 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpagedpaintdevice.h:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
 
@@ -9120,12 +9130,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_tool.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
-nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_pose_updater.cpp:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
 /usr/include/c++/11/csignal:
@@ -9143,6 +9147,8 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_pose_updater.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__builder.hpp:
 
 /opt/ros/humble/include/rcl_action/rcl_action/types.h:
 
@@ -9163,8 +9169,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_pose_updater.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qparallelanimationgroup.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins/include/nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp:
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
@@ -9271,8 +9275,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_pose_updater.cpp:
 /opt/ros/humble/include/rcl/rcl/event_callback.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtemporarydir.h:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp:
 
 /opt/ros/humble/include/tracetools/tracetools/tracetools.h:
 
@@ -9429,8 +9431,6 @@ nav2_rviz_plugins_autogen/JQVGUX53DN/moc_goal_pose_updater.cpp:
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
-
-/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:
 

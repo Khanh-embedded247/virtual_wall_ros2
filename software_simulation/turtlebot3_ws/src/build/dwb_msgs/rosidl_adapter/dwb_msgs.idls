@@ -1,0 +1,9 @@
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
+/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl

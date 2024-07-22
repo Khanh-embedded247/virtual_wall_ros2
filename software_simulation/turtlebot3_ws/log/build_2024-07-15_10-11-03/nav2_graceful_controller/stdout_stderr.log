@@ -1,9 +1,0 @@
-[  6%] [32m[1mLinking CXX shared library libsmooth_control_law.so[0m
-[ 20%] Built target gtest
-[ 33%] Built target gtest_main
-[ 46%] Built target test_egopolar
-[ 53%] Built target smooth_control_law
-[ 60%] [32m[1mLinking CXX shared library libnav2_graceful_controller.so[0m
-[ 86%] Built target nav2_graceful_controller
-[ 93%] [32m[1mLinking CXX executable test_graceful_controller[0m
-[100%] Built target test_graceful_controller

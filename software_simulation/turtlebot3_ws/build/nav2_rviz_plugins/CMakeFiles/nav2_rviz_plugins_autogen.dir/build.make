@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins
 
 # Utility rule file for nav2_rviz_plugins_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/nav2_rviz_plugins_autogen.dir/compiler_depend.make
 include CMakeFiles/nav2_rviz_plugins_autogen.dir/progress.make
 
 CMakeFiles/nav2_rviz_plugins_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target nav2_rviz_plugins"
-	/usr/bin/cmake -E cmake_autogen /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins/CMakeFiles/nav2_rviz_plugins_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target nav2_rviz_plugins"
+	/usr/bin/cmake -E cmake_autogen /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins/CMakeFiles/nav2_rviz_plugins_autogen.dir/AutogenInfo.json Debug
 
 nav2_rviz_plugins_autogen: CMakeFiles/nav2_rviz_plugins_autogen
 nav2_rviz_plugins_autogen: CMakeFiles/nav2_rviz_plugins_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/nav2_rviz_plugins_autogen.dir/clean:
 .PHONY : CMakeFiles/nav2_rviz_plugins_autogen.dir/clean
 
 CMakeFiles/nav2_rviz_plugins_autogen.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins/CMakeFiles/nav2_rviz_plugins_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_rviz_plugins /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_rviz_plugins/CMakeFiles/nav2_rviz_plugins_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nav2_rviz_plugins_autogen.dir/depend
 

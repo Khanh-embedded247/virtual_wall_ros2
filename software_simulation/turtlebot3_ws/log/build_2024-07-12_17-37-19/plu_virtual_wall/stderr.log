@@ -1,9 +1,0 @@
-[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:103:6:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kvoid virtual_wall_ros2::VirtualWallLayer::markPolygonCells(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’ outside of class is not definition [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
-  103 | void [01;31m[KVirtualWallLayer[m[K::markPolygonCells(nav2_costmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j);
-      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/khanh247/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_layer.cpp:105:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
-  105 | [01;31m[K{[m[K
-      | [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_layer.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

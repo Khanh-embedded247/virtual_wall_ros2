@@ -1,0 +1,42 @@
+[0.295s] Invoking command in '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_example:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces
+[0.373s] -- The C compiler identification is GNU 11.4.0
+[0.445s] -- The CXX compiler identification is GNU 11.4.0
+[0.454s] -- Detecting C compiler ABI info
+[0.543s] -- Detecting C compiler ABI info - done
+[0.554s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.554s] -- Detecting C compile features
+[0.555s] -- Detecting C compile features - done
+[0.558s] -- Detecting CXX compiler ABI info
+[0.673s] -- Detecting CXX compiler ABI info - done
+[0.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.682s] -- Detecting CXX compile features
+[0.682s] -- Detecting CXX compile features - done
+[0.690s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.128s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.335s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.550s] -- Added test 'lint_cmake' to check CMake code style
+[1.555s] -- Added test 'xmllint' to check XML markup files
+[1.559s] -- Configuring done
+[1.563s] -- Generating done
+[1.564s] -- Build files have been written to: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces
+[1.571s] Invoked command in '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_example:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces
+[1.571s] Invoking command in '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_example:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces -- -j16 -l16
+[1.659s] Invoked command in '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_example:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces -- -j16 -l16
+[1.718s] Invoking command in '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_example:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces
+[1.733s] -- Install configuration: ""
+[1.733s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[1.734s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[1.734s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[1.735s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[1.735s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[1.735s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[1.735s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[1.735s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[1.735s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[1.735s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[1.736s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[1.736s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[1.736s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[1.736s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[1.736s] -- Installing: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[1.747s] Invoked command in '/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/turtlebot3_example:/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/build/tutorial_interfaces

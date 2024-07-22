@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower
 
 # Include any dependencies generated for this target.
 include CMakeFiles/photo_at_waypoint.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/photo_at_waypoint.dir/progress.make
 include CMakeFiles/photo_at_waypoint.dir/flags.make
 
 CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o: CMakeFiles/photo_at_waypoint.dir/flags.make
-CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower/plugins/photo_at_waypoint.cpp
+CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower/plugins/photo_at_waypoint.cpp
 CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o: CMakeFiles/photo_at_waypoint.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o -MF CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o.d -o CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower/plugins/photo_at_waypoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o -MF CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o.d -o CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower/plugins/photo_at_waypoint.cpp
 
 CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower/plugins/photo_at_waypoint.cpp > CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower/plugins/photo_at_waypoint.cpp > CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.i
 
 CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower/plugins/photo_at_waypoint.cpp -o CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower/plugins/photo_at_waypoint.cpp -o CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.s
 
 # Object files for target photo_at_waypoint
 photo_at_waypoint_OBJECTS = \
@@ -95,19 +95,19 @@ libphoto_at_waypoint.so: CMakeFiles/photo_at_waypoint.dir/build.make
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libcomponent_manager.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libcv_bridge.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -189,7 +189,7 @@ libphoto_at_waypoint.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesuppo
 libphoto_at_waypoint.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/librclcpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -199,7 +199,7 @@ libphoto_at_waypoint.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libtf2.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
 libphoto_at_waypoint.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
@@ -264,14 +264,14 @@ libphoto_at_waypoint.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_g
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libclass_loader.so
 libphoto_at_waypoint.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
@@ -308,15 +308,15 @@ libphoto_at_waypoint.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_types
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -411,7 +411,7 @@ libphoto_at_waypoint.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesuppo
 libphoto_at_waypoint.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/librclcpp.so
-libphoto_at_waypoint.so: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+libphoto_at_waypoint.so: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libphoto_at_waypoint.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -558,7 +558,7 @@ libphoto_at_waypoint.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
 libphoto_at_waypoint.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 libphoto_at_waypoint.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 libphoto_at_waypoint.so: CMakeFiles/photo_at_waypoint.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libphoto_at_waypoint.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libphoto_at_waypoint.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/photo_at_waypoint.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -570,6 +570,6 @@ CMakeFiles/photo_at_waypoint.dir/clean:
 .PHONY : CMakeFiles/photo_at_waypoint.dir/clean
 
 CMakeFiles/photo_at_waypoint.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower/CMakeFiles/photo_at_waypoint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_waypoint_follower /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_waypoint_follower/CMakeFiles/photo_at_waypoint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/photo_at_waypoint.dir/depend
 

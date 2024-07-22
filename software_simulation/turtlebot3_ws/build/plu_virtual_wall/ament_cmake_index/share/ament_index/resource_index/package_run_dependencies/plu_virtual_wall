@@ -1,1 +1,1 @@
-rclcpp;nav2_costmap_2d;pluginlib;tf2_ros;geometry_msgs;yaml-cpp;launch;launch_ros
+rclcpp;nav2_costmap_2d;pluginlib;tf2_ros;geometry_msgs;yaml-cpp;pcl_ros;pcl_conversions;launch;launch_ros

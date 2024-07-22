@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server
 
 # Include any dependencies generated for this target.
 include test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/depend.make
@@ -70,32 +70,32 @@ include test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/progress.make
 include test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/flags.make
 
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o: test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/flags.make
-test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli/test_map_saver_cli.cpp
+test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli/test_map_saver_cli.cpp
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o: test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o -MF CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o.d -o CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli/test_map_saver_cli.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o"
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o -MF CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o.d -o CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli/test_map_saver_cli.cpp
 
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.i"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli/test_map_saver_cli.cpp > CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.i
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli/test_map_saver_cli.cpp > CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.i
 
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.s"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli/test_map_saver_cli.cpp -o CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.s
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli/test_map_saver_cli.cpp -o CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.s
 
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o: test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/flags.make
-test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/test_constants.cpp
+test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/test_constants.cpp
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o: test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o -MF CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o.d -o CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/test_constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o"
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o -MF CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o.d -o CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/test_constants.cpp
 
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.i"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/test_constants.cpp > CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.i
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/test_constants.cpp > CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.i
 
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.s"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/test_constants.cpp -o CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.s
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/test_constants.cpp -o CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.s
 
 # Object files for target test_map_saver_cli
 test_map_saver_cli_OBJECTS = \
@@ -189,18 +189,18 @@ test/map_saver_cli/test_map_saver_cli: /opt/ros/humble/lib/librosidl_runtime_c.s
 test/map_saver_cli/test_map_saver_cli: /opt/ros/humble/lib/librcutils.so
 test/map_saver_cli/test_map_saver_cli: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 test/map_saver_cli/test_map_saver_cli: test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_map_saver_cli"
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_map_saver_cli.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_map_saver_cli"
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_map_saver_cli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/build: test/map_saver_cli/test_map_saver_cli
 .PHONY : test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/build
 
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/clean:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && $(CMAKE_COMMAND) -P CMakeFiles/test_map_saver_cli.dir/cmake_clean.cmake
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli && $(CMAKE_COMMAND) -P CMakeFiles/test_map_saver_cli.dir/cmake_clean.cmake
 .PHONY : test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/clean
 
 test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_map_server/test/map_saver_cli /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_map_server/test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/depend
 

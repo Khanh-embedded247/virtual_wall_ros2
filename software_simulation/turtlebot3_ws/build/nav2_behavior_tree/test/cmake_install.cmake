@@ -1,8 +1,8 @@
-# Install script for directory: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test
+# Install script for directory: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_behavior_tree/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/khanh247/software_simulation/turtlebot3_ws/install/nav2_behavior_tree")
+  set(CMAKE_INSTALL_PREFIX "/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_behavior_tree")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,11 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/gtest/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/condition/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/decorator/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/control/cmake_install.cmake")
-  include("/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/gtest/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/condition/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/decorator/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/control/cmake_install.cmake")
+  include("/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_behavior_tree/test/plugins/action/cmake_install.cmake")
 
 endif()
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner
+CMAKE_SOURCE_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_planner
+CMAKE_BINARY_DIR = /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_planner
 
 # Include any dependencies generated for this target.
 include CMakeFiles/planner_server.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/planner_server.dir/progress.make
 include CMakeFiles/planner_server.dir/flags.make
 
 CMakeFiles/planner_server.dir/src/main.cpp.o: CMakeFiles/planner_server.dir/flags.make
-CMakeFiles/planner_server.dir/src/main.cpp.o: /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner/src/main.cpp
+CMakeFiles/planner_server.dir/src/main.cpp.o: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner/src/main.cpp
 CMakeFiles/planner_server.dir/src/main.cpp.o: CMakeFiles/planner_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/planner_server.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planner_server.dir/src/main.cpp.o -MF CMakeFiles/planner_server.dir/src/main.cpp.o.d -o CMakeFiles/planner_server.dir/src/main.cpp.o -c /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/planner_server.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planner_server.dir/src/main.cpp.o -MF CMakeFiles/planner_server.dir/src/main.cpp.o.d -o CMakeFiles/planner_server.dir/src/main.cpp.o -c /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner/src/main.cpp
 
 CMakeFiles/planner_server.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/planner_server.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner/src/main.cpp > CMakeFiles/planner_server.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner/src/main.cpp > CMakeFiles/planner_server.dir/src/main.cpp.i
 
 CMakeFiles/planner_server.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/planner_server.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner/src/main.cpp -o CMakeFiles/planner_server.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner/src/main.cpp -o CMakeFiles/planner_server.dir/src/main.cpp.s
 
 # Object files for target planner_server
 planner_server_OBJECTS = \
@@ -94,22 +94,22 @@ planner_server: CMakeFiles/planner_server.dir/src/main.cpp.o
 planner_server: CMakeFiles/planner_server.dir/build.make
 planner_server: libplanner_server_core.so
 planner_server: /opt/ros/humble/lib/libcomponent_manager.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/liblayers.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libfilters.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
 planner_server: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 planner_server: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 planner_server: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -191,7 +191,7 @@ planner_server: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_intros
 planner_server: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 planner_server: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 planner_server: /opt/ros/humble/lib/librclcpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
 planner_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 planner_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 planner_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -201,7 +201,7 @@ planner_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspec
 planner_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 planner_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 planner_server: /opt/ros/humble/lib/libtf2.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
 planner_server: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 planner_server: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
 planner_server: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
@@ -239,14 +239,14 @@ planner_server: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_cp
 planner_server: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so
 planner_server: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c.so
 planner_server: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
 planner_server: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 planner_server: /opt/ros/humble/lib/liblaser_geometry.so
 planner_server: /opt/ros/humble/lib/libmap_msgs__rosidl_typesupport_fastrtps_c.so
@@ -275,15 +275,15 @@ planner_server: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
 planner_server: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
 planner_server: /opt/ros/humble/lib/libtf2_ros.so
 planner_server: /opt/ros/humble/lib/librclcpp_action.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_util/lib/libnav2_util_core.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
 planner_server: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 planner_server: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 planner_server: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -378,7 +378,7 @@ planner_server: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_intros
 planner_server: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 planner_server: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 planner_server: /opt/ros/humble/lib/librclcpp.so
-planner_server: /home/khanh247/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+planner_server: /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
 planner_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 planner_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 planner_server: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -506,7 +506,7 @@ planner_server: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_
 planner_server: /opt/ros/humble/lib/librosidl_runtime_c.so
 planner_server: /opt/ros/humble/lib/librcutils.so
 planner_server: CMakeFiles/planner_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/software_simulation/turtlebot3_ws/build/nav2_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable planner_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable planner_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/planner_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -518,6 +518,6 @@ CMakeFiles/planner_server.dir/clean:
 .PHONY : CMakeFiles/planner_server.dir/clean
 
 CMakeFiles/planner_server.dir/depend:
-	cd /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner /home/khanh247/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_planner /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_planner /home/khanh247/software_simulation/turtlebot3_ws/build/nav2_planner/CMakeFiles/planner_server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/navigation2/nav2_planner /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_planner /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_planner /home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/build/nav2_planner/CMakeFiles/planner_server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/planner_server.dir/depend
 

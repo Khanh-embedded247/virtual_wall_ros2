@@ -1,0 +1,236 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o[0m
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_2d[m[K’ has not been declared
+   18 | class VirtualWallLayer : public [01;31m[Kcostmap_2d[m[K::CostmapLayer
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KCostmapLayer[m[K’
+   18 | class VirtualWallLayer : public costmap_2d::[01;31m[KCostmapLayer[m[K
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:20:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+   20 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:20:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:19:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   19 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:22:11:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[K~ virtual_wall::VirtualWallLayer[m[K’ as non-member
+   22 |   virtual [01;31m[K~VirtualWallLayer[m[K();
+      |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+   24 |   [01;31m[Kvirtual[m[K void onInitialize() override;
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:24:31:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[KonInitialize[m[K’ not allowed outside a class definition
+   24 |   virtual void onInitialize() [01;31m[Koverride[m[K;
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+   25 |   [01;31m[Kvirtual[m[K void updateBounds(double, double, double, double*, double*, double*, double*) override;
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:25:89:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[KupdateBounds[m[K’ not allowed outside a class definition
+   25 | teBounds(double, double, double, double*, double*, double*, double*) [01;31m[Koverride[m[K;
+      |                                                                      [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvirtual[m[K’ outside class declaration
+   26 |   [01;31m[Kvirtual[m[K void updateCosts(costmap_2d::Costmap2D&, int, int, int, int) override;
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:16:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KupdateCosts[m[K’ declared void
+   26 |   virtual void [01;31m[KupdateCosts[m[K(costmap_2d::Costmap2D&, int, int, int, int) override;
+      |                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_2d[m[K’ has not been declared
+   26 |   virtual void updateCosts([01;31m[Kcostmap_2d[m[K::Costmap2D&, int, int, int, int) override;
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   26 |   virtual void updateCosts(costmap_2d::Costmap2D&[01;31m[K,[m[K int, int, int, int) override;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   26 |   virtual void updateCosts(costmap_2d::Costmap2D&, [01;31m[Kint[m[K, int, int, int) override;
+      |                                                    [01;31m[K^~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   26 |   virtual void updateCosts(costmap_2d::Costmap2D&, int, [01;31m[Kint[m[K, int, int) override;
+      |                                                         [01;31m[K^~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   26 |   virtual void updateCosts(costmap_2d::Costmap2D&, int, int, [01;31m[Kint[m[K, int) override;
+      |                                                              [01;31m[K^~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:26:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   26 |   virtual void updateCosts(costmap_2d::Costmap2D&, int, int, int, [01;31m[Kint[m[K) override;
+      |                                                                   [01;31m[K^~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:28:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   28 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:36:29:[m[K [01;31m[Kerror: [m[K‘[01m[KWall[m[K’ is not a member of ‘[01m[Kvirtual_wall[m[K’
+   36 |   std::vector<virtual_wall::[01;31m[KWall[m[K> wallPoint;
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:36:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |   std::vector<virtual_wall::Wall[01;31m[K>[m[K wallPoint;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:36:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:37:29:[m[K [01;31m[Kerror: [m[K‘[01m[KWall[m[K’ is not a member of ‘[01m[Kvirtual_wall[m[K’
+   37 |   std::vector<virtual_wall::[01;31m[KWall[m[K> v_wall;
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:37:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |   std::vector<virtual_wall::Wall[01;31m[K>[m[K v_wall;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:37:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:46:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer()[m[K’
+   46 |   tf2_ros::Buffer [01;31m[Ktf_buffer_[m[K;
+      |                   [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:44[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp:42[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:5[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)[m[K’
+   73 |   TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(
+      |                  [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:47:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformListener::TransformListener()[m[K’
+   47 |   tf2_ros::TransformListener [01;31m[Ktf_listener_[m[K;
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:58[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, NodeT&&, bool, const rclcpp::QoS&, const rclcpp::QoS&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&)[m[K’
+   90 |   [01;36m[KTransformListener[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:47:30:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 0 provided
+   47 |   tf2_ros::TransformListener [01;36m[Ktf_listener_[m[K;
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:58[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)[m[K’
+   87 |   explicit [01;36m[KTransformListener[m[K(tf2::BufferCore & buffer, bool spin_thread = true);
+      |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:50:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   50 | [01;31m[K}[m[K  // namespace virtual_wall
+      | [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:3:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_2d[m[K’ does not name a type
+    3 | PLUGINLIB_EXPORT_CLASS(virtual_wall::VirtualWallLayer, [01;31m[Kcostmap_2d[m[K::Layer)
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:3:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+    3 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(virtual_wall::VirtualWallLayer, costmap_2d::Layer)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:3:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<{anonymous}::ProxyExec0::_derived, <expression error> >(const char [31], const char [18])[m[K’
+    3 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(virtual_wall::VirtualWallLayer, costmap_2d::Layer)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:7[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:3:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+    3 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(virtual_wall::VirtualWallLayer, costmap_2d::Layer)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:[m[K At global scope:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:7:36:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+    7 | VirtualWallLayer::VirtualWallLayer([01;31m[K)[m[K
+      |                                    [01;31m[K^[m[K
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   18 | class [01;36m[KVirtualWallLayer[m[K : public costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:16:37:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   16 | VirtualWallLayer::~VirtualWallLayer([01;31m[K)[m[K
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   18 | class [01;36m[KVirtualWallLayer[m[K : public costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:20:37:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   20 | void VirtualWallLayer::onInitialize([01;31m[K)[m[K
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   18 | class [01;36m[KVirtualWallLayer[m[K : public costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:39:34:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   39 | void VirtualWallLayer::matchSize([01;31m[K)[m[K
+      |                                  [01;31m[K^[m[K
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   18 | class [01;36m[KVirtualWallLayer[m[K : public costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:49:145:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   49 |  double robot_yaw, double* min_x, double* min_y, double* max_x, double* max_y[01;31m[K)[m[K
+      |                                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   18 | class [01;36m[KVirtualWallLayer[m[K : public costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:36:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   57 | void VirtualWallLayer::updateCosts([01;31m[Kcostmap_2d[m[K::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   18 | class [01;36m[KVirtualWallLayer[m[K : public costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_2d[m[K’ has not been declared
+   57 | void VirtualWallLayer::updateCosts([01;31m[Kcostmap_2d[m[K::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmaster_grid[m[K’ was not declared in this scope
+   57 | void VirtualWallLayer::updateCosts(costmap_2d::Costmap2D& [01;31m[Kmaster_grid[m[K, int min_i, int min_j, int max_i, int max_j)
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   57 |  VirtualWallLayer::updateCosts(costmap_2d::Costmap2D& master_grid, [01;31m[Kint[m[K min_i, int min_j, int max_i, int max_j)
+      |                                                                    [01;31m[K^~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   57 | lLayer::updateCosts(costmap_2d::Costmap2D& master_grid, int min_i, [01;31m[Kint[m[K min_j, int max_i, int max_j)
+      |                                                                    [01;31m[K^~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:94:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   57 | ateCosts(costmap_2d::Costmap2D& master_grid, int min_i, int min_j, [01;31m[Kint[m[K max_i, int max_j)
+      |                                                                    [01;31m[K^~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:105:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   57 | ostmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, [01;31m[Kint[m[K max_j)
+      |                                                                     [01;31m[K^~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:138:42:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+  138 | bool VirtualWallLayer::WallInterpolation([01;31m[K)[m[K
+      |                                          [01;31m[K^[m[K
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   18 | class [01;36m[KVirtualWallLayer[m[K : public costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:173:93:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+  173 | lLayer::AddWallCallback(const geometry_msgs::msg::PointStamped::SharedPtr msg[01;31m[K)[m[K
+      |                                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   18 | class [01;36m[KVirtualWallLayer[m[K : public costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:208:84:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+  208 | irtualWallLayer::DeleteWallCallback(const std_msgs::msg::Int32::SharedPtr msg[01;31m[K)[m[K
+      |                                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass virtual_wall::VirtualWallLayer[m[K’
+   18 | class [01;36m[KVirtualWallLayer[m[K : public costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

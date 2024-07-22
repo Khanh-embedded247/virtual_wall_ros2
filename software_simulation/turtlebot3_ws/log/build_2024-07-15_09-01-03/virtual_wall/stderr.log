@@ -1,5 +1,0 @@
-/usr/bin/ld: cannot find -lrosidl_typesupport_cpp: No such file or directory
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/virtual_wall_server.dir/build.make:897: virtual_wall_server] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/virtual_wall_server.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
