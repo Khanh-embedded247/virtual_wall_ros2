@@ -4,7 +4,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <nav2_costmap_2d/costmap_layer.hpp>
 #include <nav2_costmap_2d/layered_costmap.hpp>
-#include <nav2_costmap_2d/costmap_2d_ros.hpp>
 #include <geometry_msgs/msg/point_stamped.hpp>
 #include <std_msgs/msg/int32.hpp>
 #include <visualization_msgs/msg/marker.hpp>
@@ -12,10 +11,13 @@
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 #include <pluginlib/class_list_macros.hpp>
 #include <boost/thread/recursive_mutex.hpp>
+#include <vector>
+#include <string>
+#include <cmath>
 
 namespace virtual_wall {
 
-class VirtualWallLayer : public costmap_2d::CostmapLayer
+class VirtualWallLayer : public nav2_costmap_2d::CostmapLayer
 {
 public:
   VirtualWallLayer();
@@ -23,7 +25,7 @@ public:
 
   virtual void onInitialize() override;
   virtual void updateBounds(double, double, double, double*, double*, double*, double*) override;
-  virtual void updateCosts(costmap_2d::Costmap2D&, int, int, int, int) override;
+  virtual void updateCosts(nav2_costmap_2d::Costmap2D&, int, int, int, int) override;
 
 private:
   void matchSize();

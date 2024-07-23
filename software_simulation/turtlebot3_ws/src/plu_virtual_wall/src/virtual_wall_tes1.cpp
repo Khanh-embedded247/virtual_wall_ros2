@@ -1,6 +1,6 @@
 #include </home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp>
 
-PLUGINLIB_EXPORT_CLASS(virtual_wall::VirtualWallLayer, costmap_2d::Layer)
+PLUGINLIB_EXPORT_CLASS(virtual_wall::VirtualWallLayer, nav2_costmap_2d::Layer)
 
 namespace virtual_wall {
 
@@ -54,7 +54,7 @@ void VirtualWallLayer::updateBounds(double robot_x, double robot_y, double robot
   *max_y = std::max(wallmax_y, *max_y);
 }
 
-void VirtualWallLayer::updateCosts(costmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)
+void VirtualWallLayer::updateCosts(nav2_costmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, int max_j)
 {
   boost::unique_lock<boost::recursive_mutex> lock(data_access_);
   auto node = node_.lock();
@@ -94,7 +94,7 @@ void VirtualWallLayer::updateCosts(costmap_2d::Costmap2D& master_grid, int min_i
         unsigned int pixle_y;
         bool ret = master_grid.worldToMap(wallPoint[i].polygon.points[j].x, wallPoint[i].polygon.points[j].y, pixle_x, pixle_y);
         if (ret) {
-          master_grid.setCost(pixle_x, pixle_y, costmap_2d::LETHAL_OBSTACLE);
+          master_grid.setCost(pixle_x, pixle_y, nav2_costmap_2d::LETHAL_OBSTACLE);
           pt.x = wallPoint[i].polygon.points[j].x;
           pt.y = wallPoint[i].polygon.points[j].y;
           node_vis.points.push_back(pt);
@@ -128,7 +128,7 @@ void VirtualWallLayer::updateCosts(costmap_2d::Costmap2D& master_grid, int min_i
         p = tf2_transform * p;
         bool ret = master_grid.worldToMap(p.x(), p.y(), pixle_x, pixle_y);
         if (ret) {
-          master_grid.setCost(pixle_x, pixle_y, costmap_2d::LETHAL_OBSTACLE);
+          master_grid.setCost(pixle_x, pixle_y, nav2_costmap_2d::LETHAL_OBSTACLE);
         }
       }
     }
@@ -151,66 +151,71 @@ bool VirtualWallLayer::WallInterpolation()
     }
   }
 
-  k = (pixle_y[0] - pixle_y[1]) / (pixle_x[0] - pixle_x[1]);
-  b = pixle_y[0] - k * pixle_x[0];
-
-  wallPoint.back().polygon.points.clear();
-  for (double i = std::min(pixle_x[0], pixle_x[1]); i < std::max(pixle_x[0], pixle_x[1]); i += resolution) {
-    geometry_msgs::msg::Point32 point;
-    if (fabs(v_wall.back().polygon.points[0].x - v_wall.back().polygon.points[1].x) > 
-        fabs(v_wall.back().polygon.points[0].y - v_wall.back().polygon.points[1].y)) {
-      point.x = i;
-      point.y = k * i + b;
-    } else {
-      point.x = k * i + b;
-      point.y = i;
-    }
-    wallPoint.back().polygon.points.push_back(point);
+  if (pixle_x[0] == pixle_x[1]) {
+    return false;
   }
+
+  if (pixle_x[0] < pixle_x[1]) {
+    k = (pixle_y[1] - pixle_y[0]) / (pixle_x[1] - pixle_x[0]);
+    b = pixle_y[0] - k * pixle_x[0];
+    for (pixle_x[0] += resolution; pixle_x[0] < pixle_x[1]; pixle_x[0] += resolution) {
+      geometry_msgs::msg::Point32 pt;
+      if (fabs(wallPoint.back().polygon.points[0].x - wallPoint.back().polygon.points[1].x) >
+          fabs(wallPoint.back().polygon.points[0].y - wallPoint.back().polygon.points[1].y)) {
+        pt.x = pixle_x[0];
+        pt.y = k * pixle_x[0] + b;
+      } else {
+        pt.y = pixle_x[0];
+        pt.x = k * pixle_x[0] + b;
+      }
+      wallPoint.back().polygon.points.push_back(pt);
+    }
+  } else {
+    k = (pixle_y[0] - pixle_y[1]) / (pixle_x[0] - pixle_x[1]);
+    b = pixle_y[1] - k * pixle_x[1];
+    for (pixle_x[1] += resolution; pixle_x[1] < pixle_x[0]; pixle_x[1] += resolution) {
+      geometry_msgs::msg::Point32 pt;
+      if (fabs(wallPoint.back().polygon.points[0].x - wallPoint.back().polygon.points[1].x) >
+          fabs(wallPoint.back().polygon.points[0].y - wallPoint.back().polygon.points[1].y)) {
+        pt.x = pixle_x[1];
+        pt.y = k * pixle_x[1] + b;
+      } else {
+        pt.y = pixle_x[1];
+        pt.x = k * pixle_x[1] + b;
+      }
+      wallPoint.back().polygon.points.push_back(pt);
+    }
+  }
+
   return true;
 }
 
 void VirtualWallLayer::AddWallCallback(const geometry_msgs::msg::PointStamped::SharedPtr msg)
 {
-  geometry_msgs::msg::Point32 point;
-  point.x = msg->point.x;
-  point.y = msg->point.y;
-  point.z = msg->point.z;
-  wallmax_x = std::max(wallmax_x, msg->point.x);
-  wallmax_y = std::max(wallmax_y, msg->point.y);
-  wallmin_x = std::min(wallmin_x, msg->point.x);
-  wallmin_y = std::min(wallmin_y, msg->point.y);
-
-  if (v_wall.size() == 0) {
-    virtual_wall::Wall wall;
-    wall.id = 0;
-    wall.polygon.points.push_back(point);
-    v_wall.push_back(wall);
-  } else {
-    if (v_wall.back().polygon.points.size() == 1) {
-      if (v_wall.size() == 1) {
-        v_wall.back().id = 0;
-      } else {
-        v_wall.back().id = v_wall[v_wall.size() - 2].id + 1;
-      }
-      v_wall.back().polygon.points.push_back(point);
-      wallPoint.push_back(v_wall.back());
-      WallInterpolation();
-    } else if (v_wall.back().polygon.points.size() == 2) {
-      virtual_wall::Wall wall;
-      wall.id = v_wall.size();
-      wall.polygon.points.push_back(point);
-      v_wall.push_back(wall);
-    }
+  geometry_msgs::msg::Point32 p;
+  p.x = msg->point.x;
+  p.y = msg->point.y;
+  p.z = 0;
+  v_wall.back().polygon.points.push_back(p);
+  if (v_wall.back().polygon.points.size() == 2) {
+    WallInterpolation();
+    wallPoint.push_back(v_wall.back());
+    v_wall.back().polygon.points.clear();
   }
+
+  if (p.x > wallmax_x) wallmax_x = p.x;
+  if (p.x < wallmin_x) wallmin_x = p.x;
+  if (p.y > wallmax_y) wallmax_y = p.y;
+  if (p.y < wallmin_y) wallmin_y = p.y;
 }
 
 void VirtualWallLayer::DeleteWallCallback(const std_msgs::msg::Int32::SharedPtr msg)
 {
-  for (size_t i = 0; i < v_wall.size(); i++) {
-    if (v_wall[i].id == msg->data) {
-      v_wall.erase(v_wall.begin() + i);
-      wallPoint.erase(wallPoint.begin() + i);
+  int index = 0;
+  for (auto it = wallPoint.begin(); it != wallPoint.end(); ++it, ++index) {
+    if (msg->data == it->id) {
+      wallPoint.erase(it);
+      return;
     }
   }
 }

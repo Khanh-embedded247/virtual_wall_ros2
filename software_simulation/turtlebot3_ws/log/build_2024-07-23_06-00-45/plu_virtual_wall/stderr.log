@@ -1,0 +1,199 @@
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:38:29:[m[K [01;31m[Kerror: [m[K‘[01m[KWall[m[K’ is not a member of ‘[01m[Kvirtual_wall[m[K’
+   38 |   std::vector<virtual_wall::[01;31m[KWall[m[K> wallPoint;
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:38:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   std::vector<virtual_wall::Wall[01;31m[K>[m[K wallPoint;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:38:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:39:29:[m[K [01;31m[Kerror: [m[K‘[01m[KWall[m[K’ is not a member of ‘[01m[Kvirtual_wall[m[K’
+   39 |   std::vector<virtual_wall::[01;31m[KWall[m[K> v_wall;
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:39:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |   std::vector<virtual_wall::Wall[01;31m[K>[m[K v_wall;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:39:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:[m[K In constructor ‘[01m[Kvirtual_wall::VirtualWallLayer::VirtualWallLayer()[m[K’:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:8:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer()[m[K’
+    8 | : tf_listener_(tf_buffer_[01;31m[K)[m[K
+      |                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:44[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp:42[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:5[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)[m[K’
+   73 |   TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(
+      |                  [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall::VirtualWallLayer::updateBounds(double, double, double, double*, double*, double*, double*)[m[K’:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:49:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 | void VirtualWallLayer::updateBounds([01;35m[Kdouble robot_x[m[K, double robot_y, double robot_yaw, double* min_x, double* min_y, double* max_x, double* max_y)
+      |                                     [01;35m[K~~~~~~~^~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:49:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 | void VirtualWallLayer::updateBounds(double robot_x, [01;35m[Kdouble robot_y[m[K, double robot_yaw, double* min_x, double* min_y, double* max_x, double* max_y)
+      |                                                     [01;35m[K~~~~~~~^~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:49:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_yaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 | tualWallLayer::updateBounds(double robot_x, double robot_y, [01;35m[Kdouble robot_yaw[m[K, double* min_x, double* min_y, double* max_x, double* max_y)
+      |                                                             [01;35m[K~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:[m[K In member function ‘[01m[Kvirtual void virtual_wall::VirtualWallLayer::updateCosts(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:88:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   88 |     for (size_t i = 0; i < wallPoint.[01;31m[Ksize[m[K(); i++) {
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:90:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+   90 |       msg.data = wallPoint[01;31m[K[[m[Ki].id;
+      |                           [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:92:39:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+   92 |       for (size_t j = 0; j < wallPoint[01;31m[K[[m[Ki].polygon.points.size(); j++) {
+      |                                       [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:95:52:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+   95 |         bool ret = master_grid.worldToMap(wallPoint[01;31m[K[[m[Ki].polygon.points[j].x, wallPoint[i].polygon.points[j].y, pixle_x, pixle_y);
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:95:86:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+   95 |  master_grid.worldToMap(wallPoint[i].polygon.points[j].x, wallPoint[01;31m[K[[m[Ki].polygon.points[j].y, pixle_x, pixle_y);
+      |                                                                    [01;31m[K^[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:98:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+   98 |           pt.x = wallPoint[01;31m[K[[m[Ki].polygon.points[j].x;
+      |                           [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:99:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+   99 |           pt.y = wallPoint[01;31m[K[[m[Ki].polygon.points[j].y;
+      |                           [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:117:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  117 |     for (size_t i = 0; i < wallPoint.[01;31m[Ksize[m[K(); i++) {
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:119:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+  119 |       msg.data = wallPoint[01;31m[K[[m[Ki].id;
+      |                           [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:122:39:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+  122 |       for (size_t j = 0; j < wallPoint[01;31m[K[[m[Ki].polygon.points.size(); j++) {
+      |                                       [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:125:23:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+  125 |         wx = wallPoint[01;31m[K[[m[Ki].polygon.points[j].x;
+      |                       [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:126:23:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[size_t {aka long unsigned int}][m[K’ for array subscript
+  126 |         wy = wallPoint[01;31m[K[[m[Ki].polygon.points[j].y;
+      |                       [01;31m[K^[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmin_i[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | allLayer::updateCosts(nav2_costmap_2d::Costmap2D& master_grid, [01;35m[Kint min_i[m[K, int min_j, int max_i, int max_j)
+      |                                                                [01;35m[K~~~~^~~~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmin_j[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | pdateCosts(nav2_costmap_2d::Costmap2D& master_grid, int min_i, [01;35m[Kint min_j[m[K, int max_i, int max_j)
+      |                                                                [01;35m[K~~~~^~~~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_i[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | nav2_costmap_2d::Costmap2D& master_grid, int min_i, int min_j, [01;35m[Kint max_i[m[K, int max_j)
+      |                                                                [01;35m[K~~~~^~~~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:57:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_j[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | ostmap_2d::Costmap2D& master_grid, int min_i, int min_j, int max_i, [01;35m[Kint max_j[m[K)
+      |                                                                     [01;35m[K~~~~^~~~~[m[K
+
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:[m[K In member function ‘[01m[Kbool virtual_wall::VirtualWallLayer::WallInterpolation()[m[K’:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:144:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  144 |     if (fabs(wallPoint.[01;31m[Kback[m[K().polygon.points[0].x - wallPoint.back().polygon.points[1].x) >
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:144:63:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  144 |     if (fabs(wallPoint.back().polygon.points[0].x - wallPoint.[01;31m[Kback[m[K().polygon.points[1].x) >
+      |                                                               [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:145:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  145 |         fabs(wallPoint.[01;31m[Kback[m[K().polygon.points[0].y - wallPoint.back().polygon.points[1].y)) {
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:145:63:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  145 |         fabs(wallPoint.back().polygon.points[0].y - wallPoint.[01;31m[Kback[m[K().polygon.points[1].y)) {
+      |                                                               [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:146:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  146 |       pixle_x[i] = wallPoint.[01;31m[Kback[m[K().polygon.points[i].x;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:147:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  147 |       pixle_y[i] = wallPoint.[01;31m[Kback[m[K().polygon.points[i].y;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:149:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  149 |       pixle_x[i] = wallPoint.[01;31m[Kback[m[K().polygon.points[i].y;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:150:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  150 |       pixle_y[i] = wallPoint.[01;31m[Kback[m[K().polygon.points[i].x;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:163:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  163 |       if (fabs(wallPoint.[01;31m[Kback[m[K().polygon.points[0].x - wallPoint.back().polygon.points[1].x) >
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:163:65:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  163 |       if (fabs(wallPoint.back().polygon.points[0].x - wallPoint.[01;31m[Kback[m[K().polygon.points[1].x) >
+      |                                                                 [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:164:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  164 |           fabs(wallPoint.[01;31m[Kback[m[K().polygon.points[0].y - wallPoint.back().polygon.points[1].y)) {
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:164:65:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  164 |           fabs(wallPoint.back().polygon.points[0].y - wallPoint.[01;31m[Kback[m[K().polygon.points[1].y)) {
+      |                                                                 [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:171:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  171 |       wallPoint.[01;31m[Kback[m[K().polygon.points.push_back(pt);
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:178:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  178 |       if (fabs(wallPoint.[01;31m[Kback[m[K().polygon.points[0].x - wallPoint.back().polygon.points[1].x) >
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:178:65:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  178 |       if (fabs(wallPoint.back().polygon.points[0].x - wallPoint.[01;31m[Kback[m[K().polygon.points[1].x) >
+      |                                                                 [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:179:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  179 |           fabs(wallPoint.[01;31m[Kback[m[K().polygon.points[0].y - wallPoint.back().polygon.points[1].y)) {
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:179:65:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  179 |           fabs(wallPoint.back().polygon.points[0].y - wallPoint.[01;31m[Kback[m[K().polygon.points[1].y)) {
+      |                                                                 [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:186:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  186 |       wallPoint.[01;31m[Kback[m[K().polygon.points.push_back(pt);
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:[m[K In member function ‘[01m[Kvoid virtual_wall::VirtualWallLayer::AddWallCallback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:199:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::v_wall[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  199 |   v_wall.[01;31m[Kback[m[K().polygon.points.push_back(p);
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:200:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::v_wall[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  200 |   if (v_wall.[01;31m[Kback[m[K().polygon.points.size() == 2) {
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:202:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  202 |     wallPoint.[01;31m[Kpush_back[m[K(v_wall.back());
+      |               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:202:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::v_wall[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  202 |     wallPoint.push_back(v_wall.[01;31m[Kback[m[K());
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:203:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kback[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::v_wall[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  203 |     v_wall.[01;31m[Kback[m[K().polygon.points.clear();
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:[m[K In member function ‘[01m[Kvoid virtual_wall::VirtualWallLayer::DeleteWallCallback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:215:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  215 |   for (auto it = wallPoint.[01;31m[Kbegin[m[K(); it != wallPoint.end(); ++it, ++index) {
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:215:53:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  215 |   for (auto it = wallPoint.begin(); it != wallPoint.[01;31m[Kend[m[K(); ++it, ++index) {
+      |                                                     [01;31m[K^~~[m[K
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:217:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kerase[m[K’ in ‘[01m[K((virtual_wall::VirtualWallLayer*)this)->virtual_wall::VirtualWallLayer::wallPoint[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  217 |       wallPoint.[01;31m[Kerase[m[K(it);
+      |                 [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:12[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = virtual_wall::VirtualWallLayer; B = nav2_costmap_2d::Layer][m[K’:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kvirtual_wall::VirtualWallLayer[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:20:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kvirtual_wall::VirtualWallLayer[m[K’:
+   20 | class [01;36m[KVirtualWallLayer[m[K : public nav2_costmap_2d::CostmapLayer
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp:42[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/include/plu_virtual_wall/virtual_wall_layer_test.hpp:5[m[K,
+                 from [01m[K/home/khanh247/virtual_wall_ros2/software_simulation/turtlebot3_ws/src/plu_virtual_wall/src/virtual_wall_tes1.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:86:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_costmap_2d::Layer::reset()[m[K’
+   86 |   virtual void [01;36m[Kreset[m[K() = 0;
+      |                [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp:90:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual bool nav2_costmap_2d::Layer::isClearable()[m[K’
+   90 |   virtual bool [01;36m[KisClearable[m[K() = 0;
+      |                [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plu_virtual_wall.dir/build.make:76: CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plu_virtual_wall.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

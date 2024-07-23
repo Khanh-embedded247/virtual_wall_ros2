@@ -709,39 +709,33 @@ CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o: \
  /opt/ros/humble/include/bond/bond/msg/detail/status__traits.hpp \
  /opt/ros/humble/include/bondcpp/BondSM_sm.hpp \
  /opt/ros/humble/include/smclib/statemap.hpp \
- /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__functions.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__type_support.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.h \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
- /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__functions.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.h \
- /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp \
- /opt/ros/humble/include/map_msgs/map_msgs/msg/occupancy_grid_update.hpp \
- /opt/ros/humble/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__struct.hpp \
- /opt/ros/humble/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__builder.hpp \
- /opt/ros/humble/include/map_msgs/map_msgs/msg/detail/occupancy_grid_update__traits.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/costmap.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/detail/costmap__traits.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__traits.hpp \
- /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/int32.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp \
+ /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp \
+ /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+ /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
+ /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
+ /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp \
+ /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+ /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
+ /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
+ /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp \
@@ -790,86 +784,15 @@ CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o: \
  /usr/include/kdl/utilities/utility.h \
  /usr/include/kdl/utilities/kdl-config.h /usr/include/kdl/frames.inl \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
- /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp \
- /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__builder.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__traits.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__builder.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__traits.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__builder.hpp \
- /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__traits.hpp \
- /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
- /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp \
+ /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
+ /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/c++/11/cstddef /usr/include/console_bridge/console.h \
  /usr/include/console_bridge_export.h \
- /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
- /opt/ros/humble/include/pluginlib/pluginlib/class_desc.hpp \
- /opt/ros/humble/include/pluginlib/pluginlib/class_loader_base.hpp \
- /opt/ros/humble/include/pluginlib/pluginlib/exceptions.hpp \
- /usr/include/tinyxml2.h /usr/include/c++/11/climits \
- /opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp \
- /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
- /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
- /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
- /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
- /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
- /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
- /opt/ros/humble/include/pluginlib/pluginlib/impl/split.hpp \
- /usr/include/c++/11/regex /usr/include/c++/11/bitset \
- /usr/include/c++/11/stack /usr/include/c++/11/bits/stl_stack.h \
- /usr/include/c++/11/bits/regex_constants.h \
- /usr/include/c++/11/bits/regex_error.h \
- /usr/include/c++/11/bits/regex_automaton.h \
- /usr/include/c++/11/bits/regex_automaton.tcc \
- /usr/include/c++/11/bits/regex_scanner.h \
- /usr/include/c++/11/bits/regex_scanner.tcc \
- /usr/include/c++/11/bits/regex_compiler.h \
- /usr/include/c++/11/bits/regex_compiler.tcc \
- /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
- /usr/include/c++/11/bits/regex_executor.h \
- /usr/include/c++/11/bits/regex_executor.tcc \
- /opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h \
- /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
- /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
- /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
- /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
- /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
- /opt/ros/humble/include/tf2/tf2/utils.h \
- /opt/ros/humble/include/tf2/tf2/impl/utils.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/int32.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__builder.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp \
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp \
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp \
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
- /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
  /usr/include/boost/thread/recursive_mutex.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
  /usr/include/boost/config.hpp /usr/include/boost/config/user.hpp \
@@ -1308,7 +1231,8 @@ CMakeFiles/plu_virtual_wall.dir/src/virtual_wall_tes1.cpp.o: \
  /usr/include/boost/predef/hardware/simd/ppc/versions.h \
  /usr/include/boost/predef/version.h \
  /usr/include/boost/chrono/detail/static_assert.hpp \
- /usr/include/boost/mpl/logical.hpp /usr/include/boost/mpl/or.hpp \
+ /usr/include/c++/11/climits /usr/include/boost/mpl/logical.hpp \
+ /usr/include/boost/mpl/or.hpp \
  /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
  /usr/include/boost/ratio/ratio.hpp /usr/include/boost/ratio/config.hpp \
  /usr/include/boost/ratio/detail/mpl/abs.hpp \
